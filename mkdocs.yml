@@ -6,6 +6,8 @@ theme:
     text: Atkinson Hyperlegible
   features:
     - navigation.footer
+    - content.code.copy
+    - content.code.select
   palette:
     # Dark Mode
     - scheme: slate
@@ -35,4 +37,5 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
-
+  - pymdownx.tabbed:
+      alternate_style: true

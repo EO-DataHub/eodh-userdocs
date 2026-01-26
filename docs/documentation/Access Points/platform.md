@@ -1,0 +1,6 @@
+# Earth Observation DataHub Platform
+
+The Earth Observation DataHub (EODH) is a centralised software infrastructure which provides a ‘single point’ of access for UK Earth Observation (EO) data obtained from distributed sources, to include public and commercial centres. The Web Presence, also referred to as the Hub Platform, is likely to be the route most new users take to interact with the EODH platform. This is a user interface (UI) hosted on the Hub website that allows users to interact with EODH and manage their user account. From here API keys can be generated and managed in the user Workspace, and the Notebook service and Resource Catalogue can be accessed. The Resource Catalogue (RC) is a searchable store of data links, workflows, and processed datasets, including open, commercial, and private resources, managed by a user authentication access system. It is a collection of STAC catalogues that can be searched visually via the Web Presence or programmatically via clients such as pyeodh. An updated UI for the Resource Catalogue is currently in development and will be released by the end of March 2025.
+
+* _Prerequisites_: EODH account
+* _Documentation_: [Documentation](https://eodatahub.org.uk/docs/documentation/) page
