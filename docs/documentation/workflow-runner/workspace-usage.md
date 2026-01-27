@@ -10,7 +10,7 @@ When you execute a workflow, it is automatically run within a dedicated workspac
 Workflows require workspace-scoped access tokens to access and execute. These tokens can be generated in the workspaces UI under `Credentials` in the left menu panel. It is the workspace defined in this token that will be used to determine workflow access when attempting to view the available workflows in a workspace. This workspace will also be used when executing a workflow, specifying the calling workspace, and often the executing workspace as well. This determines the data you are able to load within the workflow as well as where the workflow outputs will be saved.
 
 ## Workspace Interaction
-When a workflow is executed, up to three workspaces can be involved:
+When a workflow is executed, up to three workspaces can be involved: 
 
 The deploying workspace:
 

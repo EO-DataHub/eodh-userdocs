@@ -26,7 +26,7 @@ If workspace X wishes to use a user-services deployed by workspace Y, the workfl
 
 The workflow steps in a user-service execution will have some additional access to the user-service owner's workspace, meaning reading file from HTTPS, S3 or the Block Store will work just the same, whether the workflow is called by the deploying workspace, or some other workspace.
 
-User-Service owners will also be able to view the status, results and logs from these workflows, even if they were not the original calling workspace, this should help with debugging where required.
+User-Service owners will also be able to view the status, results and logs from these workflows, even if they were not the original calling workspace, this should help with debugging where required. 
 
 !!! info
-    If no workflow configuration is provided, or it is invalid, the workflow defaults to private and can only be run by the someone with a workspace-scoped token scoped to the deploying workspace.
+    If no workflow configuration is provided, or it is invalid, the workflow defaults to private and can only be run by the someone with a workspace-scoped token scoped to the deploying workspace. 

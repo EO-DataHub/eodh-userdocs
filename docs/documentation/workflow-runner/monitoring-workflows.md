@@ -1,9 +1,12 @@
-Monitoring workflows
+# Monitoring workflows
+
 Once you have executed a workflow, there are a few endpoints provided in the API that allow you to monitor the progress of the execution, as well as view outputs and resulting log files, to see additional details about the workflow execution.
 
-Endpoints for Job Monitoring
+## Endpoints for Job Monitoring
+
 Once you have executed your workflow, using the `/execution` endpoint, you will see a “jobID” key in the JSON HTTP response, as shown below. This provides the UUID for the job that is running your workflow. You can then use this jobID to view details about the status of your workflow execution, as well as view the resulting collection upon completion.
 
+```json
 {
   "id": "c7bdbb50-1477-11f0-922f-c217930f6509",
   "jobID": "c7bdbb50-1477-11f0-922f-c217930f6509",
@@ -24,12 +27,18 @@ Once you have executed your workflow, using the `/execution` endpoint, you will 
     }
   ]
 }
+```
+
 In this response, you can see the `Status location` link which provides a URL at which you can view the status of your job, following the below format.
 
+```bash
 # View job status
 /api/catalogue/stac/catalogs/user/catalogs/<workspace>/jobs/<jobID>
+```
+
 Using this status endpoint, once your workflow execution has completed, you will be able to find some additional links.
 
+```json
 [
     {
       "title": "Result location",
@@ -50,11 +59,18 @@ Using this status endpoint, once your workflow execution has completed, you will
       "type": "text/plain"
     }
 ]
+```
+
 These links will point you to URLs enabling you to view the output results and any log files, the first of which is the output results endpoint.
 
+```bash
 # View output results
 /api/catalogue/stac/catalogs/user/catalogs/<workspace>/jobs/<job_id>/results
+```
+
 The jobID will also be used to view logs when they are available via HTTPS, should you wish to see more details about you workflow execution. The log links are returned from the execute status endpoint above, but follow this format:
 
+```bash
 # View job log file
 /api/catalogue/stac/catalogs/user/catalogs/<workspace>/jobs/<job_id>/<filename>.log
+```
