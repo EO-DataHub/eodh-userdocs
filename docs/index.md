@@ -4,8 +4,7 @@ The EODH is a UK Pathfinder project delivering access to Earth Observation data 
 
 The project brings together a strong team of partners from across the public sector. Lead by National Centre for Earth Observation (NCEO), specifically with members situated within the Centre for Environmental Data Analysis (CEDA) and the University of Leicester, the EODH project team provide oversight and management of a consortium of experts from across research and the commercial sector, including National Physical Laboratory, Met Office and Satellite Applications Catapult.
 
-__INSERT IMAGE__
-
+![](assets/intro_1.png)
 
 ## Overview of the project
 
@@ -29,7 +28,7 @@ The Hub Platform provides a software toolkit to facilitate the development of ap
 ## Users of the Hub
 The Hub is suitable for a range of user types and roles across the government, academic and commercial disciplines. Data access can support operational government needs, as well as provide EO insights to inform policy, supporting the ability to build custom dashboard applications powered by the Hub. The Hub provides quality-assured data access for academic researchers and students, acting as a central teaching resource suitable for beginners in UK EO data processing, as well as technically advanced users. There are opportunities for commercial users to supply EO datasets to enhance the Resource Catalogue, or utilise existing imagery as part of operations and reporting.
 
-__INSERT IMAGE__
+![](assets/intro_2.png)
 
 ## Use cases of the Hub
 Data search and browse can be carried out through the Resource Catalogue interface, within QGIS, and programmatically through our Python API client, pyeodh.
@@ -42,39 +41,13 @@ Software developers can connect to the Hub via the dedicated APIs, either direct
 
 Dev-Ops, and other advanced programmers, can generate workflows in CWL using the eoap-gen library, which are compatible to run on the Hub. This is a scalable solution to processing large quantities of EO data, from input to desired output.
 
-__INSERT IMAGE__
+![](assets/intro_3.png)
 
 ## Project funding
 Natural Environment Research Council (NERC) through the Department of Science Innovation and Technology Earth Observation Investment programme act as the key funding body. £9.93 million was awarded to the lead organisation: National Centre for Earth Observation (NCEO).
 The project will run from February 2023 to March 2025 as a Pathfinder, with applications for extension of project funding ongoing.
 
-__INSERT BUTTON__ Discover the DataHub access points
 
 
 
-
-Test 
-
-```py title="Some title" linenums="1" hl_lines="4"
-
-# Code block
-import gubbins
-
-barry = gubbins.frank("url")
-print(barry)
-```
-
-
-!!! note "Title of the callout"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-Collapsible callout:
-
-??? info "Collapsible callout"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+[Go to FAQs :fontawesome-solid-paper-plane:](faqs.md){.md-button}
