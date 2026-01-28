@@ -21,4 +21,4 @@ See our public GitHub repository to explore example workflows, defined as Common
 Some of the example workflows in the repository are developed by the project consortium partners. Other examples are taken from other public workflow examples, and shared here.
 
 
-__Go to the Training Materials GitHub repository__
+[Go to the Training Materials GitHub repository :fontawesome-solid-paper-plane:](https://eo-datahub.github.io/eodh-training/){.md-button}

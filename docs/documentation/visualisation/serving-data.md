@@ -24,13 +24,13 @@ Public being that the data is openly accessible via a URL without special creden
 
 `https://eodatahub.org.uk/titiler/core/cog/preview?url=https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/21/S2B_20231121_latn536lonw0052_T30UUE_ORB123_20231121122846_utm30n_TM65_vmsk_sharp_rad_srefdem_stdsref.tif&bidx=1&rescale=0%2C255&colormap_name=bone`
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_srv1.png)
 
 ### Example 2: An XYZ Tile Request of EOCIS Sea-Surface Temperature
 
 `https://eodatahub.org.uk/titiler/xarray/tiles/3/6/4?url=https://eocis.org/data/sst-cdrv3-kerchunk/2024/03/20240331120000-ESACCI-L4_GHRSST-SSTdepth-OSTIA-GLOB_ICDR3.0-v02.0-fv01.0-kerchunk.json&variable=analysed_sst&tileMatrixSetId=WebMercatorQuad&scale=1&multiscale=false&reference=true&decode_times=true&consolidated=false&rescale=271%2C305&colormap_name=twilight&return_mask=true`
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_srv2.png)
 
 ## Private Data
 
@@ -46,4 +46,4 @@ curl 'https://eodatahub.org.uk/titiler/xarray/tiles/WebMercatorQuad/5/15/10?url=
   --output test.png
 ```
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_srv3.jpg)

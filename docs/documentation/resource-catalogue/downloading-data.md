@@ -6,23 +6,23 @@ Open datasets can be downloaded from the catalogue to be used locally or importe
 
 To download open data from the Resource Catalogue, first select the scene you want to download, by browsing and filtering the left hand panel to search.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_dd1.png)
 
 Click on the (i) button on the bottom right of the card. This opens up the metadata panel.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_dd2.png)
 
 ## Go to the Assets panel
 
 Select Assets. This tab details the files that are associated with that scene. For example, Sentinel 2 scenes contain different files such as cloud, cloud probability, or topographic shadow.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_dd3.png)
 
 ## Download the image file
 
 Expand the asset you are interested in by clicking on it, and select Download. You can download any of the assets for a given scene. Depending on the collection you selected, different file types may be available.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_dd4.png)
 
 ## Understanding file types
 

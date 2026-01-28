@@ -19,7 +19,7 @@ When you open a collection, you'll see:
 * Date
 * Cloud cover percentage
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb1.png)
 
 ## Navigating the Scene List
 
@@ -36,7 +36,7 @@ You can narrow down your search to a specific geographic area in two ways:
     * Draw your area of interest on the map
     * The scene list will update to show only data within your defined area
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb2.png)
 
 ## Viewing Data on the Map
 
@@ -48,7 +48,7 @@ To view a specific scene:
 
 You can add multiple scenes to the map, and they will be listed in the pinned items section.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb3.png)
 
 ## Display Styles
 
@@ -65,7 +65,7 @@ To change the display style:
 2. Add scenes to the map using the new style
 3. You can display the same scene in different styles
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb4.png)
 
 ## Managing Pinned Items
 
@@ -78,7 +78,7 @@ The pinned items list shows all scenes currently displayed on the map. You can:
 * Adjust Opacity
     * Use the opacity slider to make scenes more or less transparent. This is useful for viewing underlying base maps or comparing multiple layers.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb5.png)
 
 ## Filtering by Cloud Cover
 
@@ -91,6 +91,8 @@ To find scenes with specific cloud cover characteristics:
 
 This helps you find the clearest scenes for your area of interest.
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_sb6.png)
 
-__Watch video tutorial__
+
+
+[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1-2_LEPeGxaSuIP7U8q5xYtr-q04ca60u/view?usp=sharing){.mk-button}

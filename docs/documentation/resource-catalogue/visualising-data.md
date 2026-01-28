@@ -19,7 +19,7 @@ Before starting, ensure you have:
 4. Look for the "cog" (Cloud-Optimized GeoTIFF) asset
 5. Right-click the download link and select "Copy link address"
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_vis1.png)
 
 ### Adding the Layer to QGIS
 
@@ -27,7 +27,7 @@ __INSERT IMAGE__
 2. Go to Layer → Add Layer → Add Raster Layer
 3. In the "Source" section, select "Protocol" as the source type. Paste the COG URL you copied, and click "Add"
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_vis2.png)
 
 ## Configuring the Display
 
@@ -46,7 +46,7 @@ For Sentinel 2, we select:
 * Green band → Band 3
 * Blue band → Band 2
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_vis3.png)
 
 ### Additional Display Options
 
@@ -69,7 +69,7 @@ To add a cloud mask:
 2. Add it as a new raster layer in QGIS
 3. The mask will show completely cloud-covered areas in black, and areas potentially affected by cloud shadow in grey
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_vis4.png)
 
 ### Other Available Assets
 

@@ -10,7 +10,7 @@ Not all collections have QA information available. To find collections that do:
 2. Look for the "Quality Assessment" dropdown in the top-right filters
 3. Select "Available QA" to see collections with QA data
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_qa1.png)
 
 ## Accessing QA Information
 
@@ -62,7 +62,7 @@ At the bottom of the Document QA page, you'll find:
 * Direct access to specific documentation (e.g., geometric processing)
 * Links to related technical specifications
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_qa2.png)
 
 ## Product Validation
 
@@ -89,7 +89,7 @@ For each band and time period:
 * Fail. Collection does not meet quality metrics
 * Partial Pass. Some metrics pass while others fail
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_qa3.png)
 
 !!! note
     Different products may have varying metric values, different requirements for different bands, or time-specific validation results
@@ -117,4 +117,4 @@ The QA system is evolving. Currently, the scope of the QA assessment on the Hub 
 
 
 
-__Watch video tutorial__
+[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1heLp0SwFkXiYc66E1hGHMhMWEAFcZb2X/view?usp=sharing){.md-button}

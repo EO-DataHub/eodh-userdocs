@@ -10,7 +10,7 @@ This page explains how to use the temporary S3 credentials provided by our platf
 4. Click on the S3 Token sub-tab.
 5. Finally, click the Request Temporary AWS S3 Credentials button. A popup similar to the one below will appear:
 
-__INSERT IMAGE__
+![](../../assets/doc_s3_s1.png)
 
 ```bash
 Access Key ID: e.g. ASIATNVEVXXXXX
