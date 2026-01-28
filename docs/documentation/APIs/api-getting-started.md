@@ -1,6 +1,7 @@
 # APIs: Getting started
 
 ## Hub APIs
+
 A suite of user-facing APIs make up the core of the Hub’s architecture. You can use these APIs to perform Hub actions programmatically. This includes:
 
 * Browsing and downloading items from our catalogue
@@ -20,13 +21,17 @@ To obtain an API token, visit the Workspaces tab. Choose the desired workspace a
 !!! warning
     The maximum duration of an API token is 30 days.
 
-__INSERT IMAGE__
 
-Copy the Token ID and API Key, these will not be available to view later.
+![](../../assets/doc_api_gs1.png)
 
-__INSERT IMAGE__
+!!! warning
+    Copy the Token ID and API Key now. These will not be available to view later.
 
-These credentials will be required when performing operations that require authorisation to your workspace.
+    These credentials will be required when performing operations that require authorisation to your workspace.
+
+
+![](../../assets/doc_api_gs2.png)
+
 
 ## Explore the public catalogue
 

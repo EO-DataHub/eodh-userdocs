@@ -5,7 +5,7 @@ This guide will introduce the UK EO DataHub notebooks and provide a walk-through
 ## Navigating to the notebooks
 From the UK EO DataHub homepage, select notebooks from the navigation bar.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int1.jpg)
 
 You will be requested to sign in, if you are not already.
 
@@ -13,11 +13,11 @@ You will be requested to sign in, if you are not already.
 
 You will arrive at the Jupyter Hub. The Jupyter Hub allows management of notebook servers. From here, you can start, stop and create new notebooks.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int2.jpg)
 
 Your default server is controlled using the button(s) in the top center. Let's start the default server by clicking "Start My Server".
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int3.jpg)
 
 Here you are presented with your options for your default server instance. These options are available each time you start any server.
 
@@ -27,11 +27,11 @@ Next, you must select a profile. The profile controls the image used to run the 
 
 Once you have selected your workspace and profile, click "Start".
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int4.jpg)
 
 You should see a loading screen as above. If any errors are reported, please contact a site administrator.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int5.jpg)
 
 If notebook creation is successful, you should be forwarded to the browser interface for your notebook.
 
@@ -39,11 +39,11 @@ If notebook creation is successful, you should be forwarded to the browser inter
 
 To create a new notebook, you can either select the Python 3 (ipykernel) tile from the Launcher window or right click the file browser and click New Notebook.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int6.jpg)
 
 Once you have a notebook open, the first thing to do is usually name the file. Right click on the untitled file in the file browser and rename as appropriate.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int7.jpg)
 
 You can write your code in the cells and execute using the play button at the top to execute the highlighted cell (or press shift+enter when cursor is in target cell). The output will appear below the cell.
 
@@ -53,7 +53,7 @@ To create a new cell, use the context menus that appear over cells when hovering
 
 For more general access to the notebook server, you may utilise the Terminal. You can open a terminal instance from the notebook launcher.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int8.jpg)
 
 From the terminal you can interact with the server OS as you would with Linux, for instance creating or moving files, or editing them with Nano editor.
 
@@ -68,7 +68,7 @@ By default, auto-save for open files is turned on in the Hub. You can disable th
 
 You can use the notebook file browser to upload to or download from the notebook server, and therefore your workspace stores.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int10.jpg)
 
 !!! tip
     
@@ -82,19 +82,19 @@ By default, JupyterHub only allows users to run one notebook server at a time. T
 
 To create a named server, enter a name for the new server (this must be done first, or your default server will be assumed) and click "Add New Server".
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int11.jpg)
 
 You will be requested to select your workspace and profile again, however please note that these can be set on each start of default or named servers.
 
 A new (named) server instance will be created, which can be used independently of other server instances. However, please note that multiple notebook servers cannot be created for the same workspace for the same user. If you start a new notebook server for a workspace that you already have a notebook server running for, the previous server will be shutdown and restarted for the new server.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int12.jpg)
 
 ## Shutting servers down
 
 Once you are done with your server, please shut it down. You can do so from the Jupyter Hub. If you are in a notebook, you can navigate to the Hub by following File > Hub Control Panel.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_int13.jpg)
 
 From the Hub, ensure that you stop any running servers, default or named, when you are done with them.
 

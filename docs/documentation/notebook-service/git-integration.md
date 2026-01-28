@@ -6,7 +6,7 @@ Git integration also allows users to develop code and push changes directly from
 
 The extension is available through the left sidebar.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git1.png)
 
 !!! note
     Make sure you are in the desired file system directory before switching to the Git extension panel.
@@ -36,7 +36,8 @@ If, instead, you wish to authenticate against the remote repository using SSH (S
 
 To clone your GitHub repository, select Clone a Repository in the left panel and paste your repository's URL into the pop up box. Once successfully cloned you should receive the confirmation as below.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git2.png)
+
 
 !!! note
     For SSH authentication, you can instead use the terminal and SSH link provided by your Git provider.
@@ -56,35 +57,35 @@ The repository should appear as a named folder in the left-hand pane.
 
 You can now make the desired edits to your file or code in the editor. These changes will log in the Changed tab under the name of the edited file.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git3.png)
 
 ## Committing changes to your repository
 The new changes can be staged by clicking the + icon. The edits should move to the Staged tab from the Changed tab.
 
 You will then be prompted to add a commit summary and description (optional). Once all the required fields are populated, the commit button will enable, by turning blue.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git4.png)
 
 You can now click the Commit button to commit these changes to the branch. You should receive the following success message.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git5.png)
 
 ## Pushing committed changes to GitHub
 
 Click the icon in the top-left banner, indicated by an orange dot, to push the changes to your GitHub repository.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git6.png)
 
 Once clicked, you will be asked for the following information to connect to that repository.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git7.png)
 
 The instructions to generate a personal access token can be found above, ensure your token has read/write access to your selected repository.
 
 Click Ok to push the committed changes. You should receive notification that the push was successful as below. Visit your GitHub repository to confirm the pushed changes are reflected.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git8.png)
 
 If, instead, you see a warning saying the push failed, as below, please check your username is correct and that your personal access token has the correct permissions to make changes to your chosen repository.
 
-__INSERT IMAGE__
+![](../../assets/doc_ns_git9.png)

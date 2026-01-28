@@ -12,35 +12,35 @@ The Hub provides a Metadata Loader which can be used to upload metadata into the
 
 First navigate to the [Workspaces](https://staging.eodatahub.org.uk/workspaces/) page on the Hub, logging in if necessary, and select the workspace you wish to load data into from the icons on the left. Then select STAC Metadata Loader from the menu on the left side of the page.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata1.png)
 
 The first step is to select the Catalog in which you wish to load your new STAC metadata. The available catalogs in your workspace will be listed in the drop-down, in descending order of depth. Select the Catalog in which you wish to load your STAC metadata.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata2.png)
 
 As STAC data is organised into Catalogs, Collections and Items, you must next select the Collection you wish to load any STAC Items into. Another drop-down list is provided containing any Collections within the selected Catalog, if instead you wish to load your data into a new Collection, you can specify a new Collection ID in the text box, to invoke the creation of a new template Collection.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata3.png)
 
 Some CTA boxes are also provided to quickly view details of the Catalog, Collection and current Items before uploading your data to ensure you are happy with your selections.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata4.png)
 
 Now you are ready to upload your STAC Item metadata files. Select the Choose Files box and select any STAC Items you wish to upload to your selected Catalog and Collection.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata5.png)
 
 Once you have selected the Items you wish to upload to your selected Catalog and Collection, click the Submit button.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata6.png)
 
 This will send your chosen Items for validation to ensure they are valid STAC JSON before you upload them to the Hub. Note, throughout the validation, uploading and loading steps process updates will be reported in the bottom left of the page to update you on the status of your loader.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata7.png)
 
 The final loading step may take some time to complete, but once done so you will see the View Data button available which will take you directly to the Items you just uploaded inside the resource Catalogue.
 
-An example STAC Feature Collection below.
+An example of a STAC Feature Collection is shown here.
 
 ```json
 {
@@ -165,11 +165,11 @@ my-workflow-name
 
 Once you have configured such a file locally, you can then apply this access policy to your workspace. To do so, first open the Publisher page in the Workspaces UI
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata8.png)
 
 Select the file you wish to upload.
 
-__INSERT IMAGE__
+![](../../assets/doc_dp_mdata9.png)
 
 Then click Submit to validate the file and upload it to apply the changed to your workspace data stores.
 
