@@ -15,7 +15,7 @@ __Recommendations__:
 
 If you plan to use TiTiler to visualise outputs created by the Workflow Runner, it's important to prepare your data in a format that ensures efficient access and display.
 
-Here we discuss two common considerations: __COG vs GeoTIFF__ for imagery and __Kerchunk vs NetCDF__ for multi-dimensional data.
+Here we discuss two common considerations: _COG vs GeoTIFF_ for imagery and _Kerchunk vs NetCDF_ for multi-dimensional data.
 
 ## Cloud Optimised GeoTIFF (COG) vs standard GeoTIFF
 

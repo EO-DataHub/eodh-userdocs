@@ -14,7 +14,7 @@ You will then need to use our platform-hosted TiTiler to generate an XYZ Tile UR
 
 In QGIS, navigate to Layer -> Add Layer -> Add XYZ Layer.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool1.png)
 
 To ensure compatibility, it's best to create a true color RGB image by specifying three bands (for natural color in a Sentinel-2 image).
 
@@ -22,7 +22,7 @@ Enter a URL formatted like the example below. Notice it uses bidx=4&bidx=3&bidx=
 
 `https://eodatahub.org.uk/titiler/core/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2025/05/12/S2C_20250512_latn590lonw0055_T30VUL_ORB023_20250512170944_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref.tif&bidx=1&color_formula=Gamma%20RGB%206%20Saturation%200.8%20Sigmoidal%20RGB%2025%200.35&bidx=2&bidx=3`
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool2.png)
 
 If you are serving data from your private Workspace, then:
 
@@ -35,7 +35,7 @@ If you are serving data from your private Workspace, then:
 
     If you don't have an API token, visit the __Workspaces -> Credentials -> New API Token__ to generate a workspace-scoped token.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool3.png)
 
 Save the dialog boxes and add the layer which should now be serving the data directly from the platform.
 
@@ -45,21 +45,21 @@ The following guide walks through how to pull your Hub data into ArcGIS Pro via 
 
 Within your ArcGIS Pro map project, navigate to the Layer group in the Map tab, and find Add Data.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool4.png)
 
 From the dropdown menu, select From Path.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool5.png)
 
 The Add Data From Path pop out will appear. Input your URL into the text box. You can use the following example link to try this out with some open land cover data.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool6.png)
 
 `https://eodatahub.org.uk/titiler/core/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?scale=1&url=https://dap.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif&bidx=1&rescale=0%2C300&colormap_name=rainbow`
 
 Leave the Service Type as Automatic, and click Add. You shouldn’t need to add any Custom Request Parameters. Your image should then be visualised as a layer within the Contents panel. If the data doesn’t appear on the map immediately, the image could be taking a while to render. Try Zooming in and out on the map to trigger the rendering of the data, and soon your image should be loaded into the Map pane.
 
-__INSERT IMAGE__
+![](../../assets/doc_vis_tool7.png)
 
 ## Leaflet / OpenLayers (Web Mapping Libraries)
 

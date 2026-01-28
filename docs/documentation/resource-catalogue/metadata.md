@@ -11,8 +11,6 @@ When you first view a collection card, you're already seeing some basic metadata
 * Description
 * Keywords
 
-__INSERT IMAGE__
-
 ## Detailed Collection Metadata
 
 To access more detailed metadata about a collection:
@@ -21,7 +19,7 @@ To access more detailed metadata about a collection:
 2. Look for the information button in the left-hand panel
 3. Click the information button to view comprehensive metadata
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_mdata1.png)
 
 ## Types of Collection Metadata
 
@@ -110,7 +108,7 @@ Each asset file includes metadata about:
 * File formats
 * Usage instructions
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_mdata2.png)
 
 ## Accessing Machine-Readable Metadata
 
@@ -118,7 +116,7 @@ For developers or advanced users:
 
 Look for the "self" link in the additional resources. This provides the JSON representation of the metadata and can be used for programmatic access or integration with other tools
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_mdata3.png)
 
 
-__Watch video tutorial__
+[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/view?usp=sharing){.md-button}
