@@ -7,9 +7,9 @@ The Climate Asset Risk Analysis Tool (CLARAT), an application powered by the EOD
 * _Prerequisites_: Asset shapefile (CSV, point data) comprising a unique ID with latitude and longitude fields
 * _Entrypoint_: [https://demo.eodh.sparkgeo.dev/](https://demo.eodh.sparkgeo.dev/)
 * _Documentation_: [https://sparkgeo.github.io/uk_eodatahub/](https://sparkgeo.github.io/uk_eodatahub/)
-* _Quality-assured_: [Read more](https://eodatahub.org.uk/about/applications/applications/qa-for-clarat/)
+* _Quality-assured_: [Read more]()
 
-__INSERT IMAGE__
+![](../../assets/ep_app_clarat.png)
 
 ## EOPro
 
@@ -18,6 +18,6 @@ EOPro aims to provide a web based user-friendly platform for both new and advanc
 * _Prerequisites_: No prior EO experience
 * _Entrypoint_: [https://eopro.eodatahub.org.uk/](https://eopro.eodatahub.org.uk/)
 * _Documentation_: Available in-app. Access the general Help guide from the main toolbar and find Action Creator specific help under the Help tab. The [EOPro User & Architecture Guide](https://drive.google.com/file/d/1Rp3Q-4TJWjeRUiozGQ4dz9h4SqRxshC5/view?usp=sharing) provides further reference material and documentation.
-* _Quality-assured_: [Read more](https://eodatahub.org.uk/about/applications/applications/qa-for-eo-pro/)
+* _Quality-assured_: [Read more]()
 
-__INSERT IMAGE__
+![](../../assets/ep_app_eopro.png)

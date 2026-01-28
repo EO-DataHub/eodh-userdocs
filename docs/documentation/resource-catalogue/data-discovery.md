@@ -21,7 +21,8 @@ You can filter datasets by their category. For example:
 * Optical and multispectral data
 * Other specialized data types
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_fd1.png)
+
 
 To use a filter:
 
@@ -36,7 +37,7 @@ You can combine multiple filters to refine your search. For example, you might w
 * Optical and multispectral data with an open data license
 * Commercial data with specific characteristics
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_fd2.png)
 
 ### Grouping Options
 
@@ -49,6 +50,8 @@ The "Group by" feature allows you to organize the displayed data into categories
 !!! note
     You can only use one grouping option at a time, but you can combine it with multiple filters.
 
+![](../../assets/doc_rc_fd3.png)
+
 ## Searching for Data
 
 The search function allows you to find specific datasets using keywords:
@@ -57,7 +60,7 @@ The search function allows you to find specific datasets using keywords:
 * Enter your search terms (e.g., "Sentinel" or "temperature")
 * The catalogue will filter to show only matching datasets
 
-__INSERT IMAGE__
+![](../../assets/doc_rc_fd4.png)
 
 ## Viewing Dataset Details
 
@@ -71,4 +74,4 @@ Click on its card. You'll see detailed information including:
 * Relevant keywords
 
 
-__Watch tutorial video__
+[Watch Tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/view?usp=sharing).{.md-button}

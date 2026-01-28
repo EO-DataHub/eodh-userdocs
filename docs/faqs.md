@@ -2,13 +2,13 @@
 
 Find answers to the most commonly asked questions about the EO DataHub. If you have a question that has not been listed, or need further support, please contact us directly at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk), or raise a discussion topic in our [community forum](https://github.com/EO-DataHub/eodh-training/discussions).
 
-## Where can I raise an issue?
+## :octicons-question-16: Where can I raise an issue?
 
 To get support with access or account issues and share general feedback, please direct your query to [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk) in the first instance. 
 
 To report a bug, please contact [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk) with the subject '_Reported bug_', and the team will open a new ticket in the GitHub issue tracker under the relevant repository. Please include a clear description outlining steps taken that lead to the error being flagged or issue occurring, including screenshots where possible. This will make it as easy as possible for the team to replicate and troubleshoot the issue.
 
-## What can I do with the platform?
+## :octicons-question-16: What can I do with the platform?
 
 The Hub Platform and ecosystem of tools and interfaces supports a wide range of use cases, outlined below:
 
@@ -29,7 +29,7 @@ The Hub Platform and ecosystem of tools and interfaces supports a wide range of 
 * Notebooks for education. 
     * Create educational resources for EO analysis and applications, powered by the Hub API, by writing or exploiting community-developed notebooks
 
-## Where can I find help?
+## :octicons-question-16: Where can I find help?
 
 All training materials for the DataHub are consolidated in these documentation pages.
 
@@ -37,7 +37,7 @@ To start a discussion with the user community, contribute to our [community foru
 
 Users can contact the helpdesk at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk) for support with individual access and account issues, or custom queries.
 
-## How can I work in my team?
+## :octicons-question-16: How can I work in my team?
 
 Group workspaces can be created on behalf of an organisation, where all the members of a workspace can access the workflows and results stored in this location. This allows for sharing and collaboration across teams. To request a group workspace, follow the guidance provided here.
 
@@ -48,7 +48,7 @@ Users can create workspaces using the Workspace UI and then grant access to othe
 Add new workspace
 ///
 
-## How can I login to my workspace?
+## :octicons-question-16: How can I login to my workspace?
 
 Instructions on how to set up an account with the EODH and request a user workspace can be found here. An individual workspace can be accessed through a range of access points.
 
@@ -68,7 +68,7 @@ A user can login to their workspace through the QGIS Plugin interface, by carryi
 
 A user will be able to create and see existing workflows in their workspace through the UI of custom-built applications powered by the EODH.
 
-## How can I access my results?
+## :octicons-question-16: How can I access my results?
 
 When you execute a workflow, the outputs will automatically be populated into your workspace AWS S3 Storage and personal Resource Catalogue. A user will be able to search for their workflow results using the workspace user interface.
 
@@ -86,11 +86,11 @@ https://staging.eodatahub.org.uk/api/catalogue/stac/catalogs/user-datasets/<work
 
 You can search for the job-id that produced the resulting data.
 
-## Who is the DataHub suitable for?
+## :octicons-question-16: Who is the DataHub suitable for?
 
 Through its various access points, the EO DataHub was built to support a range of Earth Observation professionals, including GIS users, Web Developers, Dev-Ops, Researchers and Data Scientists, by integrating with widely-adopted standardised tools and APIs.
 
-## What data is offered?
+## :octicons-question-16: What data is offered?
 
 The resource catalogue contains both open access and commercial Earth Observation datasets. Optical imagery (including Sentinels), Synthetic Aperture RADAR (SAR), observed and modelled climate products, are available. No LiDAR datasets are currently available in the resource catalogue.
 
@@ -101,15 +101,15 @@ The catalogue of open access imagery includes publicly available Sentinel 1 and 
 ### Commercial data
 The Hub platform facilitates purchasing of commercial imagery from Airbus and Planet, on the condition that users hold an existing user account with these providers. PlanetScope and SkySat imagery can be purchased from Planet. Pléiades, Pléiades Neo, SPOT and TerraSAR-X imagery can be purchased from Airbus. More information on these data specifications, as well as guidance on purchasing and licensing restrictions, can be found here.
 
-## Can I access data from my infrastructure? How?
+## :octicons-question-16: Can I access data from my infrastructure? How?
 
 Yes, you will be able to upload your own data to your personal AWS S3 storage as long as you have an active Hub Platform account and a workspace.
 
-## How can I access data from my workspace?
+## :octicons-question-16: How can I access data from my workspace?
 
 Your data will be saved in your personal Resource Catalogue as well as the AWS S3 storage associated with your workspace. You will be able to search your data using the workspace user interface. The Hub Platform will attempt to convert all data in your workspace into STAC records so that it can be publicly published if a user wishes to do so.
 
-## Can I trust this platform?
+## :octicons-question-16: Can I trust this platform?
 
 ### Security
 
@@ -135,7 +135,7 @@ The QA results are stored as annotations in the product catalogue. When searchin
 
 In the EODH Pathfinder, these checks have been carried out for various satellite data collections from the initial optical missions available on the Hub (Sentinel-2, Planet SuperDove, and Airbus Pléiades).
 
-## What's the minimum area for a commercial data order?
+## :octicons-question-16: What's the minimum area for a commercial data order?
 
 ### Airbus
 
