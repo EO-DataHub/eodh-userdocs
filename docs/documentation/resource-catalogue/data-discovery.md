@@ -74,4 +74,4 @@ Click on its card. You'll see detailed information including:
 * Relevant keywords
 
 
-[Watch Tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/view?usp=sharing).{.md-button}
+[Watch Tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/view?usp=sharing){.md-button}
