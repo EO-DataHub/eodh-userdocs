@@ -1,7 +1,7 @@
 # Troubleshooting Notebook issues
 
 !!! bug
-   If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
+    If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
 
 ## File load/save error for <file>
 

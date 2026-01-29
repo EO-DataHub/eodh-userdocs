@@ -17,11 +17,11 @@ Click Add Member button in the workspaces UI for a workspace you have selected o
 
 When the other user logs in they will then see your workspace in their UI and be able to utilize it within the platform.
 
-__INSERT IMAGE__
+![](../../assets/gs_ws_mm1.png)
 
 ## Remove a user from my workspace
 If you want to remove a member from your workspace you must click the Bin icon within the workspace UI. This will prompt you for confirmation of doing so. The user will immediately be forbidden from utilizing the workspaces features. Only members can be removed from the workspace.
 
-__INSERT IMAGE__
+![](../../assets/gs_ws_mm2.png)
 
-Link your commercial data accounts
+

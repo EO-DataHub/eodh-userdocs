@@ -15,7 +15,7 @@ Click on your profile icon in the top right corner of the homepage and Manage Ac
 Fill out the form as instructed
 Submit the form
 
-__INSERT IMAGE__
+![](../../assets/gs_ba_ba1.png)
 
 Once submitted, your billing account request will be sent for moderator approval. This is expected to take up to 2 working days. After it is approved, you'll be able to create and manage your own workspaces. You will receive a notification via the email associated with your user account when your request has been processed. If you cannot see the email, please check your junk mail folder.
 
@@ -23,4 +23,4 @@ Once submitted, your billing account request will be sent for moderator approval
     If your account hasn't been approved within several days, please contact us at enquiries@eodatahub.org.uk for assistance.
 
 
-__Create a workspace__
+[Create a workspace :fontawesome-solid-paper-plane:](https://eodatahub.org.uk/workspaces/){.md-button}
