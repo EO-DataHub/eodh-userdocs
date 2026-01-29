@@ -1,7 +1,8 @@
 # Troubleshooting API key issues
 
 !!! bug
-   If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
+    
+    If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
 
 
 ## Check you are using the correct key

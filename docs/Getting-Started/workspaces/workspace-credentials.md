@@ -8,16 +8,16 @@ You need to generate an API key scoped to your workspace to securely authenticat
 
 To obtain an API token, visit the Workspaces tab. Choose the desired workspace and then select Credentials on the left hand panel. Under DataHub API Key click the Request New Token button. Enter a name and expiry time.
 
-__INSERT IMAGE__
+![](../../assets/gs_ws_wsc1.png)
 
 !!! warning
     The maximum duration of an API token is 30 days.
 
 Copy the Token ID and API Key, these will not be available to view later. These API tokens will be used to authenticate your workspace with external and internal services within the platform.
 
-__INSERT IMAGE__
+![](../../assets/gs_ws_wsc2.png)
 
 ## S3 Token
 Your workspace includes an object store. By generating temporary S3 credentials, you are provided with secure, time-limited access to your workspace’s data buckets, enabling you to upload, download, or stream data files directly. This is particularly useful when working with large datasets in external applications or when integrating with cloud-based processing tools.
 
-You can generate temporary tokens to access your workspaces S3 bucket programmatically. Please see Using Your Temporary AWS S3 Credentials for more information.
+You can generate temporary tokens to access your workspaces S3 bucket programmatically. Please see [Using Your Temporary AWS S3 Credentials](../../documentation/s3-credentials/s3-credentials.md) for more information.
