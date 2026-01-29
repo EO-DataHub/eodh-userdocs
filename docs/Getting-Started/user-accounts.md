@@ -23,4 +23,3 @@ When logging into the hub for the first time via GitHub, you will be asked to au
 ## Access permissions
 
 Once signed in to the platform, you can access the Workspaces tab, but will not have permissions to create or manage a workspace. You can also be added to an EODH workspace managed by another EODH user, which would provide the same access as users with a billing account.
-
