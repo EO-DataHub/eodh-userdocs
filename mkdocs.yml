@@ -52,8 +52,6 @@ nav:
       - Code access: placeholder3.md
   - Analysts:
     - Commercial data:
-      - Available commercial data: Analysts/commercial/what-is-available.md
-      - Commercial data applications: Analysts/commercial/applications.md
       - Linking into EODH: Analysts/commercial/link-accounts.md
       - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
       - Usage restrictions: Analysts/commercial/restrictions.md
