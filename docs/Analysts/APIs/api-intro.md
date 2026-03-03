@@ -33,12 +33,19 @@ To obtain an API token, visit the Workspaces tab. Choose the desired workspace a
 ![](../../assets/doc_api_gs2.png)
 
 
+## API's: pyeodh
+
+'pyeodh' is a Python client wrapping all EODH API endpoints. It aims to be lightweight and easy to use and has been developed especially for use with the EODH platform. If you are a data analyst or a developer, and you would like to interact fully with the Hub then using pyeodh is the recommended way to do so.
+
+ [Explore the API documentation :fontawesome-solid-paper-plane:](https://pyeodh.readthedocs.io/en/latest/){.md-button}
+
 ## Explore the public catalogue
 
 Our APIs can be used without authentication to perform actions such as browsing our publicly available data, an example of which is shown below. This uses pystac to perform a basic search for collections with data over the UK.
 
 More detailed examples for browsing our catalogue can be found here.
 
+# CHANGE CODE BELOW
 ```py
 from pystac_client import Client
 
