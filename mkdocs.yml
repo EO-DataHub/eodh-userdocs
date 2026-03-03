@@ -1,4 +1,4 @@
-site_name: UK Earth Observation Data Hub (EODH)
+site_name: UK EODH Documentation
 site_url: https://eodatahub.org.uk/docs/documentation
 theme:
   name: material
@@ -15,7 +15,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
+      primary: blue grey
       accent: deep purple
 
     # Light Mode
@@ -25,6 +25,50 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Account types: Getting-Started/access-levels.md
+    - Creating a user account: Getting-Started/user-accounts.md
+    - Getting a billing account: Getting-Started/billing-accounts.md
+    - Creating a workspace: Getting-Started/workspaces/create-workspace.md
+    - Managing workspace members: Getting-Started/workspaces/member-management.md
+    - Workspace credentials: Getting-Started/workspaces/workspace-credentials.md
+    - Linked accounts: Getting-Started/workspaces/linked-accounts.md
+  - Explorers:
+    - Finding data: 
+      - What's available?: placeholder.md
+      - Searching for data: Explorers/resource-catalogue/data-discovery.md
+      - Understanding metadata: Explorers/resource-catalogue/metadata.md
+      - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
+    - Downloading data: Explorers/resource-catalogue/downloading-data.md
+    - Visualising data: Explorers/resource-catalogue/visualising-data.md
+    - Additional access points:
+      - Apps: Explorers/access-points/applications.md
+      - QGIS plugin: placeholder1.md
+      - ArcGIS plugin: placeholder2.md
+      - Code access: placeholder3.md
+  - Analysts:
+    - Applications: Analysts/commercial/applications.md
+  - Developers: 
+    - Tools:
+      - pyeodh: placeholder4.md
+      - eoap-gen: placeholder5.md
+    - Data publishing:
+      - S3 credentials: Developers/s3-credentials/s3-credentials.md
+      - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
+    - Apps:
+      - Understanding apps: Developers/apps/apps.md
+      - Understanding billing: Developers/apps/billing.md
+      - Creating an app: Developers/apps/creating-an-app.md
+      - Using workflows: Developers/apps/workflows-and-user-servces.md
+    - Workflow runner:
+      - Application packages: Developers/workflow-runner/application-packages.md
+    - Visualisation:
+      - titiler?: placeholdertt.md
+  - FAQs: FAQ/faqs.md
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -43,6 +87,7 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.tabbed:
       alternate_style: true
+
 plugins:
   - search
   - mkdocs-jupyter    

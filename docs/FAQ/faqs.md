@@ -1,33 +1,137 @@
+---
+hide:
+  - toc
+---
 # Frequently Asked Questions
 
 Find answers to the most commonly asked questions about the EO DataHub. If you have a question that has not been listed, or need further support, please contact us directly at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk), or raise a discussion topic in our [community forum](https://github.com/EO-DataHub/eodh-training/discussions).
 
-## :octicons-question-16: Where can I raise an issue?
 
-To get support with access or account issues and share general feedback, please direct your query to [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk) in the first instance. 
 
-To report a bug, please contact [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk) with the subject '_Reported bug_', and the team will open a new ticket in the GitHub issue tracker under the relevant repository. Please include a clear description outlining steps taken that lead to the error being flagged or issue occurring, including screenshots where possible. This will make it as easy as possible for the team to replicate and troubleshoot the issue.
+<div class="grid cards" markdown>
 
-## :octicons-question-16: What can I do with the platform?
+-   :octicons-question-16: __Where can I raise an issue?__
 
-The Hub Platform and ecosystem of tools and interfaces supports a wide range of use cases, outlined below:
+    ---
 
-* Scalable EO and Climate data processing. 
-    * Generate environmental analyses for monitoring systems by actioning workflows with scalable compute infrastructure in real time
-* Share new analysis. 
-    * Carry out novel research, derive insights, and publish outputs, assisted by the capabilities and datasets provided by the Hub, through developing EO workflows
-* Analysis Ready Data pipelines with Quality Assurance. 
-    * Collaborate on pipelines and algorithms to generate novel ARD products to be hosted on the Hub
-* Enabling commercial applications. 
-    * Utilise the provision of satellite imagery and modelled EO data products to power custom web applications to serve end-user needs, from climate risk alerts to site monitoring
-* Pay per use commercial data. 
-    * Get centralised access to a supply of commercial satellite datasets which are hosted on the Hub
-* Enhance organisational reporting. 
-    * Produce map visualisations in light-touch user interfaces or external GIS software to showcase geospatial insights for project reports
-* Migrate operational workflows. 
-    * Connect operational workflows hosted in compatible platforms to your Hub workspace, to automate processing of dataflows directly from the Resource Catalogue
-* Notebooks for education. 
-    * Create educational resources for EO analysis and applications, powered by the Hub API, by writing or exploiting community-developed notebooks
+    Direct your queries to [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk). If reporting a bug use the subject '_Reported bug_', and include a clear description outlining steps taken that lead to the error being flagged or issue occurring, including screenshots.
+
+
+-   :octicons-question-16: __How can I login to my workspace?__
+
+    ---
+
+    Instructions on how to set up an account with the EODH and request a user workspace can be found here. An individual workspace can be accessed through a range of access points.
+
+
+
+-   :octicons-question-16:{ .lg .middle } __?__
+
+    ---
+
+
+
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+
+
+
+# Troubleshooting API key issues
+
+!!! bug
+    
+    If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
+
+
+## Check you are using the correct key
+
+Please make sure that the Token ID and API Key have been entered in the correct places.
+
+When you generate an API key from your Hub workspace, you will be given a Token ID and API key, as shown below. The API key should be used when connecting to your Hub workspace via the QGIS Plugin or Jupyter Notebooks. Always check you have copied across the correct character string when asked for your API key.
+
+![](../../assets/ep_ts_api1.png)
+
+
+## Receiving 403 Status Code: Access Denied
+
+If you experience a 403 error when trying to order data through the notebook, please get a new Hub workspace API token and replace the old one you were previously using. This is a known reoccurring bug with API keys. The best workaround for this error is to get a new API key.
+
+This can be done by going to __Workspaces > Credentials > Request New Token__
+
+![](../../assets/ep_ts_api2.png)
+
+## Check the expiry date on your currently active API key
+
+You can find this by visiting the workspaces tab and selecting credentials from the left-hand bar. Check the expiry date on the key. This can be viewed in your workspace within the Credentials tab, under Active Tokens. If it has expired, please create a new key.
+
+![](../../assets/ep_ts_api3.png)
+
+
+
+# Troubleshooting Notebook issues
+
+!!! bug
+    If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
+
+## File load/save error for <file>
+
+This is a known bug and is being actively worked on. When attempting to open or save a file the error is shown. The user resolution is to refresh the browser page. For a file load error there is no risk to the user, the file should load successfully after refresh. For file save, there is a risk to lose recent data. This is mitigated by the autosave feature (enabled by default) but when refreshing the page any unsaved content will be lost, so save often until this bug has been resolved.
+
+![](../../assets/ep_ts_nb1.png)
+
+## Problems authenticating the connection to your workspace
+
+If you are struggling to connect to your workspace within the Jupyter notebooks environment, this could be related to the API key you are using to connect with, which you have likely stored within an environment file. Follow this guidance to troubleshoot issues related to API keys.
+
+
+
+
+# Troubleshooting workflows
+
+!!! bug
+    If you continue to experience issues, then please contact us at [enquiries@eodatahub.org.uk](mailto: enquiries@eodatahub.org.uk).
+
+## :octicons-question-16: Why is my workflow failing immediately?
+
+This is often seen where the workflow deployment was successful but the required executables were not generated correctly. A common error response is that the Workflow Runner gives a "ModuleNotFound" error. In the first instance please try deleting and redeploying the workflow using the DELETE `/processes/workflow-id` endpoint and then redeploy. If this still doesn't work, please try deploying the workflow from a local file, rather than from a URL.
+
+Another common occurrence is the wrong inputs being provided. You can see warnings for missing inputs by checking either of the status or results endpoints for your job once it has started running. You can also check the required inputs by using the `/processes/<process-id>` endpoint for the process you wish to interrogate.
+
+## :octicons-question-16: Why are my outputs not being handled by the STAGEOUT step?
+Often we have seen the case where the STAC type is defined as "catalog" but it needs to be "Catalog" to be fully conformant and to work with the STAGEOUT step. Also check your STAC output is fully compliant with the standards in the stac-spec.
+
+## :octicons-question-16: Why can't I access my logs?
+If you are receiving log links from the execute status endpoint but then get a 404 error when attempting to visit the page, please ensure your workflow ID meets the following requirements:
+
+* Has no more than 26 characters
+* Does not contain any underscores
+
+## :octicons-question-16: Why is my workflow failing with few log details?
+
+Another common occurrence is to forget to specify the resources your workflow requires to run. If you miss this in your CWL specification, the workflow steps will run with the default setting which is 1 CPU and 1Gb of RAM. This may not be enough for the processing requested by your workflow and so you may need to specify increased limits. You can specify these limits in your CWL at either the Workflow or Command Line Tool level using the ResourceRequirements requirements object. This tells the Workflow Runner what resources to allocate to the pods running your workflow processes.
+
+For example, to specify a step needs 2 CPUs and 4Gb (3096 Mb) or RAM you can include the following in your requirements section:
+
+```yaml
+requirements:
+- class: ResourceRequirement
+  coresMin: 2
+  ramMin: 4096
+```
+
+
+
+
+## 
 
 ## :octicons-question-16: Where can I find help?
 
