@@ -50,7 +50,30 @@ nav:
       - ArcGIS plugin: placeholder2.md
       - Code access: placeholder3.md
   - Analysts:
-    - Applications: Analysts/commercial/applications.md
+    - Commercial data:
+      - Available commercial data: Analysts/commercial/what-is-available.md
+      - Commercial data applications: Analysts/commercial/applications.md
+      - Linking into EODH: Analysts/commercial/link-accounts.md
+      - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
+      - Usage restrictions: Analysts/commercial/restrictions.md
+    - Notebook service:
+      - Using notebooks: Analysts/notebook-service/notebooks-start.md
+      - Integrating with git: Analysts/notebook-service/git-integration.md
+      - Practical tips: Analysts/notebook-service/practical-tips.md
+    - Platform APIs:
+      - API introduction: Analysts/APIs/api-intro.md
+      - API examples: Analysts/APIs/api-examples.md
+    - TiTiler visualisation:
+      - TiTiler introduction: Analysts/visualisation/introduction.md
+      - Preparing data: Analysts/visualisation/preparing-data.md
+      - Serving data: Analysts/visualisation/serving-data.md
+      - Configuring requests: Analysts/visualisation/configuring-requests.md
+      - TiTiler endpoints: Analysts/visualisation/endpoints.md
+      - Additional tools: Analysts/visualisation/third-party-tools.md
+    - Training materials:
+      - Science examples: 
+        - EOCIS polar data: Analysts/training-materials/examples/Polar_Data.ipynb
+      - How-to examples: placeholder6.md
   - Developers: 
     - Tools:
       - pyeodh: placeholder4.md
