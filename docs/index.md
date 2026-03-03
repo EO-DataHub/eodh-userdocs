@@ -5,55 +5,40 @@ hide:
 
 # Earth Observation Data Hub
 
-The EODH is a UK platform delivering access to Earth Observation data for effective decision making across government, business and academia, supported by key stakeholders such as UKRI, NERC, DSIT and UKSA.
+This is the documentation for the UK EO Data Hub. If you need to return to the Hub click the logo in the top left of any page. Use the search and table of contents to navigate to topics, and between and within pages.
 
-[Return to the Hub :fontawesome-solid-paper-plane:](https://eodatahub.org.uk/){.md-button}
+# Documentation pathways
 
-# Users of the Hub
-The Hub is suitable for a range of user types and roles across the government, academic and commercial disciplines. There are three core pathways for platform use.
+The Hub is suitable for a range of user types and roles across government, academic and commercial disciplines.
 
-<div class="grid cards" markdown>
+<div class="landing-panels" markdown>
 
--   :material-compass: __Explorers__
+<div class="landing-panel" markdown>
 
-    ---
-
-    Find data etc.
-
-
--   :material-flask-outline: __Analysts__
-
-    ---
-
-    Do science.
-
-
-
--   :material-keyboard:  __Developers__
-
-    ---
-    
-    Develop code
+## Explorers
+Want to find things
 
 </div>
 
+<div class="landing-panel" markdown>
 
-## Highlights of the Hub
+## Analysts
+Want to do things
 
-The Hub Platform and ecosystem of tools and interfaces supports a wide range of use cases, outlined below:
+</div>
 
-* Scalable EO and Climate data processing. 
-* Share new analysis. 
-* Analysis Ready Data pipelines with Quality Assurance. 
-* Enabling commercial applications. 
-* Pay per use commercial data. 
-* Enhance organisational reporting. 
-* Migrate operational workflows. 
-* Notebooks for education. 
+<div class="landing-panel" markdown>
+
+## Developers
+Want to build things
+
+</div>
+
+</div>
+
+---
 
 
-## Available Services
+# Available Services
 
-Add in some stuff about Notebooks, RC, processing etc 
-
-#
+You can find data visually through the Resource Catalogue, or through code using the dedicated `pyeodh` API. Process those datasets in a Jupyter Notebooks using the online Notebook Service and then visualise in external GIS and web maps using inbuilt integrations. 

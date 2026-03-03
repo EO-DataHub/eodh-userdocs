@@ -3,8 +3,8 @@ site_url: https://eodatahub.org.uk/docs/documentation
 theme:
   name: material
   font:
-    text: Atkinson Hyperlegible
-  logo: assets/logo.svg
+    text: Fira Sans #Atkinson Hyperlegible
+  logo: assets/icon_eodh_logo_white_grey.png #logo.svg
   features:
     - navigation.footer
     - content.code.copy
@@ -16,7 +16,7 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: blue grey
-      accent: deep purple
+      accent: orange
 
     # Light Mode
     - scheme: default
@@ -24,7 +24,7 @@ theme:
         icon: material/weather-night
         name: Light mode
       primary: blue
-      accent: deep orange
+      accent: blue
 
 nav:
   - Home: index.md
@@ -45,7 +45,7 @@ nav:
       - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
     - Downloading data: Explorers/resource-catalogue/downloading-data.md
     - Visualising data: Explorers/resource-catalogue/visualising-data.md
-    - Additional access points:
+    - Additional access points: # REVISIT STRUCTURE HERE
       - Apps: Explorers/access-points/applications.md
       - QGIS plugin: placeholder1.md
       - ArcGIS plugin: placeholder2.md
@@ -90,6 +90,11 @@ nav:
     - Visualisation:
       - titiler?: placeholdertt.md
   - FAQs: FAQ/faqs.md
+
+extra:
+  homepage: https://eodatahub.org.uk/
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.highlight:
