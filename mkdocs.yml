@@ -39,17 +39,13 @@ nav:
       - Linked accounts: Getting-Started/workspaces/linked-accounts.md
   - Explorers:
     - Finding data: 
-      - What's available?: placeholder.md
       - Searching for data: Explorers/resource-catalogue/data-discovery.md
       - Understanding metadata: Explorers/resource-catalogue/metadata.md
       - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
     - Downloading data: Explorers/resource-catalogue/downloading-data.md
     - Visualising data: Explorers/resource-catalogue/visualising-data.md
-    - Additional access points: # REVISIT STRUCTURE HERE
-      - Apps: Explorers/access-points/applications.md
-      - QGIS plugin: placeholder1.md
-      - ArcGIS plugin: placeholder2.md
-      - Code access: placeholder3.md
+    - GIS plugins: Explorers/access-points/GIS.md
+    - Code access: Explorers/access-points/code.md
   - Analysts:
     - Commercial data:
       - Linking into EODH: Analysts/commercial/link-accounts.md
@@ -71,12 +67,15 @@ nav:
       - Additional tools: Analysts/visualisation/third-party-tools.md
     - Training materials:
       - Science examples: 
-        - EOCIS polar data: Analysts/training-materials/examples/Polar_Data.ipynb
-      - How-to examples: placeholder6.md
+        - EOCIS polar data: Analysts/training-materials/examples/polar.ipynb
+        - Handling timeseries data: Analysts/training-materials/examples/timeseries.ipynb
+      - How-to examples:
+        - Ordering commercial data: Analysts/training-materials/examples/Commercial_Orders.ipynb
+      - Video demonstrations: Analysts/training-materials/videos.md
   - Developers: 
     - Tools:
-      - pyeodh: placeholder4.md
-      - eoap-gen: placeholder5.md
+      - pyeodh: Developers/tools/pyeodh.md
+      - eoap-gen: Developers/tools/eoap.md 
     - Data publishing:
       - S3 credentials: Developers/s3-credentials/s3-credentials.md
       - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
