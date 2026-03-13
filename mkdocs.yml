@@ -50,6 +50,7 @@ nav:
     - Commercial data:
       - Linking into EODH: Analysts/commercial/link-accounts.md
       - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
+      - Ordering commercial SAR data: Analysts/commercial/understanding-sar-ordering-options.md
       - Usage restrictions: Analysts/commercial/restrictions.md
     - Notebook service:
       - Using notebooks: Analysts/notebook-service/notebooks-start.md
