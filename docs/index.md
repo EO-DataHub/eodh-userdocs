@@ -15,22 +15,28 @@ The Hub is suitable for a range of user types and roles across government, acade
 
 <div class="landing-panel" markdown>
 
-## Explorers
+## Explore
 Want to find things
 
+:material-magnify-expand:
+
 </div>
 
 <div class="landing-panel" markdown>
 
-## Analysts
+## Analyse
 Want to do things
 
+:material-google-analytics:
+
 </div>
 
 <div class="landing-panel" markdown>
 
-## Developers
+## Develop
 Want to build things
+
+:simple-devbox:
 
 </div>
 

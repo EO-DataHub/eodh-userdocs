@@ -37,7 +37,7 @@ nav:
       - Managing workspace members: Getting-Started/workspaces/member-management.md
       - Workspace credentials: Getting-Started/workspaces/workspace-credentials.md
       - Linked accounts: Getting-Started/workspaces/linked-accounts.md
-  - Explorers:
+  - Explore:
     - Finding data: 
       - Searching for data: Explorers/resource-catalogue/data-discovery.md
       - Understanding metadata: Explorers/resource-catalogue/metadata.md
@@ -46,7 +46,7 @@ nav:
     - Visualising data: Explorers/resource-catalogue/visualising-data.md
     - GIS plugins: Explorers/access-points/GIS.md
     - Code access: Explorers/access-points/code.md
-  - Analysts:
+  - Analyse:
     - Commercial data:
       - Linking into EODH: Analysts/commercial/link-accounts.md
       - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
@@ -66,14 +66,7 @@ nav:
       - Configuring requests: Analysts/visualisation/configuring-requests.md
       - TiTiler endpoints: Analysts/visualisation/endpoints.md
       - Additional tools: Analysts/visualisation/third-party-tools.md
-    - Training materials:
-      - Science examples: 
-        - EOCIS polar data: Analysts/training-materials/examples/polar.ipynb
-        - Handling timeseries data: Analysts/training-materials/examples/timeseries.ipynb
-      - How-to examples:
-        - Ordering commercial data: Analysts/training-materials/examples/Commercial_Orders.ipynb
-      - Video demonstrations: Analysts/training-materials/videos.md
-  - Developers: 
+  - Develop: 
     - Tools:
       - pyeodh: Developers/tools/pyeodh.md
       - eoap-gen: Developers/tools/eoap.md 
@@ -89,7 +82,25 @@ nav:
       - Application packages: Developers/workflow-runner/application-packages.md
     - Visualisation:
       - titiler?: placeholdertt.md
-  - FAQs: FAQ/faqs.md
+  - Example notebooks:
+    - Dedicated walk-through:
+      - Set-up: training-materials/examples/0_202502_setup.ipynb
+      - Discovering data: training-materials/examples/1_202502_discovery.ipynb
+      - Processing data: training-materials/examples/2_202502_processing.ipynb
+      - Visualising data: training-materials/examples/3_202502_datavis.ipynb
+    - EOCIS polar data: training-materials/examples/polar.ipynb
+    - Handling timeseries data: training-materials/examples/timeseries.ipynb
+    - Ordering commercial data: training-materials/examples/commercial_orders.ipynb
+    - pystac vs pyeodh: training-materials/examples/pyeodh-vs-pystac.ipynb
+    - Using Dask on the Hub: training-materials/examples/dask_example.ipynb
+    - TBC SAR processing: training-materials/examples/tbc_sar.ipynb
+    - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
+    - EOAP Temporal Mosaics: training-materials/workflows/5_temp_mos.ipynb
+  - Additional help:
+    - FAQs: Help/faqs.md
+    - Community support: Help/community.md
+    - Video demonstrations: Help/videos.md
+
 
 extra:
   homepage: https://eodatahub.org.uk/
