@@ -84,15 +84,15 @@ nav:
       - titiler?: placeholdertt.md
   - Example notebooks:
     - Dedicated walk-through:
-      - Set-up: training-materials/examples/0_202502_setup.ipynb
-      - Discovering data: training-materials/examples/1_202502_discovery.ipynb
-      - Processing data: training-materials/examples/2_202502_processing.ipynb
-      - Visualising data: training-materials/examples/3_202502_datavis.ipynb
+      - Set-up: training-materials/workshop/0_202502_setup.ipynb
+      - Discovering data: training-materials/workshop/1_202502_discovery.ipynb
+      - Processing data: training-materials/workshop/2_202502_processing.ipynb
+      - Visualising data: training-materials/workshop/3_202502_datavis.ipynb
+    - Ordering commercial data: training-materials/examples/commercial_orders.ipynb
+    - Why choose pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
+    - Using dask on the Hub: training-materials/examples/dask_example.ipynb
     - EOCIS polar data: training-materials/examples/polar.ipynb
     - Handling timeseries data: training-materials/examples/timeseries.ipynb
-    - Ordering commercial data: training-materials/examples/commercial_orders.ipynb
-    - pystac vs pyeodh: training-materials/examples/pyeodh-vs-pystac.ipynb
-    - Using Dask on the Hub: training-materials/examples/dask_example.ipynb
     - TBC SAR processing: training-materials/examples/tbc_sar.ipynb
     - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
     - EOAP Temporal Mosaics: training-materials/workflows/5_temp_mos.ipynb
