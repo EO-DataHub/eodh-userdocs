@@ -104,6 +104,8 @@ nav:
 
 extra:
   homepage: https://eodatahub.org.uk/
+extra_javascript:
+  - javascripts/extra.js
 extra_css:
   - stylesheets/extra.css
 
