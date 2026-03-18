@@ -44,6 +44,7 @@ nav:
       - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
     - Downloading data: Explorers/resource-catalogue/downloading-data.md
     - Visualising data: Explorers/resource-catalogue/visualising-data.md
+    - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
     - GIS plugins: Explorers/access-points/GIS.md
     - Code access: Explorers/access-points/code.md
   - Analyse:
