@@ -9,19 +9,27 @@ This indicates the processing level of the SAR imagery, and contains different o
 
 ### **Single Look Slant Range Complex (SSC)**  
 SSC products contain **“complex values (amplitude + phase)”** and are delivered in **“slant‑range geometry”**, suitable for interferometry and coherence analysis.
-<img width="732" height="733" alt="image" src="https://github.com/user-attachments/assets/4f511a44-ad57-49ab-87f7-b15bfff10a54" />
+<div style="float:right; margin-left:15px;">
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/4f511a44-ad57-49ab-87f7-b15bfff10a54" />
+</div>
 
 ### **Multi‑Look Ground Detected (MGD)**  
 MGD products are **“multi‑looked, ground‑range detected imagery”**, reducing speckle and enhancing radiometric quality. Phase information is removed, making them suitable for general radar interpretation.
-<img width="688" height="686" alt="image" src="https://github.com/user-attachments/assets/1ae7930f-45bd-4000-9a6a-5aebb022bc3b" />
+<div style="float:right; margin-left:15px;">
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1ae7930f-45bd-4000-9a6a-5aebb022bc3b" />
+</div>
 
 ### **Geocoded Ellipsoid Corrected (GEC)**  
 GEC products are **“ellipsoid‑corrected”** and geocoded, providing improved spatial accuracy and compatibility with GIS mapping workflows.
-<img width="714" height="701" alt="image" src="https://github.com/user-attachments/assets/3199f112-1fb3-4b9c-8d5e-22fb7b2e09ff" />
+<div style="float:right; margin-left:15px;">
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/3199f112-1fb3-4b9c-8d5e-22fb7b2e09ff" style="float:right; margin-left:15px;"/>
+</div>
 
 ### **Enhanced Ellipsoid Corrected (EEC)**  
 EEC products are **“enhanced ellipsoid‑corrected”** imagery with additional geometric and radiometric refinements beyond GEC, suitable for precision mapping and change detection.
-<img width="719" height="705" alt="image" src="https://github.com/user-attachments/assets/505ca658-ce98-4fba-ba1c-346f8de8bb4a" />
+<div style="float:right; margin-left:15px;">
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/505ca658-ce98-4fba-ba1c-346f8de8bb4a" style="float:right; margin-left:15px;"/>
+</div>
 
 ---
 
@@ -66,7 +74,7 @@ Positional accuracies depend (among other things) on the precision of the orbit 
 ### **Science Orbit**  
 3D RMS accuracy of **10 cm**, suitable for high‑precision SAR interferometry and scientific analysis.
 
-!!! When to choose Science Orbit?
-   🔭 **Choose the Science Orbit when your application requires centimetre‑level geometric precision, particularly for interferometric SAR (InSAR), deformation mapping, or    scientific workflows requiring the highest possible orbit accuracy. We recommend using science orbit for InSAR applications. Products with this option include the most precise understanding of the sensor’s orbital position and speed, which translates into more geometrically precise interferograms.**
+!!! note
+    🔭 **When to choose Science Orbit?** Choose the Science Orbit when your application requires centimetre‑level geometric precision, particularly for interferometric SAR (InSAR), deformation mapping, or scientific workflows requiring the highest possible orbit accuracy. We recommend using science orbit for InSAR applications. Products with this option include the most precise understanding of the sensor’s orbital position and speed, which translates into more geometrically precise interferograms.
 
 ---
