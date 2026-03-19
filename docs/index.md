@@ -2,6 +2,7 @@
 hide:
   - toc
 ---
+<img style="width: 100%; height: auto;" alt="banner_image" src="https://github.com/user-attachments/assets/9596ca5d-2719-4799-9fe3-62d6a37ed539" />
 
 # Earth Observation Data Hub
 
@@ -43,7 +44,9 @@ Want to build things
 </div>
 
 ---
-
+[Helpdesk :fontawesome-solid-user-headset:](#){ .md-button }
+[Example notebooks :fontawesome-pen-to-square:](#){ .md-button }
+[Video tutorials :fontawesome-brands-youtube:](#){ .md-button }
 
 # Available Services
 
