@@ -50,34 +50,26 @@ Use the search and table of contents to navigate to topics, and between and with
 
 If you need to return to the Hub click the logo in the top left of any page.
 
-!!! available services
-
-    === "Explore"
-
-        ``` markdown
-        * Data catalogue
-        * Commercial data purchasing
-        * Workspace storage
-        ```
-
-    === "Analyse"
-
-        ``` markdown
-        * `pyeodh`
-        * Streaming data
-        * Jupyter notebook processing
-        * QGIS and ArcGIS plugins
-        ```
+=== "Explore"
   
-    === "Develop"
+  - Data catalogue
+  - Commercial data purchasing
+  - Workspace storage
 
-        ``` markdown
-        * APIs
-        * Run workflows
-        ```
+=== "Analyse"
+
+  - `pyeodh`
+  - Streaming data
+  - Jupyter notebook processing
+  - QGIS and ArcGIS plugins
+  
+=== "Develop"
+
+  - APIs
+  - Run workflows
+
 ---
 
 # More help needed?
-Email us at enquiries@eodatahub.org.uk and the team will be happy to help :octicons-smiley-16:
-
-[Contact the helpdesk :fontawesome-solid-headset:](#){ .md-button }
+Email us at enquiries@eodatahub.org.uk
+[Contact the helpdesk :fontawesome-solid-headset:](mailto:enquiries@eodatahub.org.uk){ .md-button }
