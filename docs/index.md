@@ -15,6 +15,8 @@ Welcome to the documentation for the Earth Observation Data Hub. The Hub is an E
 ## Explorers
 [Want to find things →](analysts/index.md)
 
+:material-magnify-expand:
+
 </div>
 
 <div class="landing-panel" markdown>
@@ -22,12 +24,16 @@ Welcome to the documentation for the Earth Observation Data Hub. The Hub is an E
 ## Analysts
 [Want to do things →](analysts/index.md)
 
+:material-google-analytics:
+
 </div>
 
 <div class="landing-panel" markdown>
 
 ## Developers
 [Want to build things →](analysts/index.md)
+
+:simple-devbox:
 
 </div>
 
