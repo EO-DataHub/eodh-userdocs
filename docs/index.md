@@ -55,14 +55,12 @@ If you need to return to the Hub click the logo in the top left of any page.
   - Data catalogue
   - Commercial data purchasing
   - Workspace storage
-
 === "Analyse"
 
   - `pyeodh`
   - Streaming data
   - Jupyter notebook processing
   - QGIS and ArcGIS plugins
-  
 === "Develop"
 
   - APIs
@@ -72,4 +70,5 @@ If you need to return to the Hub click the logo in the top left of any page.
 
 # More help needed?
 Email us at enquiries@eodatahub.org.uk
+
 [Contact the helpdesk :fontawesome-solid-headset:](mailto:enquiries@eodatahub.org.uk){ .md-button }
