@@ -71,6 +71,7 @@ nav:
     - Tools:
       - pyeodh: Developers/tools/pyeodh.md
       - eoap-gen: Developers/tools/eoap.md 
+      - dask: Developers/tools/dask.md
     - Data publishing:
       - S3 credentials: Developers/s3-credentials/s3-credentials.md
       - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
@@ -81,8 +82,6 @@ nav:
       - Using workflows: Developers/apps/workflows-and-user-servces.md
     - Workflow runner:
       - Application packages: Developers/workflow-runner/application-packages.md
-    - Visualisation:
-      - titiler?: placeholdertt.md
   - Example notebooks:
     - Dedicated walk-through:
       - Set-up: training-materials/walkthrough/0_202502_setup.ipynb

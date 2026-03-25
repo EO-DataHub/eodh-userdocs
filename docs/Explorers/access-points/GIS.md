@@ -30,7 +30,7 @@ The Earth Observation Data Hub (EODH) ArcGIS Pro Plugin provides a seamless way 
 
 The plugin also enhances the data evaluation process through built-in preview capabilities, including thumbnail views and an interactive timeline, which help users quickly assess data quality and temporal coverage. Once suitable datasets are identified, they can be loaded directly into ArcGIS Pro as map layers using COG or GeoTIFF formats, enabling immediate analysis and visualisation. In addition to open data access, the plugin supports the purchase of commercial satellite imagery from providers such as Airbus and Planet, broadening the range of available data. Workspace management features further improve efficiency by allowing users to organise and maintain their selected assets within the ArcGIS Pro environment.
 
-As of March 2026 the plugin is in beta testing, and these documentation files will be updated as we recieve more feedback from users.
+As of March 2026 the plugin is in beta-testing, and these documentation files will be updated as we recieve more feedback from users.
 
 * Repository: [https://github.com/EO-DataHub/arcgis-plugin](https://github.com/EO-DataHub/arcgis-plugin)
 
