@@ -88,7 +88,7 @@ nav:
       - Discovering data: training-materials/walkthrough/1_202502_discovery.ipynb
       - Processing data: training-materials/walkthrough/2_202502_processing.ipynb
       - Visualising data: training-materials/walkthrough/3_202502_datavis.ipynb
-    - Commercial data quotes and orders: training-materials/examples/commercial_orders.ipynb
+    - Commercial data quotes and orders: training-materials/examples/commercial.ipynb
     - Data cubes: training-materials/examples/datacubes.ipynb
     - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
     - Using dask on the Hub: training-materials/examples/dask_example.ipynb
