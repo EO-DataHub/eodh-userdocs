@@ -1,4 +1,6 @@
-# Installing additional packages
+# Practical tips when coding on EODH
+
+## Installing additional packages
 
 To install additional packages in Python notebooks you can use pip. You can install packages globally using `pip install <package_name>`, however these installs will not persist across notebook restarts. If you wish to install a package persistently, you must install it to your user directory with `pip install --user <package_name>`.
 
@@ -11,17 +13,31 @@ To install additional packages in Python notebooks you can use pip. You can inst
     pip install --user geopandas # will persist
     ```
 
-# Handling sensitive information
+## Installing a Python environment
+
+As a Notebook Service user you have the opportunity to create your own Python environments. When logged into the Notebook Service, go to __File > New > Terminal__. At the command prompt run the `conda` to double check it is installed correctly and to provide a list of help commands, should you need them.
+
+Next, run the following set of commands in order to create a new environment called _mytest_ (you can call this whatever you want):
+
+> conda create -n mytest
+> conda env list
+> conda init
+> source ~/.bashrc
+> conda activate mytest
+
+These commands create the environment, check that it is listed as available, initialises the environment and then activates it. To deactivate and drop back to the default environment use the command `conda deactivate`
+
+## Handling sensitive information
 
 A guide to securely managing sensitive data in notebooks.
 
-## Using secrets in notebooks
+### Using secrets in notebooks
 
 When writing notebooks you may need to use sensitive data, such as username and passwords or API keys, to authenticate against external services. Storing these secrets directly in a notebook is not recommended, as you may accidentally share this data with others (e.g. by committing to Git).
 
 Instead, it is recommended that you save any sensitive data in .env files, separate from your notebook. These can be read in by your notebook for use in your code.
 
-## Environment files
+### Environment files
 
 Environment files (.env file) are are a simple text file used to store sensitive information in a secure and organized way. They are a standard way of separating sensitive data from your notebook code, making it easier to share or version-control your scripts without exposing private information. They generally take the form below.
 
@@ -35,7 +51,7 @@ PASSWORD=mypassword
 ??? tip "Working on Linux" 
     In Linux, on which the notebook server is based, filenames starting with "." are hidden, so they will not appear in the file browser panel. This may be desired when dealing with environment files containing sensitive data. If you wish to edit a hidden file, you can do so from the terminal by executing `nano .env`, which will use the terminal editor Nano to edit the file.
 
-## Creating an environment file
+### Creating an environment file
 
 In the same directory as the notebook you are working in, create a plain text file named .env. You don't need any special tools or scripts, just create a regular file and name it .env.
 Make sure you have generated an API key for your workspace. Follow this guide to create one if you haven't already, or copy an existing one. Ensure the key you are using hasn't expired.
@@ -48,10 +64,10 @@ PASSWORD="XXXXXXXXXXXXXXX"
 
 More guidance on how to create an environment file can be found here.
 
-## Reading in environment files
+### Reading in environment files
 When an environment file is read in, the key, values within are loaded into Python environment variables, which are available through the os.environ package. The Python package Dotenv can be useful to read environment files into environment variables.
 
-## Dotenv (Python package)
+### Dotenv (Python package)
 
 The Dotenv Python package is included in the default python notebook image. It allows you to easily read in environment files specified by filename into Python environment variables, which can then be assigned to local variables.
 
@@ -65,11 +81,11 @@ username = os.environ["USERNAME"]
 password = os.environ["PASSWORD"]
 ```
 
-## Sensitive data usage
+### Sensitive data usage
 
 Once you have separated out the storage of your sensitive data, it is also important not to expose it in your notebooks. Avoid printing or logging sensitive data, as this may be preserved in cell outputs. If you are using Git to version control your notebook, ensure that "*.env" has been added to your .gitignore file so that environment files are never committed.
 
-## Summary
+### Summary
 
 Sensitive data should not be stored directly in notebooks. It should be decoupled from notebook code and stored in separate .env (environment) files.
 
