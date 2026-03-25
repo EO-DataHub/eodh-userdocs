@@ -2,29 +2,19 @@
 
 ## :simple-qgis: QGIS plugin
 
-REWRITE: The QGIS plugin automates the connection to a user’s workspace on the Hub, allowing a user to access pre-developed EO Application Packages (EOAPs) for processing data. Once a required EOAP has been found, the user can parameterise and execute the workflow. Upon completion the GIS user can then interact with the returned data assets and can view the processing logs, within their QGIS project environment.
+The EODH QGIS plugin provides a practical integration between QGIS and the Earth Observation Data Hub, enabling users to explore and execute EO workflows directly within an open-source GIS environment. Designed to showcase the EO Application Package and workflow capabilities of EODH, the plugin allows users to access the resource catalogue and search for specific data. Users can also access, manage and run CWL processing jobs without needing to leave QGIS. This tight integration supports a more efficient workflow, particularly for users who rely on QGIS for data preparation, visualisation and analysis, while still benefiting from the scalable processing and data access offered by the EODH platform. The plugin also allows users to directly load data assets into QGIS from the EODH platform.
+
+Installation is straightforward, either via the QGIS plugin repository or through manual installation using a downloaded archive. The plugin makes use of the QPIP plugin to handle Python dependencies, simplifying setup by installing required packages automatically. Compatibility is centred around Python 3.9 or newer, with the latest QGIS Long Term Release recommended for the most stable experience. After installation, users simply configure their EODH authentication credentials within the plugin settings, allowing immediate access to workflows and job management features within the QGIS interface.
 
 
-Why do we need this plugin?
-A QGIS plugin is an extension or add-on for QGIS, a popular open-source Geographic Information System (GIS) software package. Although fully fnctioned, plugins enhance QGIS by adding specialised tools, workflows, or functionalities that extend its core capabilities. These plugins are written in Python and are highly customisable and diverse in functionality. They allow users to perform complex geospatial tasks more efficiently, integrate with external tools or datasets, and automate repetitive tasks, all within the QGIS environment. This adaptability makes QGIS a powerful and flexible tool for GIS professionals across various industries.
-
-The EODH development team recognised that a tranche of potential users benefiting from the platform would be GIS specialists. As such, a QGIS plugin that automates connection to a user’s workspace on the Hub has been created. The plugin allows a user to connect to the EODH and access EO Application Packages (EOAP - for further information see pages relating to workflows). Once a required EOAP has been found, the user can parameterise and execute the workflow. Once complete the GIS user can then interact with the returned data assets and can view the processing logs.
-
-Supported versions
-The plugin is known to run with QGIS 3.34 (long term support) and QGIS 3.40 on Windows, MacOS and Ubuntu variants of Linux.
-
-Installation
-There are two ways in which the plugin can be installed.
-
-Install from zip
+__Installation from zip__
 
 * Go to the plugin GitHub repository
 * Find the latest release and download for your operating system
 * Open QGIS and click ….
 * Use the “Install from Zip” function to install the plugin
 
-
-Install from repository
+__Installation from repository__
 
 * Open QGIS and click ….
 * Search for EODH under the All or Uninstalled tabs
@@ -33,13 +23,15 @@ Install from repository
 
 * Repository: [https://github.com/EO-DataHub/eodh-qgis](https://github.com/EO-DataHub/eodh-qgis)
 
-![]()
-
 
 ## :simple-esri: ArcGIS Pro plugin
 
-Some text
+The Earth Observation Data Hub (EODH) ArcGIS Pro Plugin provides a seamless way for GIS professionals to access and work with Earth observation data without leaving their familiar desktop environment. By integrating directly into ArcGIS Pro (3.3+), the plugin eliminates the need to switch between platforms, streamlining the workflow from data discovery to analysis. Users can explore STAC catalogs and collections in an intuitive interface, making it easier to identify relevant datasets for a given project. Advanced search and filtering options allow datasets to be refined by area of interest, date range, and cloud cover, ensuring that only the most suitable imagery is selected.
 
-* Repository: [https://github.com/EO-DataHub/eodh-qgis](https://github.com/EO-DataHub/eodh-qgis)
+The plugin also enhances the data evaluation process through built-in preview capabilities, including thumbnail views and an interactive timeline, which help users quickly assess data quality and temporal coverage. Once suitable datasets are identified, they can be loaded directly into ArcGIS Pro as map layers using COG or GeoTIFF formats, enabling immediate analysis and visualisation. In addition to open data access, the plugin supports the purchase of commercial satellite imagery from providers such as Airbus and Planet, broadening the range of available data. Workspace management features further improve efficiency by allowing users to organise and maintain their selected assets within the ArcGIS Pro environment.
 
-![]()
+As of March 2026 the plugin is in beta testing, and these documentation files will be updated as we recieve more feedback from users.
+
+* Repository: [https://github.com/EO-DataHub/arcgis-plugin](https://github.com/EO-DataHub/arcgis-plugin)
+
+
