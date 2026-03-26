@@ -50,22 +50,6 @@ Use the search and table of contents to navigate to topics, and between and with
 
 If you need to return to the Hub click the logo in the top left of any page.
 
-=== "Explore"
-  
-  - Data catalogue
-  - Commercial data purchasing
-  - Workspace storage
-=== "Analyse"
-
-  - `pyeodh`
-  - Streaming data
-  - Jupyter notebook processing
-  - QGIS and ArcGIS plugins
-=== "Develop"
-
-  - APIs
-  - Run workflows
-
 ---
 
 # More help needed?
