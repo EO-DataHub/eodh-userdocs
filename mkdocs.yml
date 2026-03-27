@@ -2,6 +2,7 @@ site_name: UK EODH Documentation
 site_url: https://eodatahub.org.uk/docs/documentation
 theme:
   name: material
+  custom_dir: docs/overides
   font:
     text: Fira Sans #Atkinson Hyperlegible
   logo: assets/icon_eodh_logo_white_grey.png #logo.svg
@@ -131,4 +132,5 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-jupyter    
+  - mkdocs-jupyter:
+      include_source: True
