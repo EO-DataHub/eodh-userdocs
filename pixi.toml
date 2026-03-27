@@ -22,6 +22,4 @@ scikit-image = ">=0.26.0,<0.27"
 
 [pypi-dependencies]
 pyeodh = ">=0.1.12, <0.2"
-
-[pypi-dependencies]
 pyyaml-env-tag = "*"
