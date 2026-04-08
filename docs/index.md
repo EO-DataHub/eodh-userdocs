@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-<img style="width: 100%; height: auto;" alt="banner_image" src="https://github.com/user-attachments/assets/a98d2a6f-c967-428e-ae47-66e06cac1e4d" />
+![Earth Observation Data Hub banner](./assets/banner.webp)
 
 
 # Earth Observation Data Hub
