@@ -4,26 +4,34 @@
 
 The following video guides the user through the notebooks presented to Defra in September 2024 and available via this website.
 
-[![Watch the video](https://img.youtube.com/vi/Eq3KTe-nIMM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Eq3KTe-nIMM)
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/Eq3KTe-nIMM" title="Platform guide 2024" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
 
 ## Data visualisation 2024
 
 The following video explains how the user interacts with the Hub and shows data through using OGC services.
 
-[![Watch the video](https://img.youtube.com/vi/aSo0D6DLIXU/maxresdefault.jpg)](https://www.youtube.com/watch?v=aSo0D6DLIXU)
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/aSo0D6DLIXU" title="Data visualisation 2024" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
 
 ## CLARAT App 2025
 
 The following video introduces the climate application being developed using the EODH.
 
-[![Watch the video](https://img.youtube.com/vi/4_3Y14iGnCk/maxresdefault.jpg)](https://www.youtube.com/watch?v=4_3Y14iGnCk)
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/4_3Y14iGnCk" title="CLARAT App 2025" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
 
 ## EOPro App 2025
 
 These videos introduce the EO Pro application that interfaces with the EODH.
 
-[![Watch the video](https://img.youtube.com/vi/mBTLoBr08TU/maxresdefault.jpg)](https://www.youtube.com/watch?v=mBTLoBr08TU)
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/mBTLoBr08TU" title="EOPro App 2025 — part 1" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
 
-[![Watch the video](https://img.youtube.com/vi/H-9mP93JtUE/maxresdefault.jpg)](https://www.youtube.com/watch?v=H-9mP93JtUE)
-
-
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/H-9mP93JtUE" title="EOPro App 2025 — part 2" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
