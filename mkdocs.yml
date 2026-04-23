@@ -93,6 +93,7 @@ nav:
     - Why choose pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
     - Using dask on the Hub: training-materials/examples/dask_example.ipynb
     - EOCIS polar data: training-materials/examples/polar.ipynb
+    - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
     - Handling timeseries data: training-materials/examples/timeseries.ipynb
     - TBC SAR processing: training-materials/examples/tbc_sar.ipynb
     - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
