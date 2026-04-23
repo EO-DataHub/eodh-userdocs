@@ -96,27 +96,89 @@ Find answers to the most commonly asked questions about the EO DataHub.
 
     ---
     
-    Your data will be saved in your personal Resource Catalogue as well as the AWS S3 storage associated with your workspace. You will be able to search your data using the workspace user interface. The Hub Platform will attempt to convert all data in your workspace into STAC records so that it can be publicly published if a user wishes to do so.
+    Your data will be saved in your personal Resource Catalogue as well as the AWS S3 storage associated with your workspace. You can search your data using the workspace user interface. The Hub Platform will convert all data in your workspace into STAC records so that it can be publicly published if you want.
 
 -   :fontawesome-solid-satellite: __What data is offered?__
 
     ---
     
-    The resource catalogue contains both open access and commercial Earth Observation datasets: optical imagery, Synthetic Aperture RADAR (SAR), and observed / modelled climate products are available. LiDAR is not currently available.
+    The Resource Catalogue contains open access and commercial Earth Observation datasets: optical imagery, Synthetic Aperture RADAR (SAR), and observed / modelled climate products are available. LiDAR is not currently available.
 
-    * Open access data - Open access imagery includes publicly available Sentinel 1 and Sentinel 2 Analysis-Ready Data, provisioned by the CEDA Data Archive catalogue. The Earth Observation Climate Information Service (EOCIS), ESA Climate Change Initiative (CCI), and HadUK-Grid collectively provide the climate observation-derived data products available on the Hub. UK Climate Projections (UKCP), the Co-Ordinated Regional Downscaling Experiment (CORDEX) and CMIP6 supply modelled climate variable products into the Resource Catalogue.
+    * Open access data - this includes Sentinel 1 and Sentinel 2 Analysis-Ready Data, and Earth Observation Climate Information Service (EOCIS), ESA Climate Change Initiative (CCI), and HadUK-Grid collectively climate observation-derived data products. UK Climate Projections (UKCP), the Co-Ordinated Regional Downscaling Experiment (CORDEX) and CMIP6 climate data are also available.
 
-    * Commercial data - You can purchase commercial imagery from Airbus and Planet through the Hub, on the condition that users hold an existing user account with these data providers. PlanetScope and SkySat imagery can be purchased from Planet. Pléiades, Pléiades Neo, SPOT and TerraSAR-X imagery can be purchased from Airbus. [Find out more](../Analysts/commercial/what-is-available.md).
+    * Commercial data - You can purchase PlanetScope and SkySat imagery from Planet and Pléiades, Pléiades Neo, SPOT and TerraSAR-X imagery from Airbus. [Find out more](../Analysts/commercial/what-is-available.md).
 
 -   :octicons-lock-16: __Can I trust this platform?__
 
     ---
     
-    The EODH platform implements the OIDC spec to manage user authentication and authorisation securely. Users log into the platform using third party Identity Providers (IdPs). This brings the benefit of using 3rd party IdPs’ production hardened authentication mechanisms, such as GitHubs MFA functionality, as well as their secure storage of user credentials. User access to workspaces is controlled by group membership. Users cannot access workspaces for which they are not an owner or a member, and workspace group membership is controlled by workspace owners through the platform web UI. User workspace data is protected by tested platform level authentication and authorisation policies. Where the data store is backed by an AWS resource, such as S3 or EFS, then they are also protected by scoped AWS IAM policies tied to a user’s platform web identity.
+    User authentication and authorisation are securely provisioned using third party Identity Providers (IdPs). User access to workspaces is controlled by group membership. Users cannot access workspaces for which they are not an owner or a member. User workspace data is protected by platform level authentication and authorisation policies.     The EODH Quality Assurance (QA) service gives users confidence in the quality of the data they’re accessing, as an integral part of the Hub offering.
+    
+    Ongoing sustainable funding for EODH is dependent on successful onboarding of users and the provision of applicable case studies from those users.
 
-    It is expected that there will be a community of researchers, industry and government users working together to provide and interact with EO data in new and innovative ways. Sustainable funding for the Earth Observation DataHub project is dependent on successful onboarding of users and applicable case studies.
+-   :fontawesome-solid-vector-polygon: __What's the minimum area for a commercial data order?__
 
-    The EODH Quality Assurance (QA) Service gives users confidence in the quality of the data they’re accessing, as an integral part of the Hub offering. QA checks consist of both a review of the processes by which data products are created, and quantitative validation. The aim is to ensure that data are fit for purpose and performing at the level they claim. The QA results are stored as annotations in the product catalogue. When searching for data, the QA annotations can be used in the query parameters so you can find data that fits your needs. Detailed QA information is available on a specific page for a given collection.
+    ---
+    
+    Airbus, Optical PPO contracts have a minimum archive order size of 25km2. Radar PPO contracts have a minimum order size of one full scene (they cannot be clipped to an AOI). Contact [andrew.tewkesbury@airbus.com](mailto:andrew.tewkesbury@airbus.com) to discuss.
+    Please contact Planet directly with your  specific needs. 
+
+-   :fontawesome-solid-pound-sign: __Can I accidentally purchase an image?__
+
+    ---
+    
+    Yes, but it's highly unlikely. Before a purchase is made the user click checkboxes to state that they understand the licensing agreement. The cost of the imagery selection is clearly displayed on the checkout page in green. 
+    
+    !!! warning
+    
+        Note that an order cannot be changed after delivery. The user has responsibility to ensure thorough checks are carried out before purchasing. 
+
+-   :eye: __Where can I find my imagery once purchased?__
+
+    ---
+    
+    Navigate to your personal workspace commercial-data catalogue where any purchased imagery will appear. Assets may take a while to appear after purchasing.
+
+
+-  :fontawesome-solid-globe-africa: __Do the commercial datasets have global coverage, or UK only?__
+
+    ---
+    
+    Commercial data spatial coverage is global.
+
+-   :octicons-cpu-24: __How do I specify workflow runner resources?__
+
+    ---
+
+    Don't forget to specify the resources your workflow requires. If you miss this in your CWL specification, the workflow steps will run with the default setting which is 1 CPU and 1Gb of RAM. This may not be enough. You can specify these limits in your CWL at the Workflow level using the ResourceRequirements object e.g.  
+    
+    ```yaml
+        requirements:
+        - class: ResourceRequirement
+            coresMin: 2
+            ramMin: 4096
+    ```
+
+-   :octicons-log-16: __Why can't I access my CWL logs?__
+
+    ---
+    
+    If you get a 404 error when accessing your logs, ensure your workflow ID has fewer than 26 characters and does not contain underscores.
+
+-   :octicons-stop-16: __Why is my CWL workflow failing?__
+
+    ---
+
+    There could be lots of reasons, but first check your CWL code. If the workflow deploys but exits with "ModuleNotFound" try deleting and redeploying the workflow using the DELETE `/processes/workflow-id` endpoint. Alternatively, try deploying the workflow from a local file, rather than from a URL. Check for missing inputs by using the `/processes/<process-id>` endpoint. If the STAC output type is defined as "catalog" STAGEOUT will fail: it needs to be "Catalog" to be fully conformant.
+
+
+-   :material-api: __What are the common API key issues?__
+
+    ---
+    
+    1. Check you are using the correct Token ID and API Key in the correct places. The API key should be used when connecting to your Hub workspace 
+    2. If you experience a 403 error when trying to order data through the notebook, please get a new Hub workspace API token and replace the old one you were previously using. This can be done by going to _Workspaces > Credentials > Request New Token_
+    3. Check the expiry date on your currently active API key by visiting the workspaces tab and selecting credentials from the left-hand bar. 
 
 
 </div>

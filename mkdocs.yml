@@ -2,6 +2,7 @@ site_name: UK EODH Documentation
 site_url: https://eodatahub.org.uk/docs/documentation
 theme:
   name: material
+  custom_dir: docs/overides
   font:
     text: Fira Sans #Atkinson Hyperlegible
   logo: assets/icon_eodh_logo_white_grey.png #logo.svg
@@ -71,6 +72,7 @@ nav:
     - Tools:
       - pyeodh: Developers/tools/pyeodh.md
       - eoap-gen: Developers/tools/eoap.md 
+      - dask: Developers/tools/dask.md
     - Data publishing:
       - S3 credentials: Developers/s3-credentials/s3-credentials.md
       - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
@@ -81,21 +83,20 @@ nav:
       - Using workflows: Developers/apps/workflows-and-user-servces.md
     - Workflow runner:
       - Application packages: Developers/workflow-runner/application-packages.md
-    - Visualisation:
-      - titiler?: placeholdertt.md
   - Example notebooks:
     - Dedicated walk-through:
-      - Set-up: training-materials/workshop/0_202502_setup.ipynb
-      - Discovering data: training-materials/workshop/1_202502_discovery.ipynb
-      - Processing data: training-materials/workshop/2_202502_processing.ipynb
-      - Visualising data: training-materials/workshop/3_202502_datavis.ipynb
-    - Ordering commercial data: training-materials/examples/commercial_orders.ipynb
-    - Why choose pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
+      - Set-up: training-materials/walkthrough/0_202502_setup.ipynb
+      - Discovering data: training-materials/walkthrough/1_202502_discovery.ipynb
+      - Processing data: training-materials/walkthrough/2_202502_processing.ipynb
+      - Visualising data: training-materials/walkthrough/3_202502_datavis.ipynb
+    - Commercial data quotes and orders: training-materials/examples/commercial.ipynb
+    - Data cubes: training-materials/examples/datacubes.ipynb
+    - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
     - Using dask on the Hub: training-materials/examples/dask_example.ipynb
-    - EOCIS polar data: training-materials/examples/polar.ipynb
+    - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
     - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
     - Handling timeseries data: training-materials/examples/timeseries.ipynb
-    - TBC SAR processing: training-materials/examples/tbc_sar.ipynb
+    - Finding windfarms: training-materials/examples/finding_windfarms.ipynb
     - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
     - EOAP Temporal Mosaics: training-materials/workflows/5_temp_mos.ipynb
   - Additional help:
@@ -132,4 +133,5 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-jupyter    
+  - mkdocs-jupyter:
+      include_source: True
