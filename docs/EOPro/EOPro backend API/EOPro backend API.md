@@ -1,0 +1,1 @@
+This section provides descriptions of the EOPro Backend API, along with the CWL file dynamic generation and the high-level architecture of the backend middleware, where Spyrosoft has become more extensively involved.
