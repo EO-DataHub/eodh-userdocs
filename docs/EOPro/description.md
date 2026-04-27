@@ -1,12 +1,12 @@
-EOPro is an advanced web-based platform designed for Earth Observation data processing. It offers an intuitive interface that enables users to monitor and analyze land cover changes and water quality analysis over time using satellite-based geospatial data sourced from the EODH platform. 
-The platform facilitates seamless interaction with commercial and public datasets through a dynamic, pan-and-zoom map, allowing users to browse, select, compare, visualize, and process geospatial information efficiently. 
+# What is EOPro
 
+EOPro is an advanced web-based platform designed for Earth Observation data processing. It offers an intuitive interface that enables users to monitor and analyze land cover changes and water quality analysis over time using satellite-based geospatial data sourced from the EODH platform.
+
+The platform facilitates seamless interaction with commercial and public datasets through a dynamic, pan-and-zoom map, allowing users to browse, select, compare, visualize, and process geospatial information efficiently.
 
 At the core of EOPro is the ActionCreator widget, a no-code tool that simplifies workflow creation, making it accessible to both expert users and non-technical audiences.
 
-
 Key features provided by ActionCreator widget and extensive STAC catalogues enabling users to seamlessly create custom workflows, leverage predefined scenarios for rapid analysis, visualize and analyze workflow results, export and import workflow design, download results and more.
-
 
 Key Workflow Scenarios supported are:
 

@@ -1,3 +1,5 @@
+# Normalized burn ratio scenario
+
 The Normalized Burn Ratio (NBR) scenario is designed to help users detect and assess burned areas and fire severity using satellite imagery. By leveraging Sentinel 2  imagery (Level-2A and Analysis Ready Data), it calculates the NBR spectral index, which highlights changes in vegetation health and structure caused by wildfires or other disturbances.
 
 NBR is particularly effective for identifying recently burned areas, estimating burn severity, and monitoring vegetation recovery over time.

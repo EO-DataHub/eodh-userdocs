@@ -1,4 +1,6 @@
-The Land Cover Change Detection preset workflow on the EOPro platform allows users to easily detect and analyze land cover changes within their Area of Interest (AOI). It is designed to help users monitor how different land cover classes evolve over time by utilizing established data set such as Global Land Cover dataset from ESA sourced via the CEDA archive. 
+# Land cover changes scenario
+
+The Land Cover Change Detection preset workflow on the EOPro platform allows users to easily detect and analyze land cover changes within their Area of Interest (AOI). It is designed to help users monitor how different land cover classes evolve over time by utilizing established data set such as Global Land Cover dataset from ESA sourced via the CEDA archive.
 
 The workflow processes and crops STAC items to the user's specified AOI. Then it calculates the per-class area for each land cover category. The front-end interface visualizes these changes over a selected time period, providing clear insights into the spatial distribution and temporal changes of various land cover classes (e.g., forest, cropland, urban areas, water bodies).
 

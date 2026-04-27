@@ -1,3 +1,5 @@
+# Water quality analysis scenario
+
 The Water Quality Analysis preset workflow on the EOPro platform enables users to assess water quality by analyzing spectral data from satellite imagery sourced from Sentinel-2 ARD (created by DEFRA and JNCC). It evaluates key parameters such as Cyanobacteria concentration, Dissolved Organic Carbon (DOC), Colored Dissolved Organic Matter (CDOM), Normalized Difference Water Index (NDWI), and Turbidity (TURB). The workflow employs the Sentinel Water Mask (SWM) algorithm to generate a water mask, ensuring calculations are performed only on water pixels.
 
 The backend API orchestrates parallel execution of index calculations on ADES, optimizing performance and resource efficiency. Users can visualize individual indices on a map and explore time-series data, displaying minimum, mean, and maximum values for each source item over time. This provides an interactive and insightful analysis of water quality dynamics. 

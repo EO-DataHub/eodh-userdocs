@@ -1,8 +1,10 @@
+# CWL file dynamic generation
+
 In EOPro, workflows are represented using a JSON Graph notation, similar to the approach used by Netflix's Falcor for modeling data relationships. This notation provides an intuitive and flexible representation of workflows, enabling tasks to reference other tasks as prerequisites and facilitating management of complex dependencies.
 
 The JSON Graph structures tasks as nodes within a graph, with references indicating dependencies between them. This representation ensures that workflows are both readable and executable and simplifies the process of translating them into CWL for ADES processing. 
 
-**Workflow Specification**
+## Workflow specification
 
 The workflow specification is structured as a JSON object containing three primary keys: inputs, functions, and outputs. Each of these keys plays a critical role in defining the workflow's overall configuration and execution. 
 
@@ -12,7 +14,7 @@ The workflow specification is structured as a JSON object containing three prima
 
 This structured approach enables the robust and scalable definition of workflows, supporting clear dependencies and logical data flows while ensuring future extensibility. 
 
-**Workflow Execution flow**
+## Workflow execution flow
 
 The execution process involves several key steps:
 
@@ -22,13 +24,11 @@ The execution process involves several key steps:
 4. **Process Registration:** The CWL workflow specification is registered as a process within the user's workspace on ADES, making it available for execution. Registration is managed through the OGC Processing API, which enables ADES to recognize and manage the workflow. 
 5. **Workflow Execution:** Upon registration, a request is sent to execute the workflow using the specified input parameters from the JSON workflow. This triggers ADES to begin processing the workflow tasks, utilizing the specified geospatial data and parameters.
 
-<br>
 ![CWL creation process](../images/cwl_creation_process.png)
 
-<br>
-This execution flow allows users to define and run complex geospatial workflows directly within the Action Creator, leveraging ADES for scalable processing and resource management. By managing the entire workflow lifecycle from submission to execution,the platform provides a robust solution for executing structured geospatial analyses.
+This execution flow allows users to define and run complex geospatial workflows directly within the Action Creator, leveraging ADES for scalable processing and resource management. By managing the entire workflow lifecycle from submission to execution, the platform provides a robust solution for executing structured geospatial analyses.
 
-**Workflow design boundaries**
+## Workflow design boundaries
 
 When designing workflows for EOPro, certain limitations must be considered due to the requirements of the ADES platform and the structure of the workflow specification. These limitations are outlined below:
 

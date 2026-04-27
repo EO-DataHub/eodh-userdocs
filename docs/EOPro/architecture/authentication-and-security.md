@@ -1,14 +1,13 @@
-**Keycloak Integration**
+# Authentication and security
 
-The API uses Keycloak for managing user authentication and authorization,
-ensuring that only authenticated users can access and submit tasks.
+## Keycloak integration
 
-**Token Management and Validation**
+The API uses Keycloak for managing user authentication and authorization, ensuring that only authenticated users can access and submit tasks.
 
-Token-based authentication is implemented to secure API requests. The API
-validates these tokens on each request to ensure secure communication.
+## Token management and validation
 
-**Secure Communication with ADES API**
+Token-based authentication is implemented to secure API requests. The API validates these tokens on each request to ensure secure communication.
 
-All communication with the ADES API is secured using HTTPS, and tokens are used
-to authenticate requests, ensuring that only authorized actions are performed. 
+## Secure communication with ADES API
+
+All communication with the ADES API is secured using HTTPS, and tokens are used to authenticate requests, ensuring that only authorized actions are performed.
