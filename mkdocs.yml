@@ -49,11 +49,7 @@ nav:
     - GIS plugins: Explorers/access-points/GIS.md
     - Code access: Explorers/access-points/code.md
     - EOPro:
-      - Overview: EOPro/index.md
       - What is EOPro: EOPro/description.md
-      - Account and login:
-        - Account registration with EODH: EOPro/account-and-login/account-registration.md
-        - Login to EOPro: EOPro/account-and-login/login.md
       - Search mode:
         - Overview: EOPro/search-mode/overview.md
         - Data source catalogues: EOPro/search-mode/data-source-catalogues.md
@@ -91,7 +87,6 @@ nav:
         - Measurement tool: EOPro/measurement-tool.md
       - General application help: EOPro/general-help.md
       - Architecture:
-        - Overview: EOPro/architecture/overview.md
         - High level architecture: EOPro/architecture/high-level-architecture.md
         - Key components: EOPro/architecture/key-components.md
         - Interaction with external services: EOPro/architecture/interaction-with-external-services.md
@@ -99,7 +94,6 @@ nav:
         - Authentication and security: EOPro/architecture/authentication-and-security.md
         - Infrastructure requirements: EOPro/architecture/infrastructure-requirements.md
       - Backend API:
-        - Overview: EOPro/backend-api/overview.md
         - Introduction: EOPro/backend-api/introduction.md
         - Functionalities: EOPro/backend-api/functionalities.md
         - API documentation: EOPro/backend-api/documentation.md

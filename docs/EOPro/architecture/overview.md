@@ -1,3 +1,0 @@
-# EOPro architecture
-
-This section talks about EOPro backend service architecture and how it connects with necessary external services like ADES and EODH STAC Catalogue.
