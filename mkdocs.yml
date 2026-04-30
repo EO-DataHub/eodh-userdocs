@@ -62,9 +62,6 @@ nav:
         - Browsing search results: EOPro/search-mode/browse-results.md
       - Action creator mode:
         - Overview: EOPro/action-creator-mode/overview.md
-        - User needs to log in: EOPro/action-creator-mode/user-needs-to-login.md
-        - Layout overview: EOPro/action-creator-mode/layout-overview.md
-        - Navigation guidelines: EOPro/action-creator-mode/navigation-guidelines.md
         - Switching between workspaces: EOPro/action-creator-mode/switching-between-workspaces.md
         - Workflow design: EOPro/action-creator-mode/workflow-design.md
         - Workflow design validations: EOPro/action-creator-mode/workflow-design-validations.md
