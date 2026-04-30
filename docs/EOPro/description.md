@@ -4,6 +4,8 @@ EOPro is an advanced web-based platform designed for Earth Observation data proc
 
 The platform facilitates seamless interaction with commercial and public datasets through a dynamic, pan-and-zoom map, allowing users to browse, select, compare, visualize, and process geospatial information efficiently.
 
+<img width="1000" height="528" alt="Screenshot_2025-01-31_at_09 54 3412 original" src="https://github.com/user-attachments/assets/2586b9c4-a347-4b01-809d-233cdc3ab40b" />
+
 At the core of EOPro is the ActionCreator widget, a no-code tool that simplifies workflow creation, making it accessible to both expert users and non-technical audiences.
 
 Key features provided by ActionCreator widget and extensive STAC catalogues enabling users to seamlessly create custom workflows, leverage predefined scenarios for rapid analysis, visualize and analyze workflow results, export and import workflow design, download results and more.
