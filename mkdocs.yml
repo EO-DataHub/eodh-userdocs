@@ -53,13 +53,9 @@ nav:
       - What is EOPro: EOPro/description.md
       - Search mode:
         - Overview: EOPro/search-mode/overview.md
-        - Data source catalogues: EOPro/search-mode/data-source-catalogues.md
         - Dataset selection: EOPro/search-mode/dataset-selection.md
-        - Dataset configuration: EOPro/search-mode/dataset-configuration.md
-        - Area of interest selection: EOPro/search-mode/area-of-interest-selection.md
-        - Date range selection: EOPro/search-mode/date-range-selection.md
-        - Running a search: EOPro/search-mode/search.md
-        - Browsing search results: EOPro/search-mode/browse-results.md
+        - Search parameters: EOPro/search-mode/search-parameters.md
+        - Search results: EOPro/search-mode/search.md
       - Action creator mode:
         - Overview: EOPro/action-creator-mode/overview.md
         - Workflow design and validation: EOPro/action-creator-mode/workflow-design-and-validation.md
