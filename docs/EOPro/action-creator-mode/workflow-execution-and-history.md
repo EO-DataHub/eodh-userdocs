@@ -27,3 +27,19 @@ An automatic status refresh with a notification in the History tab (green dot in
 During workflow design, the user can choose to export their workflow design and inputs as a JSON file to local storage. This file can later be imported to restore the workflow or it can be shared with coworkers. Upon importing the workflow design, the user can modify workflow inputs as needed before triggering workflow execution again.
 
 ![workflow import & export](../images/workflow_import_export.png)
+
+# Delete and cancel workflows
+
+The Action Creator History provides users with functionalities for managing workflows, including deleting processed workflows and canceling those still in-progress:
+
+- User can select to delete already processed workflows that are in Ready or Failed status
+
+![workflow ready status](../images/workflow_ready_status.png)
+
+![workflow deletion](../images/workflow_deletion.png)
+
+- User can cancel workflow that is in in-process status
+
+![workflow in progress status](../images/processed_workflow.png)
+
+![canceling workflow](../images/canceling_workflow.png)
