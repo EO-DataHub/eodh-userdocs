@@ -65,8 +65,7 @@ nav:
         - Switching between workspaces: EOPro/action-creator-mode/switching-between-workspaces.md
         - Workflow design: EOPro/action-creator-mode/workflow-design.md
         - Workflow design validations: EOPro/action-creator-mode/workflow-design-validations.md
-        - Multi-index assets: EOPro/action-creator-mode/multi-index-assets.md
-        - Multiple functions: EOPro/action-creator-mode/multiple-functions.md
+        - Functions and Indices: EOPro/action-creator-mode/multi-index-assets-multiple-functions.md
         - Workflow execution: EOPro/action-creator-mode/workflow-execution.md
         - Workflow history: EOPro/action-creator-mode/workflow-history.md
         - Workflow import and export: EOPro/action-creator-mode/workflow-import-export.md
