@@ -71,7 +71,7 @@ nav:
         - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
         - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
         - Action creator help: EOPro/action-creator-mode/help.md
-      - Tools:
+      - Toolbar:
         - Comparison tool: EOPro/comparison-tool.md
         - Time slider tool: EOPro/time-slider-tool.md
         - Measurement tool: EOPro/measurement-tool.md
