@@ -11,14 +11,7 @@ theme:
     - content.code.copy
     - content.code.select
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: blue grey
-      accent: orange
-
+    # The first one is selected as the default
     # Light Mode
     - scheme: default
       toggle:
@@ -27,133 +20,140 @@ theme:
       primary: blue
       accent: blue
 
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: orange
+
 nav:
   - Home: index.md
   - Getting Started:
-    - Account types: Getting-Started/access-levels.md
-    - Creating a user account: Getting-Started/user-accounts.md
-    - Getting a billing account: Getting-Started/billing-accounts.md
-    - Workspaces:
-      - Creating a workspace: Getting-Started/workspaces/create-workspace.md
-      - Managing workspace members: Getting-Started/workspaces/member-management.md
-      - Workspace credentials: Getting-Started/workspaces/workspace-credentials.md
-      - Linked accounts: Getting-Started/workspaces/linked-accounts.md
+      - Account types: Getting-Started/access-levels.md
+      - Creating a user account: Getting-Started/user-accounts.md
+      - Getting a billing account: Getting-Started/billing-accounts.md
+      - Workspaces:
+          - Creating a workspace: Getting-Started/workspaces/create-workspace.md
+          - Managing workspace members: Getting-Started/workspaces/member-management.md
+          - Workspace credentials: Getting-Started/workspaces/workspace-credentials.md
+          - Linked accounts: Getting-Started/workspaces/linked-accounts.md
   - Explore:
-    - Finding data: 
-      - Searching for data: Explorers/resource-catalogue/data-discovery.md
-      - Understanding metadata: Explorers/resource-catalogue/metadata.md
-      - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
-    - Downloading data: Explorers/resource-catalogue/downloading-data.md
-    - Visualising data: Explorers/resource-catalogue/visualising-data.md
-    - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
-    - GIS plugins: Explorers/access-points/GIS.md
-    - Code access: Explorers/access-points/code.md
-    - EOPro:
-      - What is EOPro: EOPro/description.md
-      - Search mode:
-        - Overview: EOPro/search-mode/overview.md
-        - Data source catalogues: EOPro/search-mode/data-source-catalogues.md
-        - Dataset selection: EOPro/search-mode/dataset-selection.md
-        - Dataset configuration: EOPro/search-mode/dataset-configuration.md
-        - Area of interest selection: EOPro/search-mode/area-of-interest-selection.md
-        - Date range selection: EOPro/search-mode/date-range-selection.md
-        - Running a search: EOPro/search-mode/search.md
-        - Browsing search results: EOPro/search-mode/browse-results.md
-      - Action creator mode:
-        - Overview: EOPro/action-creator-mode/overview.md
-        - User needs to log in: EOPro/action-creator-mode/user-needs-to-login.md
-        - Layout overview: EOPro/action-creator-mode/layout-overview.md
-        - Navigation guidelines: EOPro/action-creator-mode/navigation-guidelines.md
-        - Switching between workspaces: EOPro/action-creator-mode/switching-between-workspaces.md
-        - Workflow design: EOPro/action-creator-mode/workflow-design.md
-        - Workflow design validations: EOPro/action-creator-mode/workflow-design-validations.md
-        - Multi-index assets: EOPro/action-creator-mode/multi-index-assets.md
-        - Multiple functions: EOPro/action-creator-mode/multiple-functions.md
-        - Workflow execution: EOPro/action-creator-mode/workflow-execution.md
-        - Workflow history: EOPro/action-creator-mode/workflow-history.md
-        - Workflow import and export: EOPro/action-creator-mode/workflow-import-export.md
-        - Workflow presets: EOPro/action-creator-mode/workflow-presets.md
-        - Workflow results: EOPro/action-creator-mode/workflow-results.md
-        - Workflow results colour coding: EOPro/action-creator-mode/workflow-results-color-coding.md
-        - Workflow results download: EOPro/action-creator-mode/workflow-results-download.md
-        - Delete and cancel workflows: EOPro/action-creator-mode/delete-and-cancel-workflows.md
-        - Land cover changes scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
-        - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
-        - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
-        - Action creator help: EOPro/action-creator-mode/help.md
-      - Tools:
-        - Comparison tool: EOPro/comparison-tool.md
-        - Time slider tool: EOPro/time-slider-tool.md
-        - Measurement tool: EOPro/measurement-tool.md
-      - General application help: EOPro/general-help.md
-      - Architecture:
-        - High level architecture: EOPro/architecture/high-level-architecture.md
-        - Key components: EOPro/architecture/key-components.md
-        - Interaction with external services: EOPro/architecture/interaction-with-external-services.md
-        - Integration with EODH ADES API: EOPro/architecture/integration-with-eodh-ades-api.md
-        - Authentication and security: EOPro/architecture/authentication-and-security.md
-        - Infrastructure requirements: EOPro/architecture/infrastructure-requirements.md
-      - Backend API:
-        - Introduction: EOPro/backend-api/introduction.md
-        - Functionalities: EOPro/backend-api/functionalities.md
-        - API documentation: EOPro/backend-api/documentation.md
-        - CWL file dynamic generation: EOPro/backend-api/cwl-file-dynamic-generation.md
+      - Finding data:
+          - Searching for data: Explorers/resource-catalogue/data-discovery.md
+          - Understanding metadata: Explorers/resource-catalogue/metadata.md
+          - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
+      - Downloading data: Explorers/resource-catalogue/downloading-data.md
+      - Visualising data: Explorers/resource-catalogue/visualising-data.md
+      - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
+      - GIS plugins: Explorers/access-points/GIS.md
+      - Code access: Explorers/access-points/code.md
+      - EOPro:
+          - What is EOPro: EOPro/description.md
+          - Search mode:
+              - Overview: EOPro/search-mode/overview.md
+              - Data source catalogues: EOPro/search-mode/data-source-catalogues.md
+              - Dataset selection: EOPro/search-mode/dataset-selection.md
+              - Dataset configuration: EOPro/search-mode/dataset-configuration.md
+              - Area of interest selection: EOPro/search-mode/area-of-interest-selection.md
+              - Date range selection: EOPro/search-mode/date-range-selection.md
+              - Running a search: EOPro/search-mode/search.md
+              - Browsing search results: EOPro/search-mode/browse-results.md
+          - Action creator mode:
+              - Overview: EOPro/action-creator-mode/overview.md
+              - User needs to log in: EOPro/action-creator-mode/user-needs-to-login.md
+              - Layout overview: EOPro/action-creator-mode/layout-overview.md
+              - Navigation guidelines: EOPro/action-creator-mode/navigation-guidelines.md
+              - Switching between workspaces: EOPro/action-creator-mode/switching-between-workspaces.md
+              - Workflow design: EOPro/action-creator-mode/workflow-design.md
+              - Workflow design validations: EOPro/action-creator-mode/workflow-design-validations.md
+              - Multi-index assets: EOPro/action-creator-mode/multi-index-assets.md
+              - Multiple functions: EOPro/action-creator-mode/multiple-functions.md
+              - Workflow execution: EOPro/action-creator-mode/workflow-execution.md
+              - Workflow history: EOPro/action-creator-mode/workflow-history.md
+              - Workflow import and export: EOPro/action-creator-mode/workflow-import-export.md
+              - Workflow presets: EOPro/action-creator-mode/workflow-presets.md
+              - Workflow results: EOPro/action-creator-mode/workflow-results.md
+              - Workflow results colour coding: EOPro/action-creator-mode/workflow-results-color-coding.md
+              - Workflow results download: EOPro/action-creator-mode/workflow-results-download.md
+              - Delete and cancel workflows: EOPro/action-creator-mode/delete-and-cancel-workflows.md
+              - Land cover changes scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
+              - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
+              - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
+              - Action creator help: EOPro/action-creator-mode/help.md
+          - Tools:
+              - Comparison tool: EOPro/comparison-tool.md
+              - Time slider tool: EOPro/time-slider-tool.md
+              - Measurement tool: EOPro/measurement-tool.md
+          - General application help: EOPro/general-help.md
+          - Architecture:
+              - High level architecture: EOPro/architecture/high-level-architecture.md
+              - Key components: EOPro/architecture/key-components.md
+              - Interaction with external services: EOPro/architecture/interaction-with-external-services.md
+              - Integration with EODH ADES API: EOPro/architecture/integration-with-eodh-ades-api.md
+              - Authentication and security: EOPro/architecture/authentication-and-security.md
+              - Infrastructure requirements: EOPro/architecture/infrastructure-requirements.md
+          - Backend API:
+              - Introduction: EOPro/backend-api/introduction.md
+              - Functionalities: EOPro/backend-api/functionalities.md
+              - API documentation: EOPro/backend-api/documentation.md
+              - CWL file dynamic generation: EOPro/backend-api/cwl-file-dynamic-generation.md
   - Analyse:
-    - Commercial data:
-      - Linking into EODH: Analysts/commercial/link-accounts.md
-      - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
-      - Ordering commercial SAR data: Analysts/commercial/understanding-sar-ordering-options.md
-      - Usage restrictions: Analysts/commercial/restrictions.md
-    - Notebook service:
-      - Using notebooks: Analysts/notebook-service/notebooks-start.md
-      - Integrating with git: Analysts/notebook-service/git-integration.md
-      - Practical tips: Analysts/notebook-service/practical-tips.md
-    - Platform APIs:
-      - API introduction: Analysts/APIs/api-intro.md
-      - API examples: Analysts/APIs/api-examples.md
-    - TiTiler visualisation:
-      - TiTiler introduction: Analysts/visualisation/introduction.md
-      - Preparing data: Analysts/visualisation/preparing-data.md
-      - Serving data: Analysts/visualisation/serving-data.md
-      - Configuring requests: Analysts/visualisation/configuring-requests.md
-      - TiTiler endpoints: Analysts/visualisation/endpoints.md
-      - Additional tools: Analysts/visualisation/third-party-tools.md
-  - Develop: 
-    - Tools:
-      - pyeodh: Developers/tools/pyeodh.md
-      - eoap-gen: Developers/tools/eoap.md 
-      - dask: Developers/tools/dask.md
-    - Data publishing:
-      - S3 credentials: Developers/s3-credentials/s3-credentials.md
-      - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
-    - Apps:
-      - Understanding apps: Developers/apps/apps.md
-      - Understanding billing: Developers/apps/billing.md
-      - Creating an app: Developers/apps/creating-an-app.md
-      - Using workflows: Developers/apps/workflows-and-user-servces.md
-    - Workflow runner:
-      - Application packages: Developers/workflow-runner/application-packages.md
+      - Commercial data:
+          - Linking into EODH: Analysts/commercial/link-accounts.md
+          - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
+          - Ordering commercial SAR data: Analysts/commercial/understanding-sar-ordering-options.md
+          - Usage restrictions: Analysts/commercial/restrictions.md
+      - Notebook service:
+          - Using notebooks: Analysts/notebook-service/notebooks-start.md
+          - Integrating with git: Analysts/notebook-service/git-integration.md
+          - Practical tips: Analysts/notebook-service/practical-tips.md
+      - Platform APIs:
+          - API introduction: Analysts/APIs/api-intro.md
+          - API examples: Analysts/APIs/api-examples.md
+      - TiTiler visualisation:
+          - TiTiler introduction: Analysts/visualisation/introduction.md
+          - Preparing data: Analysts/visualisation/preparing-data.md
+          - Serving data: Analysts/visualisation/serving-data.md
+          - Configuring requests: Analysts/visualisation/configuring-requests.md
+          - TiTiler endpoints: Analysts/visualisation/endpoints.md
+          - Additional tools: Analysts/visualisation/third-party-tools.md
+  - Develop:
+      - Tools:
+          - pyeodh: Developers/tools/pyeodh.md
+          - eoap-gen: Developers/tools/eoap.md
+          - dask: Developers/tools/dask.md
+      - Data publishing:
+          - S3 credentials: Developers/s3-credentials/s3-credentials.md
+          - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md
+      - Apps:
+          - Understanding apps: Developers/apps/apps.md
+          - Understanding billing: Developers/apps/billing.md
+          - Creating an app: Developers/apps/creating-an-app.md
+          - Using workflows: Developers/apps/workflows-and-user-servces.md
+      - Workflow runner:
+          - Application packages: Developers/workflow-runner/application-packages.md
   - Example notebooks:
-    - Dedicated walk-through:
-      - Set-up: training-materials/walkthrough/0_202502_setup.ipynb
-      - Discovering data: training-materials/walkthrough/1_202502_discovery.ipynb
-      - Processing data: training-materials/walkthrough/2_202502_processing.ipynb
-      - Visualising data: training-materials/walkthrough/3_202502_datavis.ipynb
-    - Commercial data quotes and orders: training-materials/examples/commercial.ipynb
-    - Data cubes: training-materials/examples/datacubes.ipynb
-    - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
-    - Using dask on the Hub: training-materials/examples/dask_example.ipynb
-    - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
-    - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
-    - Handling timeseries data: training-materials/examples/timeseries.ipynb
-    - Finding windfarms: training-materials/examples/finding_windfarms.ipynb
-    - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
-    - EOAP Temporal Mosaics: training-materials/workflows/5_temp_mos.ipynb
+      - Dedicated walk-through:
+          - Set-up: training-materials/walkthrough/0_202502_setup.ipynb
+          - Discovering data: training-materials/walkthrough/1_202502_discovery.ipynb
+          - Processing data: training-materials/walkthrough/2_202502_processing.ipynb
+          - Visualising data: training-materials/walkthrough/3_202502_datavis.ipynb
+      - Commercial data quotes and orders: training-materials/examples/commercial.ipynb
+      - Data cubes: training-materials/examples/datacubes.ipynb
+      - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
+      - Using dask on the Hub: training-materials/examples/dask_example.ipynb
+      - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
+      - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
+      - Handling timeseries data: training-materials/examples/timeseries.ipynb
+      - Finding windfarms: training-materials/examples/finding_windfarms.ipynb
+      - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
+      - EOAP Temporal Mosaics: training-materials/workflows/5_temp_mos.ipynb
   - Additional help:
-    - FAQs: Help/faqs.md
-    - Community support: Help/community.md
-    - Video demonstrations: Help/videos.md
-
+      - FAQs: Help/faqs.md
+      - Community support: Help/community.md
+      - Video demonstrations: Help/videos.md
 
 extra:
   homepage: https://eodatahub.org.uk/
