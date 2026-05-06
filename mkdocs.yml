@@ -11,14 +11,7 @@ theme:
     - content.code.copy
     - content.code.select
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: blue grey
-      accent: orange
-
+    # The first one is selected as the default
     # Light Mode
     - scheme: default
       toggle:
@@ -26,6 +19,14 @@ theme:
         name: Light mode
       primary: blue
       accent: blue
+
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: orange
 
 nav:
   - Home: index.md
@@ -39,7 +40,7 @@ nav:
       - Workspace credentials: Getting-Started/workspaces/workspace-credentials.md
       - Linked accounts: Getting-Started/workspaces/linked-accounts.md
   - Explore:
-    - Finding data: 
+    - Finding data:
       - Searching for data: Explorers/resource-catalogue/data-discovery.md
       - Understanding metadata: Explorers/resource-catalogue/metadata.md
       - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
@@ -48,6 +49,41 @@ nav:
     - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
     - GIS plugins: Explorers/access-points/GIS.md
     - Code access: Explorers/access-points/code.md
+    - EOPro:
+      - What is EOPro: EOPro/description.md
+      - Search mode:
+        - Overview: EOPro/search-mode/overview.md
+        - Dataset selection: EOPro/search-mode/dataset-selection.md
+        - Search parameters: EOPro/search-mode/search-parameters.md
+        - Search results: EOPro/search-mode/search.md
+      - Action creator mode:
+        - Overview: EOPro/action-creator-mode/overview.md
+        - Workflow design and validation: EOPro/action-creator-mode/workflow-design-and-validation.md
+        - Functions and Indices: EOPro/action-creator-mode/multi-index-assets-multiple-functions.md
+        - Workflow execution: EOPro/action-creator-mode/workflow-execution-and-history.md
+        - Workflow presets: EOPro/action-creator-mode/workflow-presets.md
+        - Workflow results: EOPro/action-creator-mode/workflow-results.md
+        - Land cover change scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
+        - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
+        - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
+        - Action creator help: EOPro/action-creator-mode/help.md
+      - Toolbar:
+        - Comparison tool: EOPro/comparison-tool.md
+        - Time slider tool: EOPro/time-slider-tool.md
+        - Measurement tool: EOPro/measurement-tool.md
+      - General application help: EOPro/general-help.md
+      - Architecture:
+        - High level architecture: EOPro/architecture/high-level-architecture.md
+        - Key components: EOPro/architecture/key-components.md
+        - Interaction with external services: EOPro/architecture/interaction-with-external-services.md
+        - Integration with EODH ADES API: EOPro/architecture/integration-with-eodh-ades-api.md
+        - Authentication and security: EOPro/architecture/authentication-and-security.md
+        - Infrastructure requirements: EOPro/architecture/infrastructure-requirements.md
+      - Backend API:
+        - Introduction: EOPro/backend-api/introduction.md
+        - Functionalities: EOPro/backend-api/functionalities.md
+        - API documentation: EOPro/backend-api/documentation.md
+        - CWL file dynamic generation: EOPro/backend-api/cwl-file-dynamic-generation.md
   - Analyse:
     - Commercial data:
       - Linking into EODH: Analysts/commercial/link-accounts.md
@@ -68,14 +104,14 @@ nav:
       - Configuring requests: Analysts/visualisation/configuring-requests.md
       - TiTiler endpoints: Analysts/visualisation/endpoints.md
       - Additional tools: Analysts/visualisation/third-party-tools.md
-  - Develop: 
+  - Develop:
     - Tools:
       - pyeodh: Developers/tools/pyeodh.md
-      - eoap-gen: Developers/tools/eoap.md 
+      - eoap-gen: Developers/tools/eoap.md
       - dask: Developers/tools/dask.md
     - Data publishing:
       - S3 credentials: Developers/s3-credentials/s3-credentials.md
-      - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md 
+      - Pushing data onto the Hub: Developers/data-publishing/data-publishing.md
     - Apps:
       - Understanding apps: Developers/apps/apps.md
       - Understanding billing: Developers/apps/billing.md
@@ -103,7 +139,6 @@ nav:
     - FAQs: Help/faqs.md
     - Community support: Help/community.md
     - Video demonstrations: Help/videos.md
-
 
 extra:
   homepage: https://eodatahub.org.uk/
