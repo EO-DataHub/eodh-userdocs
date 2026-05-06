@@ -53,36 +53,21 @@ nav:
       - What is EOPro: EOPro/description.md
       - Search mode:
         - Overview: EOPro/search-mode/overview.md
-        - Data source catalogues: EOPro/search-mode/data-source-catalogues.md
         - Dataset selection: EOPro/search-mode/dataset-selection.md
-        - Dataset configuration: EOPro/search-mode/dataset-configuration.md
-        - Area of interest selection: EOPro/search-mode/area-of-interest-selection.md
-        - Date range selection: EOPro/search-mode/date-range-selection.md
-        - Running a search: EOPro/search-mode/search.md
-        - Browsing search results: EOPro/search-mode/browse-results.md
+        - Search parameters: EOPro/search-mode/search-parameters.md
+        - Search results: EOPro/search-mode/search.md
       - Action creator mode:
         - Overview: EOPro/action-creator-mode/overview.md
-        - User needs to log in: EOPro/action-creator-mode/user-needs-to-login.md
-        - Layout overview: EOPro/action-creator-mode/layout-overview.md
-        - Navigation guidelines: EOPro/action-creator-mode/navigation-guidelines.md
-        - Switching between workspaces: EOPro/action-creator-mode/switching-between-workspaces.md
-        - Workflow design: EOPro/action-creator-mode/workflow-design.md
-        - Workflow design validations: EOPro/action-creator-mode/workflow-design-validations.md
-        - Multi-index assets: EOPro/action-creator-mode/multi-index-assets.md
-        - Multiple functions: EOPro/action-creator-mode/multiple-functions.md
-        - Workflow execution: EOPro/action-creator-mode/workflow-execution.md
-        - Workflow history: EOPro/action-creator-mode/workflow-history.md
-        - Workflow import and export: EOPro/action-creator-mode/workflow-import-export.md
+        - Workflow design and validation: EOPro/action-creator-mode/workflow-design-and-validation.md
+        - Functions and Indices: EOPro/action-creator-mode/multi-index-assets-multiple-functions.md
+        - Workflow execution: EOPro/action-creator-mode/workflow-execution-and-history.md
         - Workflow presets: EOPro/action-creator-mode/workflow-presets.md
         - Workflow results: EOPro/action-creator-mode/workflow-results.md
-        - Workflow results colour coding: EOPro/action-creator-mode/workflow-results-color-coding.md
-        - Workflow results download: EOPro/action-creator-mode/workflow-results-download.md
-        - Delete and cancel workflows: EOPro/action-creator-mode/delete-and-cancel-workflows.md
-        - Land cover changes scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
+        - Land cover change scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
         - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
         - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
         - Action creator help: EOPro/action-creator-mode/help.md
-      - Tools:
+      - Toolbar:
         - Comparison tool: EOPro/comparison-tool.md
         - Time slider tool: EOPro/time-slider-tool.md
         - Measurement tool: EOPro/measurement-tool.md

@@ -21,3 +21,37 @@ Stacked Bar Chart – Land Cover Change example:
 Line Chart - Water Quality Analysis example:
 
 ![water quality analysis](../images/water_quality_analysis.png)
+
+# Legends and symbology
+
+## Land cover changes
+
+Land cover Changes classes use the following colour coding (for GLOBAL Land Cover):
+
+![color coding](../images/color_coding.png)
+
+## Water quality analysis
+
+Water Quality Analysis classes use the following colour coding:
+
+![water quality color coding](../images/water_quality_color_coding.png)
+
+## Normalized burn ratio (NBR)
+
+Normalized Burn Ratio (NBR) uses the following colour coding:
+
+![normalized burn ratio colour coding](../images/normalized_burn_ratio_color_coding.png)
+
+## NDVI, EVI and SAVI
+
+Additional colour coding used for **NDVI**, **EVI** and **SAVI**:
+
+![additional color coding](../images/additional_color_coding.png)
+
+# Downloading results
+
+Users can download a workflow or search results by selecting the 'Download' option in the asset details menu on the left side menu. The respective files, including resulting images and metadata for the selected item, will be downloaded locally.
+
+For multiple files contained within one item, each file initiates its download in a separate browser tab, and depending on the browser's settings, the user might need to approve the download for each tab individually.
+
+![results download](../images/results_download.png)
