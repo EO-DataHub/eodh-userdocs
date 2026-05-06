@@ -193,7 +193,7 @@
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
-         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/multi-index-assets/</loc>
+         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/multi-index-assets-multiple-functions/</loc>
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
@@ -225,15 +225,15 @@
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
+         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/workflow-design-and-validation/</loc>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
          <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/workflow-design-validations/</loc>
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
-         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/workflow-design/</loc>
-         <lastmod>2026-05-06</lastmod>
-    </url>
-    <url>
-         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/workflow-execution/</loc>
+         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/action-creator-mode/workflow-execution-and-history/</loc>
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
@@ -301,10 +301,6 @@
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
-         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/search-mode/area-of-interest-selection/</loc>
-         <lastmod>2026-05-06</lastmod>
-    </url>
-    <url>
          <loc>https://eodatahub.org.uk/docs/documentation/EOPro/search-mode/browse-results/</loc>
          <lastmod>2026-05-06</lastmod>
     </url>
@@ -326,6 +322,10 @@
     </url>
     <url>
          <loc>https://eodatahub.org.uk/docs/documentation/EOPro/search-mode/overview/</loc>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
+         <loc>https://eodatahub.org.uk/docs/documentation/EOPro/search-mode/search-parameters/</loc>
          <lastmod>2026-05-06</lastmod>
     </url>
     <url>
