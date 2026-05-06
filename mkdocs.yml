@@ -66,19 +66,10 @@ nav:
         - Land cover change scenario: EOPro/action-creator-mode/land-cover-changes-scenario.md
         - Water quality analysis scenario: EOPro/action-creator-mode/water-quality-analysis-scenario.md
         - Normalized burn ratio scenario: EOPro/action-creator-mode/normalized-burn-ratio-scenario.md
-        - Action creator help: EOPro/action-creator-mode/help.md
       - Toolbar:
         - Comparison tool: EOPro/comparison-tool.md
         - Time slider tool: EOPro/time-slider-tool.md
         - Measurement tool: EOPro/measurement-tool.md
-      - General application help: EOPro/general-help.md
-      - Architecture:
-        - High level architecture: EOPro/architecture/high-level-architecture.md
-        - Key components: EOPro/architecture/key-components.md
-        - Interaction with external services: EOPro/architecture/interaction-with-external-services.md
-        - Integration with EODH ADES API: EOPro/architecture/integration-with-eodh-ades-api.md
-        - Authentication and security: EOPro/architecture/authentication-and-security.md
-        - Infrastructure requirements: EOPro/architecture/infrastructure-requirements.md
       - Backend API:
         - Introduction: EOPro/backend-api/introduction.md
         - Functionalities: EOPro/backend-api/functionalities.md
@@ -117,6 +108,11 @@ nav:
       - Understanding billing: Developers/apps/billing.md
       - Creating an app: Developers/apps/creating-an-app.md
       - Using workflows: Developers/apps/workflows-and-user-servces.md
+      - EOPro backend API:
+        - Introduction: EOPro/backend-api/introduction.md
+        - Functionalities: EOPro/backend-api/functionalities.md
+        - API documentation: EOPro/backend-api/documentation.md
+        - CWL file dynamic generation: EOPro/backend-api/cwl-file-dynamic-generation.md
     - Workflow runner:
       - Application packages: Developers/workflow-runner/application-packages.md
   - Example notebooks:
