@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://eodatahub.org.uk/docs/documentation/EOPro/architecture/interaction-with-external-services/">
+        <link rel="canonical" href="https://eodatahub.org.uk/docs/documentation/Explorers/access-points/arcgis-usage-guide/">
       
       
+        <link rel="prev" href="../GIS/">
+      
+      
+        <link rel="next" href="../code/">
       
       
         
@@ -21,7 +25,7 @@
     
     
       
-        <title>Interaction with external services - UK EODH Documentation</title>
+        <title>ArcGIS plugin - UK EODH Documentation</title>
       
     
     
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#interaction-with-external-services" class="md-skip">
+        <a href="#eodh-plugin-for-arcgis-pro-usage-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Interaction with external services
+              ArcGIS plugin
             
           </span>
         </div>
@@ -559,18 +563,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -591,7 +597,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -656,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/data-discovery/" class="md-nav__link">
+      <a href="../../resource-catalogue/data-discovery/" class="md-nav__link">
         
   
   
@@ -684,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/metadata/" class="md-nav__link">
+      <a href="../../resource-catalogue/metadata/" class="md-nav__link">
         
   
   
@@ -712,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/quality-assessment/" class="md-nav__link">
+      <a href="../../resource-catalogue/quality-assessment/" class="md-nav__link">
         
   
   
@@ -748,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/downloading-data/" class="md-nav__link">
+      <a href="../../resource-catalogue/downloading-data/" class="md-nav__link">
         
   
   
@@ -776,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/visualising-data/" class="md-nav__link">
+      <a href="../../resource-catalogue/visualising-data/" class="md-nav__link">
         
   
   
@@ -804,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/resource-catalogue/run_workflow_notebooks/" class="md-nav__link">
+      <a href="../../resource-catalogue/run_workflow_notebooks/" class="md-nav__link">
         
   
   
@@ -832,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/access-points/GIS/" class="md-nav__link">
+      <a href="../GIS/" class="md-nav__link">
         
   
   
@@ -857,10 +863,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../Explorers/access-points/arcgis-usage-guide/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ArcGIS plugin
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -876,6 +909,237 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#signing-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing In
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signing-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-for-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Searching for Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Searching for Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-select-a-catalog-and-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Select a Catalog and Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-define-an-area-of-interest-aoi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Define an Area of Interest (AOI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-set-date-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Set Date Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-set-max-cloud-cover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Set Max Cloud Cover
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-run-the-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Run the Search
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browsing-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browsing Results
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Browsing Results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selecting-assets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Assets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-commercial-imagery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Commercial Imagery
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Purchasing Commercial Imagery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -888,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Explorers/access-points/code/" class="md-nav__link">
+      <a href="../code/" class="md-nav__link">
         
   
   
@@ -963,7 +1227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../description/" class="md-nav__link">
+      <a href="../../../EOPro/description/" class="md-nav__link">
         
   
   
@@ -1038,7 +1302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search-mode/overview/" class="md-nav__link">
+      <a href="../../../EOPro/search-mode/overview/" class="md-nav__link">
         
   
   
@@ -1066,7 +1330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search-mode/dataset-selection/" class="md-nav__link">
+      <a href="../../../EOPro/search-mode/dataset-selection/" class="md-nav__link">
         
   
   
@@ -1094,7 +1358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search-mode/search-parameters/" class="md-nav__link">
+      <a href="../../../EOPro/search-mode/search-parameters/" class="md-nav__link">
         
   
   
@@ -1122,7 +1386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search-mode/search/" class="md-nav__link">
+      <a href="../../../EOPro/search-mode/search/" class="md-nav__link">
         
   
   
@@ -1205,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/overview/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/overview/" class="md-nav__link">
         
   
   
@@ -1233,7 +1497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/workflow-design-and-validation/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/workflow-design-and-validation/" class="md-nav__link">
         
   
   
@@ -1261,7 +1525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/multi-index-assets-multiple-functions/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/multi-index-assets-multiple-functions/" class="md-nav__link">
         
   
   
@@ -1289,7 +1553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/workflow-execution-and-history/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/workflow-execution-and-history/" class="md-nav__link">
         
   
   
@@ -1317,7 +1581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/workflow-presets/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/workflow-presets/" class="md-nav__link">
         
   
   
@@ -1345,7 +1609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/workflow-results/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/workflow-results/" class="md-nav__link">
         
   
   
@@ -1373,7 +1637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/land-cover-changes-scenario/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/land-cover-changes-scenario/" class="md-nav__link">
         
   
   
@@ -1401,7 +1665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/water-quality-analysis-scenario/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/water-quality-analysis-scenario/" class="md-nav__link">
         
   
   
@@ -1429,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../action-creator-mode/normalized-burn-ratio-scenario/" class="md-nav__link">
+      <a href="../../../EOPro/action-creator-mode/normalized-burn-ratio-scenario/" class="md-nav__link">
         
   
   
@@ -1512,7 +1776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../comparison-tool/" class="md-nav__link">
+      <a href="../../../EOPro/comparison-tool/" class="md-nav__link">
         
   
   
@@ -1540,7 +1804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../time-slider-tool/" class="md-nav__link">
+      <a href="../../../EOPro/time-slider-tool/" class="md-nav__link">
         
   
   
@@ -1568,7 +1832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../measurement-tool/" class="md-nav__link">
+      <a href="../../../EOPro/measurement-tool/" class="md-nav__link">
         
   
   
@@ -1651,7 +1915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/introduction/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/introduction/" class="md-nav__link">
         
   
   
@@ -1679,7 +1943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/functionalities/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/functionalities/" class="md-nav__link">
         
   
   
@@ -1707,7 +1971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/documentation/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/documentation/" class="md-nav__link">
         
   
   
@@ -1735,7 +1999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/cwl-file-dynamic-generation/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/cwl-file-dynamic-generation/" class="md-nav__link">
         
   
   
@@ -2983,7 +3247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/introduction/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/introduction/" class="md-nav__link">
         
   
   
@@ -3011,7 +3275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/functionalities/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/functionalities/" class="md-nav__link">
         
   
   
@@ -3039,7 +3303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/documentation/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/documentation/" class="md-nav__link">
         
   
   
@@ -3067,7 +3331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../backend-api/cwl-file-dynamic-generation/" class="md-nav__link">
+      <a href="../../../EOPro/backend-api/cwl-file-dynamic-generation/" class="md-nav__link">
         
   
   
@@ -3853,6 +4117,225 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#signing-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing In
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signing-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-for-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Searching for Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Searching for Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-select-a-catalog-and-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Select a Catalog and Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-define-an-area-of-interest-aoi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Define an Area of Interest (AOI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-set-date-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Set Date Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-set-max-cloud-cover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Set Max Cloud Cover
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-run-the-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Run the Search
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browsing-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browsing Results
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Browsing Results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selecting-assets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Assets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-commercial-imagery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Commercial Imagery
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Purchasing Commercial Imagery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3871,13 +4354,132 @@
 
 
 
-<h1 id="interaction-with-external-services">Interaction with external services</h1>
-<p>The API interacts with several external services, including:</p>
+<h1 id="eodh-plugin-for-arcgis-pro-usage-guide">EODH Plugin for ArcGIS Pro — Usage Guide</h1>
+<p>The EODH plugin brings the Earth Observation DataHub into ArcGIS Pro, letting you search, preview, and load satellite imagery directly into your map. It also supports purchasing commercial imagery from Airbus and Planet.</p>
+<h2 id="requirements">Requirements</h2>
 <ul>
-<li>Keycloak: For authentication and authorization.</li>
-<li>ADES API: For offloading geospatial processing tasks.</li>
-<li>AWS Services: For hosting, storage, and monitoring.</li>
+<li>Windows 10/11 (x64)</li>
+<li>ArcGIS Pro 3.6 or later</li>
+<li>An EODH account with an API token</li>
 </ul>
+<h2 id="installation">Installation</h2>
+<ol>
+<li>Download the latest <code>eodh.esriAddinX</code> file from the <a href="https://github.com/EO-DataHub/eodh-arcgis/releases">GitHub Releases</a> page.</li>
+<li>Double-click the downloaded file.</li>
+<li>Click <strong>Install Add-In</strong> when prompted.</li>
+<li>Restart ArcGIS Pro if it was already open.</li>
+</ol>
+<p>After installation, a new <strong>EODH</strong> tab appears in the ArcGIS Pro ribbon.</p>
+<p><img width="647" height="170" alt="image" src="https://github.com/user-attachments/assets/089fa121-7168-4648-a049-043a67f5e63c" /></p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="signing-in">Signing In</h3>
+<ol>
+<li>Click the <strong>EODH Search</strong> button in the EODH ribbon tab to open the dockpane.</li>
+<li>Select your environment (Production, Staging, or Test). If you're not sure, select Production.</li>
+<li>Enter your workspace name and API token.</li>
+<li>Click <strong>Sign In</strong>.</li>
+</ol>
+<p>Your credentials are encrypted and stored locally, so you won't need to sign in again next time.</p>
+<p><img width="398" height="350" alt="image" src="https://github.com/user-attachments/assets/f04891c3-3cd9-40ce-b160-338863eed3ac" /></p>
+<h3 id="signing-out">Signing Out</h3>
+<p>Click <strong>Sign Out</strong> in the header bar at the top of the dockpane.</p>
+<h2 id="searching-for-data">Searching for Data</h2>
+<p>The <strong>Search</strong> tab lets you define filters and query the EODH catalog.</p>
+<p><img width="435" height="484" alt="image" src="https://github.com/user-attachments/assets/e84b24e5-c57a-430a-a956-7a90ac76d277" /></p>
+<h3 id="1-select-a-catalog-and-collection">1. Select a Catalog and Collection</h3>
+<p>Use the dropdown menus at the top of the Search tab to choose a catalog and, optionally, a specific collection within it.</p>
+<h3 id="2-define-an-area-of-interest-aoi">2. Define an Area of Interest (AOI)</h3>
+<p>Choose one of four methods:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Draw on Map</strong></td>
+<td>Click the button, then draw a rectangle on the map canvas</td>
+</tr>
+<tr>
+<td><strong>Map Extent</strong></td>
+<td>Use the current map view as the AOI</td>
+</tr>
+<tr>
+<td><strong>Import GeoJSON</strong></td>
+<td>Load a boundary from a <code>.geojson</code> or <code>.json</code> file</td>
+</tr>
+<tr>
+<td><strong>Clear</strong></td>
+<td>Remove the current AOI</td>
+</tr>
+</tbody>
+</table>
+<p><img width="1494" height="1105" alt="image" src="https://github.com/user-attachments/assets/a17a8038-948a-4e54-8b96-7f0cbd0a8d72" /></p>
+<h3 id="3-set-date-range">3. Set Date Range</h3>
+<p>Use the date pickers to define the start and end dates for your search. By default, this covers the last two months.</p>
+<h3 id="4-set-max-cloud-cover">4. Set Max Cloud Cover</h3>
+<p>Drag the slider to set a cloud cover threshold (0–100%). Only results at or below this value will be returned.</p>
+<h3 id="5-run-the-search">5. Run the Search</h3>
+<p>Click <strong>Search</strong>. A summary will show how many items were found.</p>
+<h2 id="browsing-results">Browsing Results</h2>
+<p>Results appear in the <strong>Results</strong> tab.</p>
+<p><img width="428" height="951" alt="image" src="https://github.com/user-attachments/assets/1c7b64f2-59a8-4d74-b35f-604b3e0d0bad" /></p>
+<h3 id="timeline">Timeline</h3>
+<p>A scrollable timeline strip at the top shows thumbnail previews of each result arranged by acquisition date. Use the <strong>Previous</strong> / <strong>Next</strong> buttons or scroll to navigate. Clicking a thumbnail highlights the corresponding item in the list below.</p>
+<h3 id="results-list">Results List</h3>
+<p>Each result displays:</p>
+<ul>
+<li><strong>Thumbnail</strong> preview</li>
+<li><strong>Item ID</strong> and <strong>Collection</strong></li>
+<li><strong>Acquisition date</strong></li>
+<li><strong>Resolution</strong> (metres)</li>
+<li><strong>Cloud cover</strong> (%)</li>
+<li><strong>AOI overlap</strong> (%)</li>
+</ul>
+<h3 id="selecting-assets">Selecting Assets</h3>
+<p>Click on a result to expand its asset list. Each asset shows its type (COG, GeoTIFF, etc.) and whether it can be loaded. Use the checkboxes to select the assets you want, then click <strong>Load Selected Assets</strong>.</p>
+<p>You can also <strong>double-click</strong> a result to load its selected assets directly into the map.</p>
+<p><img width="432" height="468" alt="image" src="https://github.com/user-attachments/assets/3ff0e40e-9795-4eca-9a41-16f300a82879" /></p>
+<h2 id="purchasing-commercial-imagery">Purchasing Commercial Imagery</h2>
+<p>Commercial items are highlighted with a gold border. The purchase workflow depends on the provider:</p>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th style="text-align: center;">Licence Required</th>
+<th style="text-align: center;">Country Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airbus Optical</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes (ISO-3 code)</td>
+</tr>
+<tr>
+<td>Airbus SAR</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Planet</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="purchase-steps">Purchase Steps</h3>
+<ol>
+<li>Select a licence from the dropdown (if required).</li>
+<li>Enter the end-user country code (if required).</li>
+<li>Click <strong>Get Quote</strong> to see the price.</li>
+<li>Review the price and currency displayed.</li>
+<li>Click <strong>Place Order</strong> and confirm the purchase.</li>
+</ol>
+<p>You can track order status in the <strong>Workspace</strong> tab.</p>
+<p><img width="397" height="172" alt="image" src="https://github.com/user-attachments/assets/7b30a394-5b55-4a5f-a583-e79c3254c776" /></p>
 
 
 
@@ -3903,6 +4505,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../GIS/" class="md-footer__link md-footer__link--prev" aria-label="Previous: GIS plugins">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                GIS plugins
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../code/" class="md-footer__link md-footer__link--next" aria-label="Next: Code access">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Code access
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
