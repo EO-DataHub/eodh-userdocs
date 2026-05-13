@@ -21,4 +21,4 @@
 
 * Create and manage their own workspace (e.g. add members) in the Workspace UI
 * Access the Notebook service and be able to create and run data processing / analysis workflows
-*Use Application Services
+* Use Application Services
