@@ -1,6 +1,6 @@
 # EODH Plugin for ArcGIS Pro — Usage Guide
 
-The EODH plugin brings the [Earth Observation DataHub](https://eodatahub.org.uk) into ArcGIS Pro, letting you search, preview, and load satellite imagery directly into your map. It also supports purchasing commercial imagery from Airbus and Planet.
+The EODH plugin brings the Earth Observation DataHub into ArcGIS Pro, letting you search, preview, and load satellite imagery directly into your map. It also supports purchasing commercial imagery from Airbus and Planet.
 
 ## Requirements
 
