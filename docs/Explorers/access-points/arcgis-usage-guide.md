@@ -17,7 +17,7 @@ The EODH plugin brings the Earth Observation DataHub into ArcGIS Pro, letting yo
 
 After installation, a new **EODH** tab appears in the ArcGIS Pro ribbon.
 
-![EODH tab in ArcGIS Pro ribbon](Images/ribbon.png)
+<img width="647" height="170" alt="image" src="https://github.com/user-attachments/assets/089fa121-7168-4648-a049-043a67f5e63c" />
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ After installation, a new **EODH** tab appears in the ArcGIS Pro ribbon.
 
 Your credentials are encrypted and stored locally, so you won't need to sign in again next time.
 
-![Login view](Images/login.png)
+<img width="398" height="350" alt="image" src="https://github.com/user-attachments/assets/f04891c3-3cd9-40ce-b160-338863eed3ac" />
 
 ### Signing Out
 
@@ -40,7 +40,7 @@ Click **Sign Out** in the header bar at the top of the dockpane.
 
 The **Search** tab lets you define filters and query the EODH catalog.
 
-![Search tab](Images/search.png)
+<img width="435" height="484" alt="image" src="https://github.com/user-attachments/assets/e84b24e5-c57a-430a-a956-7a90ac76d277" />
 
 ### 1. Select a Catalog and Collection
 
@@ -57,7 +57,7 @@ Choose one of four methods:
 | **Import GeoJSON** | Load a boundary from a `.geojson` or `.json` file |
 | **Clear** | Remove the current AOI |
 
-![Drawing an AOI on the map](Images/aoi.png)
+<img width="1494" height="1105" alt="image" src="https://github.com/user-attachments/assets/a17a8038-948a-4e54-8b96-7f0cbd0a8d72" />
 
 ### 3. Set Date Range
 
@@ -75,7 +75,7 @@ Click **Search**. A summary will show how many items were found.
 
 Results appear in the **Results** tab.
 
-![Results tab with timeline](Images/results.png)
+<img width="428" height="951" alt="image" src="https://github.com/user-attachments/assets/1c7b64f2-59a8-4d74-b35f-604b3e0d0bad" />
 
 ### Timeline
 
@@ -98,7 +98,7 @@ Click on a result to expand its asset list. Each asset shows its type (COG, GeoT
 
 You can also **double-click** a result to load its selected assets directly into the map.
 
-![Expanded asset list for a result](Images/assets.png)
+<img width="432" height="468" alt="image" src="https://github.com/user-attachments/assets/3ff0e40e-9795-4eca-9a41-16f300a82879" />
 
 ## Purchasing Commercial Imagery
 
@@ -120,4 +120,5 @@ Commercial items are highlighted with a gold border. The purchase workflow depen
 
 You can track order status in the **Workspace** tab.
 
-![Commercial item with quote](Images/commercial.png)
+<img width="397" height="172" alt="image" src="https://github.com/user-attachments/assets/7b30a394-5b55-4a5f-a583-e79c3254c776" />
+
