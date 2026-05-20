@@ -18,6 +18,5 @@ __Installation from repository__
 * Search for EODH under the All or Uninstalled tabs
 * Select and click “Install”
 
-🚀 [Go to the repository](https://github.com/EO-DataHub/eodh-qgis)
-[Go to the repository :fontawesome-rocket:](https://github.com/EO-DataHub/eodh-qgis){ .md-button }
+[Go to the repository 🚀](https://github.com/EO-DataHub/eodh-qgis){ .md-button }
 
