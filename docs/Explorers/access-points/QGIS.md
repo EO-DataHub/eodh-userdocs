@@ -19,4 +19,5 @@ __Installation from repository__
 * Select and click “Install”
 
 🚀 [Go to the repository](https://github.com/EO-DataHub/eodh-qgis)
+[Go to the repository :fontawesome-rocket:](https://github.com/EO-DataHub/eodh-qgis){ .md-button }
 
