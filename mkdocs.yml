@@ -47,8 +47,11 @@ nav:
     - Downloading data: Explorers/resource-catalogue/downloading-data.md
     - Visualising data: Explorers/resource-catalogue/visualising-data.md
     - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
-    - GIS plugins: Explorers/access-points/GIS.md
-    - ArcGIS plugin: Explorers/access-points/arcgis-usage-guide.md
+    - QGIS plugin: Explorers/access-points/QGIS.md
+    - ArcGIS plugin: 
+      - Setup: Explorers/access-points/arcgis-setup.md
+      - Search: Explorers/access-points/arcgis-search.md
+      - Purchase: Explorers/access-points/arcgis-purchase.md
     - Code access: Explorers/access-points/code.md
     - EOPro:
       - What is EOPro: EOPro/description.md
