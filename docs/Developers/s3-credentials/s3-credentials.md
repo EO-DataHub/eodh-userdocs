@@ -20,13 +20,13 @@ Expiration: e.g. 2025-02-18 16:17:54 +0000 UTC
 ```
 
 !!! warning
-    These credentials are temporary. Make sure you generate new ones if the current credentials expire.
+    These credentials are temporary and expire after 1 hour. Make sure you generate new ones before they expire.
 
 ## Understanding Your Credentials
 
 * Access Key ID & Secret Access Key: These work together as your username and password for accessing your S3 bucket.
 * Session Token: This is an extra security token needed to verify your session.
-* Expiration: This tells you when the credentials will no longer be valid.
+* Expiration: This tells you when the credentials will no longer be valid. Credentials last for 1 hour from the time they are generated.
 
 Remember, you’ll need all three items when connecting to S3.
 
@@ -40,16 +40,22 @@ export AWS_SECRET_ACCESS_KEY="eeLV8XXXXX"
 export AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3XXX"
 ```
 
-You can then list the contents of your S3 bucket (replace your-bucket-name with the actual bucket name):
+You can then list the contents of your S3 bucket:
 
 ```bash
-aws s3 ls s3://bucket-name/workspace-name/
+aws s3 ls s3://workspaces-eodhp/example-workspace/
 ```
 
-The bucket name depends on the environment of EODH DataHub you are using. For production, it is workspaces-eodhp.
+To upload a file, use the `cp` command:
 
 ```bash
-aws s3 ls s3://workspaces-eodhp/james-workspace/
+aws s3 cp my-file.tif s3://workspaces-eodhp/example-workspace/my-file.tif
+```
+
+To upload a whole directory recursively, add the `--recursive` flag:
+
+```bash
+aws s3 cp ./my-data/ s3://workspaces-eodhp/example-workspace/my-data/ --recursive
 ```
 
 ## Using the s3cmd tool
@@ -65,13 +71,19 @@ s3cmd --configure
 When prompted, enter your Access Key, Secret Key, and Session Token as required. To list your bucket contents, use:
 
 ```bash
-s3cmd ls s3://your-bucket-name/
+s3cmd ls s3://workspaces-eodhp/example-workspace/
 ```
 
-Similar to the above, if I was using the EODH Production environment and my Workspace name was james-workspace the command would be
+To upload a file:
 
 ```bash
-s3cmd ls s3://workspaces-eodhp/james-workspace/
+s3cmd put my-file.tif s3://workspaces-eodhp/example-workspace/my-file.tif
+```
+
+To upload a whole directory recursively:
+
+```bash
+s3cmd put --recursive ./my-data/ s3://workspaces-eodhp/example-workspace/my-data/
 ```
 
 ## Using Your Credentials in Python
@@ -82,29 +94,39 @@ For those who prefer to work in Python, the boto3 library is the easiest way to 
 pip install boto3
 ```
 
-Here’s a short script that lists the objects in your bucket:
+Here’s how to initialise the S3 client with your temporary credentials:
 
 ```py
 import boto3
-# Initialise the S3 client with your temporary credentials
+
 s3 = boto3.client(
-    's3',
-    aws_access_key_id='ASIATNVEVXXXXX',
-    aws_secret_access_key='eeLV8XXXXX',
-    aws_session_token='IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3XXX'
+    ‘s3’,
+    aws_access_key_id=’ASIATNVEVXXXXX’,
+    aws_secret_access_key=’eeLV8XXXXX’,
+    aws_session_token=’IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3XXX’
 )
 
-bucket_name = 'workspaces-eodhp'
+bucket_name = ‘workspaces-eodhp’
+```
 
-# List objects in the bucket
-response = s3.list_objects_v2(Bucket=bucket_name, Prefix="YOUR-WORKSPACE-NAME") # e.g. james-workspace
+To list objects in your workspace:
 
-if 'Contents' in response:
-    for obj in response['Contents']:
-        print(obj['Key'])
+```py
+response = s3.list_objects_v2(Bucket=bucket_name, Prefix="example-workspace")
+
+if ‘Contents’ in response:
+    for obj in response[‘Contents’]:
+        print(obj[‘Key’])
 else:
     print("No objects found in the bucket.")
 ```
 
-!!! tip
-    For more detailed instructions and advanced use cases, please visit our Help Page on S3 Credentials. This page covers additional topics like copying files between buckets and troubleshooting common issues.
+To upload a file:
+
+```py
+s3.upload_file(
+    Filename=’my-file.tif’,
+    Bucket=bucket_name,
+    Key=’example-workspace/my-file.tif’
+)
+```
