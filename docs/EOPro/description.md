@@ -2,6 +2,8 @@
 
 EOPro is an advanced web-based platform designed for Earth Observation data processing. It offers an intuitive interface that enables users to monitor and analyze land cover changes and water quality analysis over time using satellite-based geospatial data sourced from the EODH platform.
 
+[Launch EOPro 🚀](https://eopro.eodatahub.org.uk/){ .md-button }
+
 The platform facilitates seamless interaction with commercial and public datasets through a dynamic, pan-and-zoom map, allowing users to browse, select, compare, visualize, and process geospatial information efficiently.
 
 <img width="1000" height="528" alt="Screenshot_2025-01-31_at_09 54 3412 original" src="https://github.com/user-attachments/assets/2586b9c4-a347-4b01-809d-233cdc3ab40b" />
