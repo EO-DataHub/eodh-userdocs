@@ -108,4 +108,4 @@ If the purchase is successful, the Order Confirmation pop out should appear. The
 
 ## Ordering data programmatically
 
-An [example Commercial Data Ordering Notebook](../training-materials/examples/Commercial_Orders.ipynb) is available to guide you through the process of placing an order programmatically. This is the best method to place a bulk order of multiple images in one go. More guidance can be found within the notebook itself, which you can run by starting a Jupyter notebook server instance on the Hub, and uploading the .ipynb file.
+An [example Commercial Data Ordering Notebook](../training-materials/examples/commercial.ipynb) is available to guide you through the process of placing an order programmatically. This is the best method to place a bulk order of multiple images in one go. More guidance can be found within the notebook itself, which you can run by starting a Jupyter notebook server instance on the Hub, and uploading the .ipynb file.
