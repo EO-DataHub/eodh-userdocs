@@ -1,20 +1,22 @@
-# Finding data 
+# Search and browse 
 
 Once you've discovered a collection of interest, this chapter will guide you through finding specific data within that collection, including how to navigate the interface, use the map view, and manage your selected data.
+
+## 💡 Video Tutorial: Finding data
+<div class="video-embed">
+   <iframe src="https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/preview" width="640" height="480"allowfullscreen loading="lazy"></iframe>
+</div>
 
 ## Opening a Collection
 To begin working with a specific collection:
 
-* Navigate to the collection's card on the browse page
-* Click on the card
-* Select "Open Collection"
+* 🖱️ Navigate to the collection's card on the browse page
+* ⬆️ Click on the card
+* 🚪 Select "Open Collection"
 
 ## The Collection Interface
 
-When you open a collection, you'll see:
-
-* A map display showing data coverage areas
-* A list of scenes on the left side, including:
+When you open a collection, you'll see a map display showing data coverage areas, and a list of scenes on the left side, including:
 * Scene title
 * Date
 * Cloud cover percentage
@@ -29,9 +31,9 @@ The most recent scenes appear first. Hover over items in the list to highlight c
 
 You can narrow down your search to a specific geographic area in two ways:
 
-* Map Zoom
+* 🗺️ Map Zoom
     * Zoom in on the map. The scene list will automatically update to show only data for the visible area.
-* Drawing a Polygon
+* ✏️ Drawing a Polygon
     * Click the "Draw" button (polygon tool)
     * Draw your area of interest on the map
     * The scene list will update to show only data within your defined area
@@ -42,9 +44,9 @@ You can narrow down your search to a specific geographic area in two ways:
 
 To view a specific scene:
 
-* Click the display icon next to a scene in the list
-* The data will be added to the map
-* A pinned item will appear in the list
+* 🖱️ Click the display icon next to a scene in the list
+* 🌍 The data will be added to the map
+* 📍 A pinned item will appear in the list
 
 You can add multiple scenes to the map, and they will be listed in the pinned items section.
 
@@ -54,10 +56,10 @@ You can add multiple scenes to the map, and they will be listed in the pinned it
 
 Different collections offer various display styles. For example, the CEDA ARD collection includes:
 
-* Natural Color
-* Color Infrared
-* Short-wave Infrared
-* Normalized Difference Vegetation Index (NDVI)
+* ☀️ Natural Color
+* 🌡️ Color Infrared
+* ♨️ Short-wave Infrared
+* 🌳 Normalized Difference Vegetation Index (NDVI)
 
 To change the display style:
 
@@ -93,6 +95,3 @@ This helps you find the clearest scenes for your area of interest.
 
 ![](../../assets/doc_rc_sb6.png)
 
-
-
-[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1-2_LEPeGxaSuIP7U8q5xYtr-q04ca60u/view?usp=sharing){.mk-button}
