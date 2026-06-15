@@ -1,0 +1,30 @@
+# Pixi environments
+.pixi
+
+# Git
+.git
+.gitattributes
+.gitignore
+
+# Node
+node_modules
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Devcontainer
+.devcontainer
+
+# IDE
+.vscode
+.idea
+
+# Build output
+site/
+
+# Python
+__pycache__
+*.pyc
+.venv

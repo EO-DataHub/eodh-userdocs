@@ -1,0 +1,23 @@
+services:
+    docs:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: eodh-userdocs
+        ports:
+            - "8100:8000"
+        volumes:
+            # Mount docs source for hot-reload (live editing)
+            - ./docs:/docs/docs:ro
+            # Mount mkdocs config for live config changes
+            - ./mkdocs.yml:/docs/mkdocs.yml:ro
+            # Override the pixi env with a named volume so re-builds don't lose it
+            - pixi-env:/docs/.pixi
+        environment:
+            - PIXI_HOME=/docs/.pixi
+        command: ["pixi", "run", "serve"]
+        restart: unless-stopped
+
+volumes:
+    pixi-env:
+        name: eodh-userdocs-pixi-env
