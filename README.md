@@ -8,17 +8,36 @@ This repository contains the source for the **UK Earth Observation Data Hub (EOD
 
 ## Local development
 
-This repo includes a `pixi.toml` with the Python dependencies needed to run MkDocs locally.
+This repo includes a `pixi.toml` with the Python dependencies needed to run MkDocs locally. You can use either Pixi directly or Docker Compose.
+
+### Option 1: Pixi
 
 1. Install Pixi: [pixi.sh](https://pixi.sh/)
 2. From the repo root:
 
 ```bash
 pixi install
-pixi run mkdocs serve
+pixi run serve
 ```
 
-Then open the local URL printed by MkDocs (typically `http://127.0.0.1:8000/`).
+Then open `http://127.0.0.1:8000/`.
+
+### Option 2: Docker Compose
+
+1. Install [Docker](https://docs.docker.com/get-docker/)
+2. From the repo root:
+
+```bash
+docker compose up --build
+```
+
+The docs site will be available at `http://127.0.0.1:8100/` with hot-reload enabled — edits to `docs/` or `mkdocs.yml` are reflected immediately.
+
+To build the static site instead:
+
+```bash
+docker compose run --rm docs pixi run build
+```
 
 ## Build the site
 
