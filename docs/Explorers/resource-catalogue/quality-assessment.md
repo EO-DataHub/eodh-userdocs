@@ -2,6 +2,11 @@
 
 Quality Assurance (QA) is a crucial aspect of working with Earth Observation data. This guide explains how to find and interpret quality assessment information in the Resource Catalogue, including both documentation quality and product validation metrics.
 
+## 💡 Video Tutorial: Quality Assurance
+<div class="video-embed">
+    <iframe src="https://drive.google.com/file/d/1heLp0SwFkXiYc66E1hGHMhMWEAFcZb2X/preview" title="Quality Assurance" width="640" height="480" allowfullscreen loading="lazy"></iframe>
+</div>
+
 ## Finding Collections with QA Information
 
 Not all collections have QA information available. To find collections that do:
@@ -115,6 +120,3 @@ The QA system is evolving. Currently, the scope of the QA assessment on the Hub 
     * Consult the linked documentation for detailed information
     * Be aware of any partial passes or limitations
 
-
-
-[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1heLp0SwFkXiYc66E1hGHMhMWEAFcZb2X/view?usp=sharing){.md-button}
