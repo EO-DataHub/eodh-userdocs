@@ -120,3 +120,7 @@ Look for the "self" link in the additional resources. This provides the JSON rep
 
 
 [Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/view?usp=sharing){.md-button}
+
+<div class="video-embed">
+  <iframe src="https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/preview" title="Metadata in the Resource Catalogue" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
