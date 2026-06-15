@@ -2,9 +2,9 @@
 
 Once you've discovered a collection of interest, this chapter will guide you through finding specific data within that collection, including how to navigate the interface, use the map view, and manage your selected data.
 
-## 💡 Video Tutorial: Finding data
+## 💡 Video Tutorial: Search for data on EODH
 <div class="video-embed">
-   <iframe src="https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/preview" width="640" height="480"allowfullscreen loading="lazy"></iframe>
+   <iframe src="https://drive.google.com/file/d/1-2_LEPeGxaSuIP7U8q5xYtr-q04ca60u/preview" width="640" height="480" allowfullscreen loading="lazy"></iframe>
 </div>
 
 ## Opening a Collection
