@@ -2,12 +2,18 @@
 
 This guide explains how to access and use data from the Resource Catalogue directly in QGIS, taking advantage of cloud-optimized formats for efficient data access.
 
-__Prerequisites__
-Before starting, ensure you have:
+!!! info "Prerequisites" 
 
-* QGIS installed on your computer
-* A scene selected in the Resource Catalogue
-* The URL for the data you want to access
+    Before starting, ensure you have:
+
+    - QGIS installed on your computer
+    - A scene selected in the Resource Catalogue
+    - The URL for the data you want to access
+
+## 💡 Video Tutorial: Accessing data from QGIS
+<div class="video-embed">
+  <iframe src="https://drive.google.com/file/d/1lRqx_MtKX15aBnS5tcFmZQelb8yj26ok/preview" width="640" height="480" allowfullscreen loading="lazy" ></iframe>
+</div>
 
 ## Accessing Cloud-Optimized GeoTIFFs (COGs)
 
