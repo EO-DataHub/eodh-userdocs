@@ -2,7 +2,7 @@
 
 The Resource Catalogue provides a user-friendly interface for discovering and accessing Earth Observation data. This guide walks through the basic features of the catalogue's browse page and how to use its filtering and search capabilities.
 
-## 💡 Video Tutorial: 
+## 💡 Video Tutorial: Discover data collections on EODH
 <div class="video-embed">
   <iframe src="https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/preview" width="640" height="480" allowfullscreen loading="lazy"></iframe>
 </div>
