@@ -2,6 +2,11 @@
 
 Metadata, or "data about data," is crucial for understanding and effectively using the datasets in the Resource Catalogue. This chapter explains the different types of metadata available and how to access and interpret them.
 
+## 💡 Video Tutorial: Metadata in the Resource Catalogue
+<div class="video-embed">
+  <iframe src="https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/preview" title="Metadata in the Resource Catalogue" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</div>
+
 ## Basic Collection Metadata
 
 When you first view a collection card, you're already seeing some basic metadata:
@@ -89,24 +94,24 @@ Each individual item (scene) within a collection has its own metadata, accessibl
 
 ### Basic Scene Information
 
-* Platform information (e.g., which satellite captured the data)
-* Orbit details
-* Cloud cover information
+* 🛰️ Platform information (e.g., which satellite captured the data)
+* 🌍 Orbit details
+* ☁️ Cloud cover information
 
 ### Scene Assets
 
 For satellite imagery (e.g., Sentinel 2 ARD), assets might include:
 
-* Cloud-optimized GeoTIFFs (COGs)
-* Cloud cover masks
-* Cloud probability files
-* Topographic shadow data
+* ⚙️ Cloud-optimized GeoTIFFs (COGs)
+* ☁️ Cloud cover masks
+* 🌥️ Cloud probability files
+* ⛰️ Topographic shadow data
 
 Each asset file includes metadata about:
 
-* Available bands
-* File formats
-* Usage instructions
+* 🌈 Available bands
+* 📁 File formats
+* 🗒️ Usage instructions
 
 ![](../../assets/doc_rc_mdata2.png)
 
@@ -118,9 +123,3 @@ Look for the "self" link in the additional resources. This provides the JSON rep
 
 ![](../../assets/doc_rc_mdata3.png)
 
-
-[Watch video tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/view?usp=sharing){.md-button}
-
-<div class="video-embed">
-  <iframe src="https://drive.google.com/file/d/1KIXjKgxbakJWYLTpi0QTCEQk_CVrmryp/preview" title="Metadata in the Resource Catalogue" allowfullscreen loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-</div>
