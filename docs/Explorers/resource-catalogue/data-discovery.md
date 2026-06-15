@@ -2,6 +2,11 @@
 
 The Resource Catalogue provides a user-friendly interface for discovering and accessing Earth Observation data. This guide walks through the basic features of the catalogue's browse page and how to use its filtering and search capabilities.
 
+## 💡 Video Tutorial: 
+<div class="video-embed">
+  <iframe src="https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/preview" width="640" height="480" allowfullscreen loading="lazy"></iframe>
+</div>
+
 ## The Browse Page
 When you first visit the Resource Catalogue, you'll see the browse page which displays all available datasets. Each dataset is presented as a card containing:
 
@@ -17,8 +22,8 @@ The catalogue provides several filtering options at the top of the page to help 
 
 You can filter datasets by their category. For example:
 
-* Climate projection data
-* Optical and multispectral data
+* 🌡️ Climate projection data
+* 🛰️ Optical and multispectral data
 * Other specialized data types
 
 ![](../../assets/doc_rc_fd1.png)
@@ -73,5 +78,3 @@ Click on its card. You'll see detailed information including:
 * Description
 * Relevant keywords
 
-
-[Watch Tutorial :fontawesome-solid-paper-plane:](https://drive.google.com/file/d/1uoRAEH8rKpfI0F_H-teu3yOpxAKaOI9X/view?usp=sharing){.md-button} 
