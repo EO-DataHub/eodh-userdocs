@@ -41,11 +41,12 @@ nav:
       - Linked accounts: Getting-Started/workspaces/linked-accounts.md
   - Explore:
     - Finding data:
-      - Searching for data: Explorers/resource-catalogue/data-discovery.md
-      - Understanding metadata: Explorers/resource-catalogue/metadata.md
-      - Understanding data quality: Explorers/resource-catalogue/quality-assessment.md
-    - Downloading data: Explorers/resource-catalogue/downloading-data.md
-    - Visualising data: Explorers/resource-catalogue/visualising-data.md
+      - Discover data: Explorers/resource-catalogue/data-discovery.md
+      - Search data: Explorers/resource-catalogue/search-and-browse.md
+      - Understand metadata: Explorers/resource-catalogue/metadata.md
+      - Understand quality assurance: Explorers/resource-catalogue/quality-assessment.md
+      - Download data: Explorers/resource-catalogue/downloading-data.md
+      - Visualise data: Explorers/resource-catalogue/visualising-data.md
     - Running workflows and notebooks: Explorers/resource-catalogue/run_workflow_notebooks.md
     - QGIS plugin: Explorers/access-points/QGIS.md
     - ArcGIS plugin: 
