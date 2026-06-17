@@ -2,11 +2,19 @@
 
 This guide walks you through the steps to register as a user to the platform using your chosen identity provider (i.e. GitHub, Google, or Microsoft). This tells the EODH who you are, and associates your user identity on the Hub with an existing email address.
 
+## Access permissions
+Once signed in to the platform, you can:
+- Access the Workspaces tab
+- Be added to an EODH workspace managed by another EODH user (this would provide the same access as users with a billing account)
+
+You will not yet have permissions to:
+- Create or manage a workspace
+
 [Understand what this account level provides 🔐](https://docs.eodatahub.org.uk/Getting-Started/access-levels/){ .md-button }
+[Enable workspace creation and management 💻](https://docs.eodatahub.org.uk/Getting-Started/billing-accounts/){ .md-button }
 
 ## Sign in
 To initially register as a user of the EODH, click on the 'Sign in' button on the homepage. This can be found in the top right corner.
-
 ![](../assets/gs_ua_ua1.png) 
 
 This will bring you to a sign in page. 
@@ -72,8 +80,3 @@ See the Microsoft reference documentation here: https://learn.microsoft.com/en-u
 
 ## Sign in via Google
 
----
-
-## Access permissions
-
-Once signed in to the platform, you can access the Workspaces tab, but will not have permissions to create or manage a workspace. You can also be added to an EODH workspace managed by another EODH user, which would provide the same access as users with a billing account.
