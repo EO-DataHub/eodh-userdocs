@@ -53,9 +53,11 @@ Once you have selected the Microsoft sign in button, this will trigger an email 
 <img width="668" height="544" alt="image" src="https://github.com/user-attachments/assets/04bc0757-bd1a-4c0c-b6fa-c76c504a2001" />
 
 !!! note
-- 🔒 The requested application will appear as: **`eodh-prod`**
-- ⌛ The request is valid for **24 hours** from the time it is sent, after which the request will expire
-- ⚠️ If this happens, you will receive an email with the subject **"eodh-prod access request has expired"**
+
+    * 🔒 The requested application will appear as: **`eodh-prod`**
+    * ⌛ The request is valid for **24 hours** from the time it is sent, after which the request will expire
+    * ⚠️ If this happens, you will receive an email with the subject **"eodh-prod access request has expired"**
+
 
 After your Microsoft sign-in request is sent, approval is required at the organisation level.
 
