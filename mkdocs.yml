@@ -112,7 +112,7 @@ nav:
       - Understanding apps: Developers/apps/apps.md
       - Understanding billing: Developers/apps/billing.md
       - Creating an app: Developers/apps/creating-an-app.md
-      - Using workflows: Developers/apps/workflows-and-user-servces.md
+      - Using workflows: Developers/apps/workflows-and-user-services.md
       - EOPro backend API:
         - Introduction: EOPro/backend-api/introduction.md
         - Functionalities: EOPro/backend-api/functionalities.md
