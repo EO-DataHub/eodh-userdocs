@@ -1,5 +1,5 @@
 site_name: UK EODH Documentation
-site_url: https://eodatahub.org.uk/docs/documentation
+site_url: https://docs.eodatahub.org.uk/
 theme:
   name: material
   custom_dir: docs/overides
