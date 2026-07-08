@@ -620,6 +620,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#link-your-open-cosmos-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Link your Open Cosmos account
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ready-to-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4131,6 +4142,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#link-your-open-cosmos-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Link your Open Cosmos account
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ready-to-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4164,7 +4186,7 @@
 <h1 id="linked-accounts">Linked Accounts</h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Linked accounts allow you to store your provider API key in the Hub allowing you to order commercial data within the context of a specific workspace. The platform currently supports two commercial data providers for this, namely Airbus and Planet.</p>
+<p>Linked accounts allow you to store your provider credentials in the Hub allowing you to order commercial data within the context of a specific workspace. The platform currently supports three commercial data providers for this, namely Airbus, Planet and Open Cosmos.</p>
 </div>
 <h2 id="connect-up-to-your-commercial-data-provider">Connect up to your commercial data provider</h2>
 <p>Navigate to the workspaces tab and click on Linked Accounts as shown below.</p>
@@ -4181,6 +4203,15 @@
 <p>Once you have input a valid API key and validated it, you can then proceed to link it to your workspace.</p>
 <p><img alt="" src="../../../assets/gs_ws_la5.png" /></p>
 <p>Contact eodatahub@planet.com for dedicated support with Planet access.</p>
+<h2 id="link-your-open-cosmos-account">Link your Open Cosmos account</h2>
+<p>Required for accessing Open Cosmos data on the Hub. Unlike Airbus and Planet, Open Cosmos accounts are linked using your <strong>Organisation ID</strong> rather than an API key.</p>
+<p>To find your Organisation ID, log in to the <a href="https://app.open-cosmos.com/">Open Cosmos app</a>, click your initials in the bottom left-hand corner, and select 'Organisations'.</p>
+<p><img alt="" src="../../../assets/gs_ws_la6.png" /></p>
+<p>Click 'Configure' next to the organisation you want to link. Your Organisation ID is shown on this page as <code>id:&lt;organisationid&gt;</code>.</p>
+<p><img alt="" src="../../../assets/gs_ws_la7.png" /></p>
+<p>Enter this Organisation ID under Workspaces &gt; Linked accounts and click 'Connect Open Cosmos'.</p>
+<p><img alt="" src="../../../assets/gs_ws_la8.png" /></p>
+<p>This will take you to the Open Cosmos site, where you must confirm that you want to link your account to the Hub. Once confirmed, you will be returned to the Hub with your Open Cosmos account connected.</p>
 <h2 id="ready-to-order">Ready to order</h2>
 <p>Once you have connected your account with the relevant data provider to your workspace, you will now be able to order data via the EODH from that provider, either within the Resource Catalogue, or from a notebook in JupyterHub.</p>
 <p><a class="mk-button" href="https://eodatahub.org.uk/data/commercial/ordering-commercial-data/">Order commercial data <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M536.4-26.3c9.8-3.5 20.6-1 28 6.3s9.8 18.2 6.3 28l-178 496.9c-5 13.9-18.1 23.1-32.8 23.1-14.2 0-27-8.6-32.3-21.7l-64.2-158c-4.5-11-2.5-23.6 5.2-32.6l94.5-112.4c5.1-6.1 4.7-15-.9-20.6s-14.6-6-20.6-.9l-112.4 94.3c-9.1 7.6-21.6 9.6-32.6 5.2L38.1 216.8c-13.1-5.3-21.7-18.1-21.7-32.3 0-14.7 9.2-27.8 23.1-32.8z"/></svg></span></a></p>
