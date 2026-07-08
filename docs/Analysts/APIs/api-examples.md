@@ -142,7 +142,7 @@ for asset in assets:
 
 ### Commercial data
 
-Commercial data from Airbus and Planet can be ordered directly through our APIs. Before following these instructions, please ensure that your Hub account is linked to an Airbus or Planet account as described here.
+Commercial data from Airbus, Planet and Open Cosmos can be ordered directly through our APIs. Before following these instructions, please ensure that your Hub account is linked to an Airbus, Planet or Open Cosmos account as described here.
 
 Firstly, an item of interest from our catalogue should be obtained. For guidance on browsing the commercial catalogue, please see the section above, "Browsing the catalogue".
 

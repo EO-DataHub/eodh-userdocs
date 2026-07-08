@@ -1,7 +1,7 @@
 # Linked Accounts
 
 !!! note
-    Linked accounts allow you to store your provider API key in the Hub allowing you to order commercial data within the context of a specific workspace. The platform currently supports two commercial data providers for this, namely Airbus and Planet.
+    Linked accounts allow you to store your provider credentials in the Hub allowing you to order commercial data within the context of a specific workspace. The platform currently supports three commercial data providers for this, namely Airbus, Planet and Open Cosmos.
 
 ## Connect up to your commercial data provider
 Navigate to the workspaces tab and click on Linked Accounts as shown below.
@@ -31,6 +31,24 @@ Once you have input a valid API key and validated it, you can then proceed to li
 ![](../../assets/gs_ws_la5.png)
 
 Contact eodatahub@planet.com for dedicated support with Planet access.
+
+## Link your Open Cosmos account
+
+Required for accessing Open Cosmos data on the Hub. Unlike Airbus and Planet, Open Cosmos accounts are linked using your **Organisation ID** rather than an API key.
+
+To find your Organisation ID, log in to the [Open Cosmos app](https://app.open-cosmos.com/), click your initials in the bottom left-hand corner, and select 'Organisations'.
+
+![](../../assets/gs_ws_la6.png)
+
+Click 'Configure' next to the organisation you want to link. Your Organisation ID is shown on this page as `id:<organisationid>`.
+
+![](../../assets/gs_ws_la7.png)
+
+Enter this Organisation ID under Workspaces > Linked accounts and click 'Connect Open Cosmos'.
+
+![](../../assets/gs_ws_la8.png)
+
+This will take you to the Open Cosmos site, where you must confirm that you want to link your account to the Hub. Once confirmed, you will be returned to the Hub with your Open Cosmos account connected.
 
 ## Ready to order
 Once you have connected your account with the relevant data provider to your workspace, you will now be able to order data via the EODH from that provider, either within the Resource Catalogue, or from a notebook in JupyterHub.
