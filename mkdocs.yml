@@ -7,6 +7,7 @@ theme:
     text: Fira Sans #Atkinson Hyperlegible
   logo: assets/icon_eodh_logo_white_grey.png #logo.svg
   features:
+    - navigation.path
     - navigation.footer
     - content.code.copy
     - content.code.select
