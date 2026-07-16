@@ -31,7 +31,7 @@
 
 This access level is ideal for users who are collaborating on a project managed by someone else.
 
-    [How to Sign in](../getting-started/sign-in.md){primary }
+[How to Sign In 👤](https://docs.eodatahub.org.uk/Getting-Started/user-accounts/){ .md-button }
 
 ## User Account + Billing Account
 
