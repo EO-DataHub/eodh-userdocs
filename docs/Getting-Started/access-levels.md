@@ -1,21 +1,37 @@
 # Access levels
 
-!!! note "Access levels for users"
+!!! note "How access levels work"
+    When you first arrive at the **Earth Observation Data Hub (EODH)**, you are not signed in and have **Open Access** by default.
 
-    There are three main Access Levels for the Hub. These are listed below along with the main 
-    features of each. As a user interacts with the Hub more, then they will move through the three
-    access levels to create a more powerful account.
+    There are **three access levels**, each providing more ways to explore data, collaborate with others, and carry out your own analysis work. As you create an account, you will start to gain access to additional capabilities and services.
 
-## Open Access
 
-* Browse the web presence
-* Access the documentation tabs (About, Data, Getting Started)
-* Access and use the resource catalogue UI (STAC Browser)
+## 🌐 Open Access
 
-## User Account only
+!!! info "Explore the Hub"
+    Perfect for first-time visitors who want to look around without creating an account.
 
-* Access the Workspace UI (but no permissions to create or manage a workspace)
-* Be added to a EODH workspace managed by another EODH user which would provide the same access as users with a billing account
+- Browse the website
+- View the documentation
+- Discover available datasets
+- Search all data collections in the catalogue
+- Visualise and download open-access imagery
+
+
+## 👤 User Account
+
+!!! tip "Sign in"
+    Creating a user account allows you to access additional areas of the Hub and collaborate with other users.
+
+- Access shared workspaces that you have been invited to join
+- View and work with resources within those shared workspaces
+
+!!! tip "Access restrictions"
+    Users at this access level do not have permission to create or manage a workspace themselves.
+
+This access level is ideal for users who are collaborating on a project managed by someone else.
+
+    [How to Sign in](../getting-started/sign-in.md){primary }
 
 ## User Account + Billing Account
 
