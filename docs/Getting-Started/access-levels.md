@@ -1,9 +1,8 @@
 # Access levels
 
 !!! note "How access levels work"
-    When you first arrive at the **Earth Observation Data Hub (EODH)**, you are not signed in and have **Open Access** by default.
-
-    There are **three access levels**, each providing more ways to explore data, collaborate with others, and carry out your own analysis work. As you create an account, you will start to gain access to additional capabilities and services.
+    When you first arrive at the Earth Observation Data Hub (EODH), you are not signed in and have **Open Access** by default.
+    There are three access levels, each providing more ways to explore data, collaborate with others, and carry out your own analysis work. As you create an account, you will start to gain access to additional capabilities and services.
 
 
 ## 🌐 Open Access
