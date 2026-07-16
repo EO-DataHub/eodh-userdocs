@@ -130,6 +130,7 @@ nav:
     - Commercial data quotes and orders: training-materials/examples/commercial.ipynb
     - Data cubes: training-materials/examples/datacubes.ipynb
     - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
+    - Systematic scene search: training-materials/examples/systematic-scene-search-thumbnails.ipynb
     - Using dask on the Hub: training-materials/examples/dask_example.ipynb
     - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
     - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
