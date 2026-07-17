@@ -7,7 +7,7 @@
 
 ## 🌐 Open Access
 
-Perfect for first-time visitors who want to look around without creating an account.
+Perfect for first-time visitors who want to look around without creating an account. You can:
 
 - Browse the website
 - View the documentation
@@ -18,7 +18,7 @@ Perfect for first-time visitors who want to look around without creating an acco
 
 ## 👤 User Account
 
-Creating a user account allows you to access additional areas of the Hub and collaborate with other users.
+Creating a user account allows you to access additional areas of the Hub and collaborate with other users. It allows you to:
 
 - Access shared workspaces that you have been invited to join
 - View and work with resources within those shared workspaces
@@ -32,13 +32,13 @@ This access level is ideal for users who are collaborating on a project managed 
 
 ## 🚀 User Account + Billing Account
 
-This access level is for users who want to manage their own projects, administrate collaborative workspaces for a team, access the processing capability of the Hub, and use commercial datasets.
+This access level is for users who want to manage their own projects, administrate collaborative workspaces for a team, access the processing capability of the Hub, and use commercial datasets. With an approved Billing Account, you are able to:
 
 - Create and manage your own workspace
 - Invite and manage workspace members
 - View resource usage within that workspace
 
-Once you have created a workspace, you will be able to:
+Once you have created a workspace, you will then be able to:
 
 - Work with commercial datasets (visualise previews, fetch a quote, purchase scenes)
 - Access hosted notebooks for data processing and analysis
