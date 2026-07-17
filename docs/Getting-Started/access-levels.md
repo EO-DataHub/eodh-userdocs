@@ -7,8 +7,7 @@
 
 ## 🌐 Open Access
 
-!!! info "Explore the Hub"
-    Perfect for first-time visitors who want to look around without creating an account.
+Perfect for first-time visitors who want to look around without creating an account.
 
 - Browse the website
 - View the documentation
@@ -19,8 +18,7 @@
 
 ## 👤 User Account
 
-!!! tip "Sign in"
-    Creating a user account allows you to access additional areas of the Hub and collaborate with other users.
+Creating a user account allows you to access additional areas of the Hub and collaborate with other users.
 
 - Access shared workspaces that you have been invited to join
 - View and work with resources within those shared workspaces
