@@ -30,8 +30,20 @@ This access level is ideal for users who are collaborating on a project managed 
 
 [How to Sign In 👤](https://docs.eodatahub.org.uk/Getting-Started/user-accounts/){ .md-button }
 
-## User Account + Billing Account
+## 🚀 User Account + Billing Account
 
-* Create and manage their own workspace (e.g. add members) in the Workspace UI
-* Access the Notebook service and be able to create and run data processing / analysis workflows
-* Use Application Services
+This access level is for users who want to manage their own projects, administrate collaborative workspaces for a team, access the processing capability of the Hub, and use commercial datasets.
+
+- Create and manage your own workspace
+- Invite and manage workspace members
+- View resource usage within that workspace
+
+Once you have created a workspace, you will be able to:
+
+- Work with commercial datasets (visualise previews, fetch a quote, purchase scenes)
+- Access hosted notebooks for data processing and analysis
+- Store or bring in own data to the platform
+- Run your own workflow jobs
+- Use platform-based applications
+
+[Request a Billing Account 🚀](https://docs.eodatahub.org.uk/Getting-Started/billing-accounts/){ .md-button }
