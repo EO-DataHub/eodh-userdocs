@@ -32,7 +32,7 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-    - Account types: Getting-Started/access-levels.md
+    - Access levels: Getting-Started/access-levels.md
     - Creating a user account: Getting-Started/user-accounts.md
     - Getting a billing account: Getting-Started/billing-accounts.md
     - Workspaces:
