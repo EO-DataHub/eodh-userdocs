@@ -87,7 +87,7 @@ nav:
       - Ordering commercial data: Analysts/commercial/ordering-commercial-data.md
       - Ordering commercial SAR data: Analysts/commercial/understanding-sar-ordering-options.md
       - Usage restrictions: Analysts/commercial/restrictions.md
-    - Notebook service:
+    - Jupyter notebooks:
       - Using notebooks: Analysts/notebook-service/notebooks-start.md
       - Integrating with git: Analysts/notebook-service/git-integration.md
       - Practical tips: Analysts/notebook-service/practical-tips.md
