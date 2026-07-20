@@ -83,7 +83,7 @@ The product bundle is selected from a dropdown menu of 4 available options, outl
 The Product Bundle you select on EODH is mapped to a set of products delivered by Planet or Airbus in the order, according to the tables below.
 
 ##### Planet bundle mappings
-The list of bundles Planet provides, with the assets in each bundle, can be found here https://docs.planet.com/develop/apis/orders/product_bundles/
+The list of bundles Planet provides, with the assets in each bundle, can be found [here](https://docs.planet.com/develop/apis/orders/product_bundles/).
 
 | Item Type      | Product Bundle   | Product Name(s)                            |
 |----------------|------------------|--------------------------------------------|
