@@ -48,11 +48,11 @@ The following guidance walks through the requirements for each field in the orde
 
 ### Filling out the order options
 
-#### A) Workspace
+#### Workspace
 
 Select a workspace for the private data delivery. You can select any workspace from those that you have been added to or created yourself. The data you purchase will be shared with, and accessible to, all members who are in the selected workspace. Make sure the workspace you select is linked via a valid API key, so that the commercial data quote can be fetched. If you still have issues fetching a quote despite your account being linked, it could be that your API key has expired and you need to refresh it.
 
-#### B) Product bundle
+#### Product bundle
 
 The product bundle is selected from a dropdown menu of 4 available options, outlined below. This field indicates the level of preprocessing required from your imagery order. For example, Basic is the most raw version of the image with the least preprocessing, generally more useful for scientists, while Visual has the most preprocessing stages, enhanced to support easy map visualisations for novice users.
 
@@ -76,11 +76,40 @@ The product bundle is selected from a dropdown menu of 4 available options, outl
     
         A multi-spectral image close to the natural image aquired by the sensor, aimed to give the user close to full automomy over the data processing chain. Imagery in sensor geometry and corrected for sensor distortions, and co-registration of spectral bands (multispectral and panchromatic). Contains RPCs and sensor model. Imagery is calibrated to remove sensor affects (such as CCD array equalisation), but has no further radiometric processing and can be considered 'Raw'. Not orthorectified or radiometrically corrected. Suitable for precision ortho-rectification, photogrammetry, data calibration and atmospheric correction, and 3D modelling. For EO and photogrammetry specialists.
 
-#### C) End user country
+!!! note
+
+    Open Cosmos orders do not require a Product Bundle field
+
+The Product Bundle you select on EODH is mapped to a set of products delivered by Planet or Airbus in the order, according to the tables below.
+
+##### Planet bundle mappings
+The list of bundles Planet provides, with the assets in each bundle, can be found [here](https://docs.planet.com/develop/apis/orders/product_bundles/).
+
+| Item Type      | Product Bundle   | Product Name(s)                            |
+|----------------|------------------|--------------------------------------------|
+| PSScene        | Visual           | visual                                     |
+| PSScene        | General Use      | analytic_udm2, analytic_8b_udm2            |
+| PSScene        | Analytic         | analytic_sr_udm2, analytic_8b_sr_udm2      |
+| PSScene        | Basic            | basic_analytic_udm2, basic_analytic_8b_udm2 |
+| SkySatCollect  | Visual           | visual                                     |
+| SkySatCollect  | General Use      | pansharpened_udm2                          |
+| SkySatCollect  | Analytic         | analytic_sr_udm2                           |
+| SkySatCollect  | Basic            | analytic_udm2                              |
+
+##### Airbus bundle mappings
+
+| Product Bundle | processingLevel | pixelCoding | radiometricProcessing | spectralProcessing         | dem            | projection |
+|----------------|-----------------|-------------|------------------------|----------------------------|----------------|------------|
+| Visual         | ortho           | 8bits       | display                | pansharpened_natural_color | best_available | True       |
+| General Use    | ortho           | 12bits      | reflectance            | pansharpened               | best_available | True       |
+| Analytic       | ortho           | 12bits      | reflectance            | bundle                     | best_available | True       |
+| Basic          | primary         | 12bits      | basic                  | bundle                     | -              | -          |
+
+#### End user country
 
 The user must input their country from the dropdown menu.
 
-#### D) License
+#### License
 
 Select the license from a dropdown menu of the following options:
 
