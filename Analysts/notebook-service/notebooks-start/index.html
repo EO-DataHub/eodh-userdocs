@@ -2165,7 +2165,7 @@
   <span class="md-ellipsis">
     
   
-    Notebook service
+    Jupyter notebooks
   
 
     
@@ -2181,7 +2181,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Notebook service
+    Jupyter notebooks
   
 
           </label>
@@ -4329,7 +4329,7 @@
         <a href="./" class="md-path__link">
           
   <span class="md-ellipsis">
-    Notebook service
+    Jupyter notebooks
   </span>
 
         </a>
@@ -4387,22 +4387,25 @@
 <p>By default, auto-save for open files is turned on in the Hub. You can disable this in Settings &gt; Autosave Documents.</p>
 <h2 id="data-upload-download">Data upload / download</h2>
 <p>You can use the notebook file browser to upload to or download from the notebook server, and therefore your workspace stores.</p>
-<p><img alt="" src="../../../assets/doc_ns_int10.jpg" /></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Download a file by right clicking it and selecting download.</p>
 <p>Upload a file by clicking the upload icon in the file browser.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Files can be downloaded directly from the EODH Jupyter file browser up to a maximum size of 1 GB. Downloads larger than 1 GB are not supported through the web interface and may fail. For downloading larger datasets, use S3 object storage or another suitable data transfer method.</p>
+</div>
 <h2 id="named-servers">Named servers</h2>
 <p>By default, JupyterHub only allows users to run one notebook server at a time. The UK EO DataHub allows additional notebooks to be run simultaneously, if required.</p>
 <p>To create a named server, enter a name for the new server (this must be done first, or your default server will be assumed) and click "Add New Server".</p>
-<p><img alt="" src="../../../assets/doc_ns_int11.jpg" /></p>
+<p><img alt="" src="../../../assets/doc_ns_int10.jpg" /></p>
 <p>You will be requested to select your workspace and profile again, however please note that these can be set on each start of default or named servers.</p>
 <p>A new (named) server instance will be created, which can be used independently of other server instances. However, please note that multiple notebook servers cannot be created for the same workspace for the same user. If you start a new notebook server for a workspace that you already have a notebook server running for, the previous server will be shutdown and restarted for the new server.</p>
-<p><img alt="" src="../../../assets/doc_ns_int12.jpg" /></p>
+<p><img alt="" src="../../../assets/doc_ns_int11.jpg" /></p>
 <h2 id="shutting-servers-down">Shutting servers down</h2>
 <p>Once you are done with your server, please shut it down. You can do so from the Jupyter Hub. If you are in a notebook, you can navigate to the Hub by following File &gt; Hub Control Panel.</p>
-<p><img alt="" src="../../assets/doc_ns_int13.jpg" /></p>
+<p><img alt="" src="../../../assets/doc_ns_int12.jpg" /></p>
 <p>From the Hub, ensure that you stop any running servers, default or named, when you are done with them.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
