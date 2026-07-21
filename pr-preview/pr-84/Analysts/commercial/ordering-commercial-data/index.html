@@ -2211,10 +2211,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-workspace" class="md-nav__link">
+  <a href="#workspace" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A) Workspace
+        Workspace
       
     </span>
   </a>
@@ -2222,10 +2222,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-product-bundle" class="md-nav__link">
+  <a href="#product-bundle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B) Product bundle
+        Product bundle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product bundle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planet-bundle-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planet bundle mappings
       
     </span>
   </a>
@@ -2233,10 +2245,26 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#c-end-user-country" class="md-nav__link">
+  <a href="#airbus-bundle-mappings" class="md-nav__link">
     <span class="md-ellipsis">
       
-        C) End user country
+        Airbus bundle mappings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-user-country" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End user country
       
     </span>
   </a>
@@ -2244,10 +2272,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#d-license" class="md-nav__link">
+  <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
       
-        D) License
+        License
       
     </span>
   </a>
@@ -4372,10 +4400,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-workspace" class="md-nav__link">
+  <a href="#workspace" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A) Workspace
+        Workspace
       
     </span>
   </a>
@@ -4383,10 +4411,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-product-bundle" class="md-nav__link">
+  <a href="#product-bundle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B) Product bundle
+        Product bundle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product bundle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planet-bundle-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planet bundle mappings
       
     </span>
   </a>
@@ -4394,10 +4434,26 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#c-end-user-country" class="md-nav__link">
+  <a href="#airbus-bundle-mappings" class="md-nav__link">
     <span class="md-ellipsis">
       
-        C) End user country
+        Airbus bundle mappings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-user-country" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End user country
       
     </span>
   </a>
@@ -4405,10 +4461,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#d-license" class="md-nav__link">
+  <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
       
-        D) License
+        License
       
     </span>
   </a>
@@ -4594,9 +4650,9 @@
 <h3 id="getting-started">Getting started</h3>
 <p>The following guidance walks through the requirements for each field in the ordering interface, step by step. Before attempting to order any commercial data, you must first link your account using an API key which is self-served from the commercial provider. This allows you to fetch a quote for the image you are looking to purchase. If your workspace is not linked with an API key, an error message will flag at the point of purchase, preventing you from fetching a quote.</p>
 <h3 id="filling-out-the-order-options">Filling out the order options</h3>
-<h4 id="a-workspace">A) Workspace</h4>
+<h4 id="workspace">Workspace</h4>
 <p>Select a workspace for the private data delivery. You can select any workspace from those that you have been added to or created yourself. The data you purchase will be shared with, and accessible to, all members who are in the selected workspace. Make sure the workspace you select is linked via a valid API key, so that the commercial data quote can be fetched. If you still have issues fetching a quote despite your account being linked, it could be that your API key has expired and you need to refresh it.</p>
-<h4 id="b-product-bundle">B) Product bundle</h4>
+<h4 id="product-bundle">Product bundle</h4>
 <p>The product bundle is selected from a dropdown menu of 4 available options, outlined below. This field indicates the level of preprocessing required from your imagery order. For example, Basic is the most raw version of the image with the least preprocessing, generally more useful for scientists, while Visual has the most preprocessing stages, enhanced to support easy map visualisations for novice users.</p>
 <p><img alt="" src="../../../assets/com_purch3.png" /></p>
 <div class="admonition note">
@@ -4618,9 +4674,119 @@
 </div>
 </div>
 </div>
-<h4 id="c-end-user-country">C) End user country</h4>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Open Cosmos orders do not require a Product Bundle field</p>
+</div>
+<p>The Product Bundle you select on EODH is mapped to a set of products delivered by Planet or Airbus in the order, according to the tables below.</p>
+<h5 id="planet-bundle-mappings">Planet bundle mappings</h5>
+<p>The list of bundles Planet provides, with the assets in each bundle, can be found <a href="https://docs.planet.com/develop/apis/orders/product_bundles/">here</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Item Type</th>
+<th>Product Bundle</th>
+<th>Product Name(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PSScene</td>
+<td>Visual</td>
+<td>visual</td>
+</tr>
+<tr>
+<td>PSScene</td>
+<td>General Use</td>
+<td>analytic_udm2, analytic_8b_udm2</td>
+</tr>
+<tr>
+<td>PSScene</td>
+<td>Analytic</td>
+<td>analytic_sr_udm2, analytic_8b_sr_udm2</td>
+</tr>
+<tr>
+<td>PSScene</td>
+<td>Basic</td>
+<td>basic_analytic_udm2, basic_analytic_8b_udm2</td>
+</tr>
+<tr>
+<td>SkySatCollect</td>
+<td>Visual</td>
+<td>visual</td>
+</tr>
+<tr>
+<td>SkySatCollect</td>
+<td>General Use</td>
+<td>pansharpened_udm2</td>
+</tr>
+<tr>
+<td>SkySatCollect</td>
+<td>Analytic</td>
+<td>analytic_sr_udm2</td>
+</tr>
+<tr>
+<td>SkySatCollect</td>
+<td>Basic</td>
+<td>analytic_udm2</td>
+</tr>
+</tbody>
+</table>
+<h5 id="airbus-bundle-mappings">Airbus bundle mappings</h5>
+<table>
+<thead>
+<tr>
+<th>Product Bundle</th>
+<th>processingLevel</th>
+<th>pixelCoding</th>
+<th>radiometricProcessing</th>
+<th>spectralProcessing</th>
+<th>dem</th>
+<th>projection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visual</td>
+<td>ortho</td>
+<td>8bits</td>
+<td>display</td>
+<td>pansharpened_natural_color</td>
+<td>best_available</td>
+<td>True</td>
+</tr>
+<tr>
+<td>General Use</td>
+<td>ortho</td>
+<td>12bits</td>
+<td>reflectance</td>
+<td>pansharpened</td>
+<td>best_available</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Analytic</td>
+<td>ortho</td>
+<td>12bits</td>
+<td>reflectance</td>
+<td>bundle</td>
+<td>best_available</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Basic</td>
+<td>primary</td>
+<td>12bits</td>
+<td>basic</td>
+<td>bundle</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="end-user-country">End user country</h4>
 <p>The user must input their country from the dropdown menu.</p>
-<h4 id="d-license">D) License</h4>
+<h4 id="license">License</h4>
 <p>Select the license from a dropdown menu of the following options:</p>
 <ul>
 <li><em>Single Use</em> - An individual user</li>
