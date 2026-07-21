@@ -68,13 +68,15 @@ By default, auto-save for open files is turned on in the Hub. You can disable th
 
 You can use the notebook file browser to upload to or download from the notebook server, and therefore your workspace stores.
 
-![](../../assets/doc_ns_int10.jpg)
-
 !!! tip
     
     Download a file by right clicking it and selecting download.
     
     Upload a file by clicking the upload icon in the file browser.
+
+!!! note
+    
+    Files can be downloaded directly from the EODH Jupyter file browser up to a maximum size of 1 GB. Downloads larger than 1 GB are not supported through the web interface and may fail. For downloading larger datasets, use S3 object storage or another suitable data transfer method.
 
 ## Named servers
 
@@ -82,19 +84,19 @@ By default, JupyterHub only allows users to run one notebook server at a time. T
 
 To create a named server, enter a name for the new server (this must be done first, or your default server will be assumed) and click "Add New Server".
 
-![](../../assets/doc_ns_int11.jpg)
+![](../../assets/doc_ns_int10.jpg)
 
 You will be requested to select your workspace and profile again, however please note that these can be set on each start of default or named servers.
 
 A new (named) server instance will be created, which can be used independently of other server instances. However, please note that multiple notebook servers cannot be created for the same workspace for the same user. If you start a new notebook server for a workspace that you already have a notebook server running for, the previous server will be shutdown and restarted for the new server.
 
-![](../../assets/doc_ns_int12.jpg)
+![](../../assets/doc_ns_int11.jpg)
 
 ## Shutting servers down
 
 Once you are done with your server, please shut it down. You can do so from the Jupyter Hub. If you are in a notebook, you can navigate to the Hub by following File > Hub Control Panel.
 
-![](../../assets/doc_ns_int13.jpg)
+![](../../assets/doc_ns_int12.jpg)
 
 From the Hub, ensure that you stop any running servers, default or named, when you are done with them.
 
