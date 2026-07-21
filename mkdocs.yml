@@ -120,7 +120,18 @@ nav:
         - API documentation: EOPro/backend-api/documentation.md
         - CWL file dynamic generation: EOPro/backend-api/cwl-file-dynamic-generation.md
     - Workflow runner:
+      - Introduction: Developers/workflow-runner/introduction.md
+      - Getting started: Developers/workflow-runner/getting-started.md
       - Application packages: Developers/workflow-runner/application-packages.md
+      - Local testing: Developers/workflow-runner/local-testing.md
+      - Authentication: Developers/workflow-runner/authentification.md
+      - Workflow workspace access: Developers/workflow-runner/access.md
+      - Workspace usage: Developers/workflow-runner/workspace-usage.md
+      - Workflow types: Developers/workflow-runner/workflow-types.md
+      - Workflow logs: Developers/workflow-runner/workflow-logs.md
+      - Results: Developers/workflow-runner/results.md
+      - Supported endpoints: Developers/workflow-runner/supported-endpoints.md
+      - Monitoring workflows: Developers/workflow-runner/monitoring-workflows.md
   - Example notebooks:
     - Dedicated walk-through:
       - Set-up: training-materials/walkthrough/0_202502_setup.ipynb
