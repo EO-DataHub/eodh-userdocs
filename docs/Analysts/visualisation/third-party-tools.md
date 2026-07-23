@@ -101,7 +101,7 @@ This would download a preview JPEG of the specified image. The /preview endpoint
 
 You can actually stream XYZ tiles directly from Python using Folium within a notebook. For example, if you want to stream a COG Asset you could generate one like so:
 
-'''py
+```py
 COG_PREVIEW_PARAMS = {
     'url': sentinel2_ard_cog_asset.href,
     'bidx': 1,
@@ -113,25 +113,21 @@ COG_OGC_URL = 'https://eodatahub.org.uk/titiler/core/cog/tiles/WebMercatorQuad/{
 
 COG_XYZ = COG_OGC_URL + '?' + '&'.join([f'{k}={v}' for k, v in COG_PREVIEW_PARAMS.items()])
 
-# Create the Folium Map
-m = folium.Map(location=[54.5, -4.5], zoom_start=6)
 
-# Add the TiTiler layer
+m = folium.Map(location=[54.5, -4.5], zoom_start=6) # Create the Folium Map
+
 folium.raster_layers.TileLayer(
     tiles=COG_XYZ,
     attr="TiTiler",
     name="Sentinel 2 ARD Scene",
     overlay=True
-).add_to(m)
+).add_to(m) # Add the TiTiler layer
 
-# Add a layer control
-folium.LayerControl().add_to(m)
-
-# Display the map
+folium.LayerControl().add_to(m) 
 m
 ```
 
-Similarly for Multi-Dimensional Datasets (ZARR, NetCDF, Kerchunk), the only difference would be a slight adjustment to the URLS, see:
+Similarly for Multi-Dimensional Datasets (such as ZARR, NetCDF, Kerchunk), the only difference would be a slight adjustment to the URLS, as shown in the example below:
 
 ```py
 XARRAY_PARAMS = {
