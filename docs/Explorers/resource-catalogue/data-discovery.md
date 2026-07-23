@@ -14,11 +14,11 @@ When you first visit the Resource Catalogue, you'll see the browse page which di
 * The dataset collection title
 * The date range covered by the dataset
 
-## Filtering Data
+### Filtering Data
 
 The catalogue provides several filtering options at the top of the page to help you narrow down your search:
 
-### Data Category Filter
+#### Data Category Filter
 
 You can filter datasets by their category. For example:
 
@@ -35,7 +35,7 @@ To use a filter:
 * Select your desired category
 * To clear a selection, click the close button (X) on the pill icon that appears
 
-### Multiple Filters
+#### Multiple Filters
 
 You can combine multiple filters to refine your search. For example, you might want to find:
 
@@ -44,7 +44,7 @@ You can combine multiple filters to refine your search. For example, you might w
 
 ![](../../assets/doc_rc_fd2.png)
 
-### Grouping Options
+#### Grouping Options
 
 The "Group by" feature allows you to organize the displayed data into categories. You can group by:
 
@@ -57,7 +57,7 @@ The "Group by" feature allows you to organize the displayed data into categories
 
 ![](../../assets/doc_rc_fd3.png)
 
-## Searching for Data
+### Searching for Data
 
 The search function allows you to find specific datasets using keywords:
 
@@ -67,7 +67,7 @@ The search function allows you to find specific datasets using keywords:
 
 ![](../../assets/doc_rc_fd4.png)
 
-## Viewing Dataset Details
+### Viewing Dataset Details
 
 When you find a dataset of interest:
 
@@ -78,3 +78,6 @@ Click on its card. You'll see detailed information including:
 * Description
 * Relevant keywords
 
+## The Map Page
+
+The Map Page is designed as a quick strat option. It takes you directly to the default Sentinel 2 ARD data set and drops you back in to the last extent that you were looking at on the map. From this point a user can undertake all the expected collection related filtering and map interaction.
