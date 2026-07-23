@@ -80,4 +80,4 @@ Click on its card. You'll see detailed information including:
 
 ## The Map Page
 
-The Map Page is designed as a quick strat option. It takes you directly to the default Sentinel 2 ARD data set and drops you back in to the last extent that you were looking at on the map. From this point a user can undertake all the expected collection related filtering and map interaction.
+The Map Page is designed as a quick start option. It takes you directly to the default Sentinel 2 ARD data set and drops you back in to the last extent that you were looking at on the map. From this point a user can undertake all the expected collection related filtering and map interaction.
