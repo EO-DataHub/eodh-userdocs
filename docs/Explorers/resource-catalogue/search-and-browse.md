@@ -52,22 +52,6 @@ You can add multiple scenes to the map, and they will be listed in the pinned it
 
 ![](../../assets/doc_rc_sb3.png)
 
-## Display Styles
-
-Different collections offer various display styles. For example, the CEDA ARD collection includes:
-
-* ☀️ Natural Color
-* 🌡️ Color Infrared
-* ♨️ Short-wave Infrared
-* 🌳 Normalized Difference Vegetation Index (NDVI)
-
-To change the display style:
-
-1. Select your preferred style from the visualization menu
-2. Add scenes to the map using the new style
-3. You can display the same scene in different styles
-
-![](../../assets/doc_rc_sb4.png)
 
 ## Managing Pinned Items
 

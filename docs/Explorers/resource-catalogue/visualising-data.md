@@ -12,10 +12,29 @@ This guide explains how to access and use data from the Resource Catalogue direc
 
 ## Collection Level Visualisations
 
-It is possible to add pre-configured visualisations to the optical data you have chosen from the search results page within the Resource Catalogue. The visualisations are applied in realtime to the full collection and are only applied to an asset when the corresponding item is pinned . In the example shown here for West Wales, a `Colour Infrared` visualisation has been applied to the Sentinel 2 asset being displayed in the Map view. Additional visualisations are available 
+It is possible to add pre-configured visualisations to the optical data you have chosen from the search results page within the Resource Catalogue. The visualisations are applied in realtime to the full collection and are only applied to an asset when the corresponding item is pinned. In the example shown below for West Wales, a `Colour Infrared` visualisation has been applied to the Sentinel 2 asset being displayed in the Map view. Additional visualisations are available 
 
 
 ![](../../assets/doc_rc_vis5.png)
+
+Different collections offer various display styles. For example, the Sentinel 2 ARD collection includes:
+
+* Natural Colour
+* True Colour
+* Colour Infrared
+* Short-wave Infrared
+* Normalized Difference Vegetation Index (NDVI)
+
+whilst the Sentinel 1 ARD collection includes:
+
+* Backscatter VV
+* Backscatter VH
+
+To change the display style:
+
+1. Select your preferred style from the visualization menu
+2. Pin scenes to the map using the new style
+3. You can display the same scene in different styles
 
 
 ## 💡 Video Tutorial: Accessing data from QGIS
