@@ -10,6 +10,14 @@ This guide explains how to access and use data from the Resource Catalogue direc
     - A scene selected in the Resource Catalogue
     - The URL for the data you want to access
 
+## Collection Level Visualisations
+
+It is possible to add pre-configured visualisations to the optical data you have chosen from the search results page within the Resource Catalogue. The visualisations are applied in realtime to the full collection and are only applied to an asset when the corresponding item is pinned . In the example shown here for West Wales, a `Colour Infrared` visualisation has been applied to the Sentinel 2 asset being displayed in the Map view. Additional visualisations are available 
+
+
+![](../../assets/doc_rc_vis5.png)
+
+
 ## 💡 Video Tutorial: Accessing data from QGIS
 <div class="video-embed">
   <iframe src="https://drive.google.com/file/d/1lRqx_MtKX15aBnS5tcFmZQelb8yj26ok/preview" width="640" height="480" allowfullscreen loading="lazy" ></iframe>
