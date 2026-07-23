@@ -81,3 +81,13 @@ Click on its card. You'll see detailed information including:
 ## The Map Page
 
 The Map Page is designed as a quick start option. It takes you directly to the default Sentinel 2 ARD data set and drops you back in to the last extent that you were looking at on the map. From this point a user can undertake all the expected collection related filtering and map interaction.
+
+### Changing Collections
+
+There is a simple way to change the collection you are looking at from within the Map Windows (or search results page if you have arrived via the Collections _Browse_ page). Find the _Change Collection_ link in the top left portion of the page and click on it.
+
+![](../../assets/doc_rc_fd5.png)
+
+This will result in all of the available collections being displayed, as shown below. From here you can use the filter tools to find and interact with the collections you require.
+
+![](../../assets/doc_rc_fd6.png)
