@@ -1,9 +1,9 @@
-# Sign In
+# Getting an account on EODH
 
 This guide walks you through the steps to register as a user to the platform using your chosen identity provider (i.e. GitHub, Google, or Microsoft). This tells the EODH who you are, and associates your user identity on the Hub with an existing email address.
 
 ## Access permissions
-Once signed in to the platform, you can:
+Before we discuss how to log in, it is sensible to understand that once signed in to the platform, you can:
 
 - Be added to an EODH workspace managed by another EODH user (this would provide the same access as users with a billing account)
 
@@ -28,7 +28,7 @@ This will bring you to a sign in page.
 
 Click on one of the available identity providers on the sign in page.
 
-<img width="1916" height="799" alt="image" src="https://github.com/user-attachments/assets/0e583b2b-00f7-4bb0-a44b-68c6cfd01097" />
+![](../assets/gs_ua_ua_log.png)
 
 This will prompt you to input your chosen identity provider's user credentials. Logging in for the first time will also prompt you to update account information, as shown below.
 
@@ -83,5 +83,4 @@ See the Microsoft reference documentation here: https://learn.microsoft.com/en-u
 
 --- 
 
-## Sign in via Google
 
