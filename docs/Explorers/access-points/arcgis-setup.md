@@ -38,7 +38,6 @@ Your credentials are encrypted and stored locally, so you won't need to sign in 
 
 ! [](../../assets/esri-login.png)
 
-<img width="398" height="350" alt="image" src="https://github.com/user-attachments/assets/f04891c3-3cd9-40ce-b160-338863eed3ac" />
 
 ### Signing Out
 
