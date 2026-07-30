@@ -145,6 +145,7 @@ nav:
     - Using dask on the Hub: training-materials/examples/dask_example.ipynb
     - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
     - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
+    - EOCIS high-resolution land surface temperature data: training-materials/examples/landsat_lst.ipynb
     - Handling timeseries data: training-materials/examples/timeseries.ipynb
     - Finding windfarms: training-materials/examples/finding_windfarms.ipynb
     - EOAP SAR Coherence: training-materials/workflows/4_SAR_coherence.ipynb
