@@ -76,14 +76,17 @@ Select the license from a dropdown menu of the following options:
 * _Single Use_ - An individual user
 * _Multi Use_ - An organisational license for a team of users
 
-### Clip the ordered image to your AOI
+### Clip the ordered image to your area of interest
 
-If you have drawn an area of interest, you have the option to clip the delivered image to the drawn polygon area. This will happen automatically if the checkbox remains unticked.
+If you have drawn an area of interest (AOI), you have the option to clip the delivered image to the drawn polygon area. This will happen automatically if the checkbox remains unticked.
 
 If the box is checked, you are confirming you want to order the full scene, unclipped. You can check this has been actioned by confirming that the quote fetched has gone up in cost (assuming you will now be purchasing a larger area of imagery).
 
 ![](../../assets/com_purch4.png)
 
+!!! note
+
+    Open Cosmos orders cannot be clipped to an area of interest (AOI). Full scenes must be purchased from this provider.
 
 ### Placing an order
 
