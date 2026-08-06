@@ -2,6 +2,10 @@
 
 The ordering options required when purchasing **Airbus SAR (TerraSAR‑X / TanDEM‑X)** commercial data in the EODH interface vary slightly from those required for purchasing optical commercial data. Below we outline the additional required fields, and describe each of the options listed in the dropdown menu.
 
+!!! note
+
+    Airbus SAR scene orders cannot be clipped to an area of interest (AOI). Full scenes must be purchased from this collection.
+    
 ---
 
 ## **Product Bundle**
