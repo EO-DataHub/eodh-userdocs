@@ -36,13 +36,27 @@ This will prompt you to input your chosen identity provider's user credentials. 
 
 Input the required fields to complete registration.
 
+If the email address entered is already associated with an existing account, the following pop up will appear.
+
+<img width="266" height="116" alt="duplicate-user-alert-neutral" src="https://github.com/user-attachments/assets/4a139cf1-2bd9-49c3-b067-94cdda7af4ea" />
+
 ---
 
 ## Sign in via GitHub
 ### Authorisation step
-When logging into the hub for the first time via GitHub, you will be asked to authorise EO-DataHub using GitHub keycloak, so the account can be used to login.
+When logging into the Hub for the first time via GitHub, you will be asked to authorise EO-DataHub using GitHub keycloak, so the account can be used to login.
 
 ![](../assets/gs_ua_ua4.png)
+
+---
+
+## Sign in via Google
+### Confirmation step
+When logging into the Hub for the first time via Google, you will be presented with a Google confirmation screen. This screen asks you to review and approve the identity information that **eodatahub.org.uk** will access from your Google account.
+
+<img width="696" height="387" alt="google-sign-in-neutral" src="https://github.com/user-attachments/assets/0cfdb901-86b2-4637-81fe-67245e34118f" />
+
+Review the permissions displayed and, if you are happy with this, select **Continue** to authorise sign in with Google.
 
 --- 
 
@@ -81,6 +95,5 @@ Replace `{TENANT-ID}` with your organisation’s Microsoft Entra tenant ID.
 
 See the Microsoft reference documentation here: https://learn.microsoft.com/en-us/entra/identity-platform/v2-admin-consent
 
---- 
 
 
