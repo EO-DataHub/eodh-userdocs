@@ -26,6 +26,16 @@ The [Planet API key](https://developers.planet.com/quickstart/apis/#find-your-ap
 
 ## Open Cosmos
 
-Existing Open Cosmos accounts can be linked to the EODH using your Open Cosmos Organisation ID, rather than an API key. Log in to the [Open Cosmos app](https://app.open-cosmos.com/), click your initials in the bottom left-hand corner, go to 'Organisations', and click 'Configure' next to the organisation you wish to use. Your Organisation ID is shown on this page as `id:<organisationid>`.
+Existing Open Cosmos accounts can be linked to the EODH using your Open Cosmos Organisation ID, rather than an API key. Log in to the [Open Cosmos app](https://app.open-cosmos.com/), click your initials in the bottom left-hand corner, go to 'Organisations'.
+
+<img width="1405" height="833" alt="oc-api-key-3-neutral" src="https://github.com/user-attachments/assets/0f6952b1-0c16-45de-a16e-1f956ee88405" />
+
+Click 'Configure' next to the organisation you wish to use.
+
+<img width="1405" height="833" alt="oc-api-key-2-neutral" src="https://github.com/user-attachments/assets/020716c4-1a31-4704-90e9-02348aba06cd" />
+
+Your Organisation ID is shown on this page as `id:<organisationid>`.
+
+<img width="1399" height="394" alt="oc-api-key-1-neutral" src="https://github.com/user-attachments/assets/d648a680-61a9-4f39-848d-51eb89df14cf" />
 
 This Organisation ID can then be entered under 'Linked accounts' for a selected workspace on the 'Workspaces' page. Clicking 'Connect Open Cosmos' will take you to the Open Cosmos site to confirm that you want to link your account to the Hub. Once linked, orders placed by members of the workspace will use this connection, and data will be delivered directly to the workspace. See [Linked accounts](../../Getting-Started/workspaces/linked-accounts.md) for more details.
