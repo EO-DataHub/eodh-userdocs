@@ -15,7 +15,7 @@ Click on your profile icon in the top right corner of the homepage and Manage Ac
 Fill out the form as instructed
 Submit the form
 
-![](../assets/gs_ba_ba1.png)
+<img width="959" height="460" alt="account-management-neutral" src="https://github.com/user-attachments/assets/94735b62-11b1-4b70-b5ac-72b2f52d3a0a" />
 
 Once submitted, your billing account request will be sent for moderator approval. This is expected to take up to 2 working days. After it is approved, you'll be able to create and manage your own workspaces. You will receive a notification via the email associated with your user account when your request has been processed. If you cannot see the email, please check your junk mail folder.
 
