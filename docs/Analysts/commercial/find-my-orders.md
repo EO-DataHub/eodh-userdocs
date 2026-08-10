@@ -12,7 +12,7 @@ See the **Order Status** column to review if a purchase was successful. If you e
 
 Once your order has been delivered, you can view the imagery directly within the map browser.
 
-1. Navigate to **Catalogue > My Data > Purchased Data** within the **Catalogue** tab.
+1. Navigate to **My Data > Purchased Data** within the **Catalogue** tab.
 2. Locate the order you want to view in the table of purchased imagery.
 3. Confirm that the **Order Status** shows **Delivered (data is available)**.
 4. Select **View on map** in the **View** column.
