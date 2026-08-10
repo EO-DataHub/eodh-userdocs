@@ -2,39 +2,29 @@
 
 ## Order confirmation
 
-If the purchase is successful, the Order Confirmation page should appear. The status of the commercial data request, as well as access to your purchased imagery, can now be viewed in your EODH user workspace by going to the **My Data > Purchased Data** area.
+If the purchase is successful, the Order Confirmation page should appear. The status of the commercial data request, as well as access to your purchased imagery, can now be viewed in your EODH user workspace by going to the **My Data > Purchased Data** area, within the **Catalogue** tab.
 
-See the **Order Status** column to review if a purchase was successful. If you experience issues with the delivery status of your order, contact us at [enquiries@eodatahub.org.uk](enquiries@eodatahub.org.uk). You can review only failed orders by selecting the **Include Failed Orders** checkbox.
+See the **Order Status** column to review if a purchase was successful. If you experience issues with the delivery status of your order, contact us at [enquiries@eodatahub.org.uk](enquiries@eodatahub.org.uk). You can add failed orders to the table by selecting the **Include Failed Orders** checkbox.
 
 <img width="99" height="22" alt="include-failed-orders" src="https://github.com/user-attachments/assets/bd59d7a3-9497-4a12-a386-cae9dcb65391" />
 
 ## View my ordered imagery
 
-Once your order has been delivered, you can view the imagery directly on the map from the **Purchased Data** page within **My Data**.
+Once your order has been delivered, you can view the imagery directly within the map browser.
 
-1. Navigate to **Catalogue > My Data > Purchased Data**.
-2. Locate the order you want to view in the list of purchased imagery.
+1. Navigate to **Catalogue > My Data > Purchased Data** within the **Catalogue** tab.
+2. Locate the order you want to view in the table of purchased imagery.
 3. Confirm that the **Order Status** shows **Delivered (data is available)**.
 4. Select **View on map** in the **View** column.
 
-This action pins the ordered scene to the map browser and displays the scene footprint on the map. You can then view a visualisation of the full scene, review its geographic coverage, and explore the associated imagery metadata from the pinned items panel.
+<img width="960" height="400" alt="oc-vis" src="https://github.com/user-attachments/assets/316a96d1-babc-4c16-a2c7-35a657ea7982" />
 
-### Visualising purchased imagery
-
-After selecting **View on map**, the purchased imagery is displayed as an overlay within the map browser. The imagery can be interacted with in the same way as other catalogue items.
-
-![Purchased imagery visualisation](images/purchased-imagery-visualisation.png)
-
-From the **Pinned Items** panel, you can:
+This action loads a visualisation of the ordered scene to the map browser by adding it to the **Pinned Items** list. The scene footprint outline is also displayed. The imagery can be interacted with in the same way as other pinned items. You can:
 
 - Use the **visibility toggle** (eye icon) to switch the imagery layer on or off.
 - Use the **opacity control** (droplet icon) to adjust the transparency of the imagery overlay.
-- Zoom to the scene footprint using the zoom icon.
-- Access additional sharing and information options where available.
 
-Adjusting the layer opacity can be useful when comparing the purchased imagery against the underlying basemap or other data layers. This allows you to examine the scene in more detail while maintaining geographical context.
-
-For more information about working with items in the map browser, including visibility controls, opacity settings, sharing, and item management, see:
+To review how to adjust visualisation settings for items within your **Pinned Items** list, including visibility controls, opacity settings, and item management, see:
 
 > [📌 Managing pinned items](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/search-and-browse/#managing-pinned-items)
 
