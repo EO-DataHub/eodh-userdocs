@@ -30,17 +30,14 @@ To review how to adjust visualisation settings for items within your **Pinned It
 
 ## Download my ordered imagery
 
-Once an order has been delivered, the imagery files can be downloaded directly from the item metadata.
+Once an order has been delivered, all of the assets and files associated with that scene can be downloaded directly from the item's metadata.
 
-1. Navigate to **Catalogue > My Data > Purchased Data**.
-2. Select **View on map** against the delivered order.
-3. From the **Pinned Items** panel, select the required scene.
-4. Open the item metadata by selecting the **Information** icon.
-5. In the **Assets** panel, locate the available imagery files and select the download option for the asset you wish to retrieve.
+1. Select **View on map** against the delivered order to open it in the **Pinned Items** list.
+2. Open the item metadata by selecting the **Information** icon.
+3. In the **Assets** panel, locate the associated image files and select the dropdown menu to reveal the download options for the asset you wish to retrieve.
+4. Click the download button or URL to download the file locally.
 
-The **Assets** panel provides access to the imagery products associated with your order, including any available downloadable files and supporting resources.
-
-For a detailed guide on downloading data assets from the catalogue, see:
+To review a detailed guide on downloading data assets from the catalogue, see:
 
 > [⬇️ Download data](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/download-data/)
 
