@@ -49,13 +49,14 @@ Purchased imagery is delivered to and stored within your EODH workspace data sto
 
 Once you have launched a Jupyter notebook server, you can browse your workspace file directory directly from the Jupyter interface. Within your `s3` storage folder, you should find a sub-folder named `commercial-data`. This folder contains the imagery products that have been delivered as part of your commercial data orders.
 
+<img width="574" height="261" alt="s3-store-jupyter" src="https://github.com/user-attachments/assets/6aaec518-cd36-44b2-8df0-61b45db4ff38" />
 
-
-From this directory, you can access imagery directly within your notebooks and begin analysing the data in a programmatic Python envrionment.
+From this directory, you can access imagery directly within your notebooks and begin analysing the data in a programmatic Python environment.
 
 ### GIS plugins
 
 Within any of the EODH GIS plugins, open the **Workspaces** tab when authenticated (signed in) to the plugin with your workspace credentials. From here, you can browse your workspace storage within the GIS software, and load the scenes directly into your GIS project.
 
+<img width="324" height="380" alt="gis-s3-workspace" src="https://github.com/user-attachments/assets/0eab2021-c61b-4c10-82ce-61df6e622e47" />
 
 This enables you to visualise and analyse purchased imagery without needing to manually download and import the imagery files locally.
