@@ -43,32 +43,19 @@ To review a detailed guide on downloading data assets from the catalogue, see:
 
 ## Use my ordered imagery
 
-Purchased imagery is automatically stored within your workspace data storage after delivery. The ordered scenes are accessible through the workspace's S3-compatible storage, allowing them to be used across the EODH platform.
+Purchased imagery is delivered to and stored within your EODH workspace data storage, using S3. This allows you to access and use ordered scenes across the EODH platform.
 
-### Accessing purchased imagery in Jupyter Notebooks
+### Jupyter notebooks
 
-Once you have launched a Jupyter Notebook server, you can browse your workspace's S3 file directory directly from the Jupyter interface.
+Once you have launched a Jupyter notebook server, you can browse your workspace file directory directly from the Jupyter interface. Within your `s3` storage folder, you should find a sub-folder named `commercial-data`. This folder contains the imagery products that have been delivered as part of your commercial data orders.
 
-Within your S3 storage, you should find a folder named **commercial-data**. This folder contains the imagery products that have been delivered as part of your commercial data orders.
 
-1. Launch a Jupyter Notebook server from the EODH platform.
-2. Open the file browser within the Jupyter interface.
-3. Navigate to your workspace S3 storage.
-4. Open the **commercial-data** folder.
-5. Locate your purchased scenes and associated files.
 
-From this directory, you can access imagery directly within your notebooks and begin analysing the data using your preferred Python geospatial libraries and workflows.
+From this directory, you can access imagery directly within your notebooks and begin analysing the data in a programmatic Python envrionment.
 
-### Accessing purchased imagery in GIS applications
+### GIS plugins
 
-Purchased imagery stored within your workspace can also be accessed through supported EODH GIS plugins.
+Within any of the EODH GIS plugins, open the **Workspaces** tab when authenticated (signed in) to the plugin with your workspace credentials. From here, you can browse your workspace storage within the GIS software, and load the scenes directly into your GIS project.
 
-Within the GIS plugin, open the **Workspaces** tab and browse to your workspace storage location. The **commercial-data** folder and its contents will be available alongside your other workspace resources.
 
-1. Connect to your workspace using the EODH GIS plugin.
-2. Open the **Workspaces** tab.
-3. Navigate to the **commercial-data** folder within your workspace storage.
-4. Browse the available purchased scenes.
-5. Add the required imagery directly to your GIS project.
-
-This enables you to visualise and analyse purchased imagery without needing to manually download and import files. The data can be loaded directly from workspace storage into your GIS environment, ensuring that purchased scenes remain accessible across your EODH workflows.
+This enables you to visualise and analyse purchased imagery without needing to manually download and import the imagery files locally.
