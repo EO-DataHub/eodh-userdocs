@@ -2,9 +2,11 @@
 
 ## Order confirmation
 
-If the purchase is successful, the Order Confirmation pop out should appear. The status of the commercial data request, as well as access to your purchased imagery, can now be viewed in your EODH user workspace by going to the **My Data** section within the catalogue.
+If the purchase is successful, the Order Confirmation page should appear. The status of the commercial data request, as well as access to your purchased imagery, can now be viewed in your EODH user workspace by going to the **My Data > Purchased Data** area.
 
-Reach out to [enquiries@eodatahub.org.uk](mailto:enquiries@eodatahub.org.uk) if you experience issues with the delivery status of your order.
+See the **Order Status** column to review if a purchase was successful. If you experience issues with the delivery status of your order, contact us at [enquiries@eodatahub.org.uk](enquiries@eodatahub.org.uk). You can review only failed orders by selecting the **Include Failed Orders** checkbox.
+
+<img width="99" height="22" alt="include-failed-orders" src="https://github.com/user-attachments/assets/bd59d7a3-9497-4a12-a386-cae9dcb65391" />
 
 ## View my ordered imagery
 
