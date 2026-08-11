@@ -2,7 +2,7 @@
 
 The **Search** tab lets you define filters and query the EODH catalog.
 
-! [](../../assets/esri-search.png)
+![](../../assets/esri-search.png)
 
 
 ### 1. Select a Catalog and Collection
@@ -20,7 +20,7 @@ Choose one of four methods:
 | **Import GeoJSON** | Load a boundary from a `.geojson` or `.json` file |
 | **Clear** | Remove the current AOI |
 
-! [](../../assets/esri-aoi.png)
+![](../../assets/esri-aoi.png)
 
 
 ### 3. Set Date Range
@@ -39,7 +39,7 @@ Click **Search**. A summary will show how many items were found.
 
 Results appear in the **Results** tab.
 
-! [](../../assets/esri-results.png)
+![](../../assets/esri-results.png)
 
 
 ### Timeline
@@ -63,5 +63,5 @@ Click on a result to expand its asset list. Each asset shows its type (COG, GeoT
 
 You can also **double-click** a result to load its selected assets directly into the map.
 
-! [](../../assets/esri-items.png)
+![](../../assets/esri-items.png)
 
