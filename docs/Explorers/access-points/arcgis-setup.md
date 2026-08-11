@@ -36,7 +36,7 @@ After installation, a new **EODH** tab appears in the ArcGIS Pro ribbon.
 
 Your credentials are encrypted and stored locally, so you won't need to sign in again next time.
 
-! [](../../assets/esri-login.png)
+![](../../assets/esri-login.png)
 
 
 ### Signing Out
