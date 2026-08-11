@@ -18,6 +18,6 @@ Commercial items are highlighted with a gold border. The purchase workflow depen
 
 You can track order status in the **Workspace** tab.
 
-! [](../../assets/esri-quote.png)
+[](../../assets/esri-quote.png)
 
 
