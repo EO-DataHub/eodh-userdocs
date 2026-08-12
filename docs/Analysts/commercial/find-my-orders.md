@@ -6,7 +6,7 @@ If the purchase is successful, the Order Confirmation page should appear. The st
 
 See the **Order Status** column to review if a purchase was successful. If you experience issues with the delivery status of your order, contact us at [enquiries@eodatahub.org.uk](enquiries@eodatahub.org.uk). You can add failed orders to the table by selecting the **Include Failed Orders** checkbox.
 
-<img width="99" height="22" alt="include-failed-orders" src="https://github.com/user-attachments/assets/bd59d7a3-9497-4a12-a386-cae9dcb65391" />
+<img width="300" alt="include-failed-orders" src="https://github.com/user-attachments/assets/bd59d7a3-9497-4a12-a386-cae9dcb65391" />
 
 ## View my ordered imagery
 
@@ -26,7 +26,7 @@ This action loads a visualisation of the ordered scene to the map browser by add
 
 To review how to adjust visualisation settings for items within your **Pinned Items** list, including visibility controls, opacity settings, and item management, see:
 
-> [📌 Managing pinned items](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/search-and-browse/#managing-pinned-items)
+[📌 Managing pinned items](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/search-and-browse/#managing-pinned-items){ .md-button }
 
 ## Download my ordered imagery
 
@@ -39,7 +39,7 @@ Once an order has been delivered, all of the assets and files associated with th
 
 To review a detailed guide on downloading data assets from the catalogue, see:
 
-> [⬇️ Download data](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/download-data/)
+[⬇️ Download data](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/downloading-data/){ .md-button }
 
 ## Use my ordered imagery
 
@@ -57,6 +57,6 @@ From this directory, you can access imagery directly within your notebooks and b
 
 Within any of the EODH GIS plugins, open the **Workspaces** tab when authenticated (signed in) to the plugin with your workspace credentials. From here, you can browse your workspace storage within the GIS software, and load the scenes directly into your GIS project.
 
-<img width="324" height="380" alt="gis-s3-workspace" src="https://github.com/user-attachments/assets/0eab2021-c61b-4c10-82ce-61df6e622e47" />
+<img width="500" alt="gis-s3-workspace" src="https://github.com/user-attachments/assets/0eab2021-c61b-4c10-82ce-61df6e622e47" />
 
 This enables you to visualise and analyse purchased imagery without needing to manually download and import the imagery files locally.
