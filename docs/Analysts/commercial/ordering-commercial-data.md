@@ -92,8 +92,6 @@ If the box is checked, you are confirming you want to order the full scene, uncl
 
 Once you are happy that all of the above fields are populated as per your purchase request, ensuring there are no errors in the inputs, proceed to make the purchase by selecting the blue Place Order button. Before you carry out the purchase, review all of the fields displayed and check you are happy with all elements of the order, including the metadata, acquisition date, and image ID, as a purchase cannot be reversed once it has been made. If you have any queries before carrying out the order, don’t hesitate to get in contact with [enquiries@eodatahub.org.uk](mailto:enquiries@eodatahub.org.uk) where the team will be happy to assist you.
 
-<img width="945" height="382" alt="samples-opencosmos" src="https://github.com/user-attachments/assets/c0684c33-c9d2-47cc-b7a1-4b1c4bb2f617" />
-
 ## Ordering data programmatically
 
 An [example Commercial Data Ordering Notebook](../../training-materials/examples/commercial.ipynb) is available to guide you through the process of placing an order programmatically. This is the best method to place a bulk order of multiple images in one go. More guidance can be found within the notebook itself, which you can run by starting a Jupyter notebook server instance on the Hub, and uploading the .ipynb file.
