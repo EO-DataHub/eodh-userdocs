@@ -26,7 +26,7 @@ This action loads a visualisation of the ordered scene to the map browser by add
 
 To review how to adjust visualisation settings for items within your **Pinned Items** list, including visibility controls, opacity settings, and item management, see:
 
-> [📌 Managing pinned items](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/search-and-browse/#managing-pinned-items)
+[📌 Managing pinned items](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/search-and-browse/#managing-pinned-items){ .md-button }
 
 ## Download my ordered imagery
 
@@ -39,7 +39,7 @@ Once an order has been delivered, all of the assets and files associated with th
 
 To review a detailed guide on downloading data assets from the catalogue, see:
 
-> [⬇️ Download data](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/download-data/)
+[⬇️ Download data](https://docs.eodatahub.org.uk/Explorers/resource-catalogue/download-data/){ .md-button }
 
 ## Use my ordered imagery
 
