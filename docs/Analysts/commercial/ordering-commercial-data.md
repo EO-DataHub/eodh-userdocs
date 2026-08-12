@@ -94,12 +94,6 @@ Once you are happy that all of the above fields are populated as per your purcha
 
 <img width="945" height="382" alt="samples-opencosmos" src="https://github.com/user-attachments/assets/c0684c33-c9d2-47cc-b7a1-4b1c4bb2f617" />
 
-### Order confirmation
-
-If the purchase is successful, the Order Confirmation pop out should appear. The status of the commercial data request, as well as access to your purchased imagery, can now be viewed in your EODH user workspace by going to the 'My Data' section within the catalogue. Reach out to [enquiries@eodatahub.org.uk]
-(mailto:enquiries@eodatahub.org.uk) if you experience issues with the delivery status of your order.
-
-
 ## Ordering data programmatically
 
 An [example Commercial Data Ordering Notebook](../../training-materials/examples/commercial.ipynb) is available to guide you through the process of placing an order programmatically. This is the best method to place a bulk order of multiple images in one go. More guidance can be found within the notebook itself, which you can run by starting a Jupyter notebook server instance on the Hub, and uploading the .ipynb file.
