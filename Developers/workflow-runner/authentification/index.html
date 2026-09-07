@@ -4403,6 +4403,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Help/cheat-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cheat sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -4526,15 +4554,15 @@
 <p>The Workflow Runner uses workspace-scoped API Tokens to authorize access to workflows and processing. This means any requests are made for a specific workspace, determining access to workflows as well as specifying which workspace a workflow will be executed in.</p>
 <p>In order to make use of the Workflow Runner API, you will need to make authorized requests using a workspace-scoped API Token. These can be generated from the Workspaces UI. Make sure you first login to the Hub and then select the workspace you wish to use from the list on the left of the page. You can be a member of multiple workspaces, so this may be a substantial list. Always ensure you have selected the correct workspace which you want to use to access the Workflow Runner, as this will determine which workflows you have access to as well as who will be charged for your processing usage. You can confirm the workspace in the <code>scope</code> of the token once you have requested a new token.</p>
 <p>To use this token in your API requests you should send it in the Authorization header of your requests, as a Bearer token, for example when sending a request with CURL</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span>https://staging.eodatahub.org.uk/api/catalogue/stac/catalogs/user/catalogs/&lt;workspace&gt;/processes/&lt;workflow-id&gt;<span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;Authorization: Bearer &lt;api-token&gt;&#39;</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span>https://staging.eodatahub.org.uk/api/catalogue/stac/catalogs/user/catalogs/&lt;workspace&gt;/processes/&lt;workflow-id&gt;<span class="w"> </span>-H<span class="w"> </span><span class="s1">'Authorization: Bearer &lt;api-token&gt;'</span>
 </span></code></pre></div>
 <p>Or with the Python requests library</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span> 
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  <span class="s2">&quot;https://staging.eodatahub.org.uk/api/catalogue/stac/catalogs/user/catalogs/&lt;workspace&gt;/processes/&lt;workflow-id&gt;&quot;</span><span class="p">,</span> 
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  <span class="s2">"https://staging.eodatahub.org.uk/api/catalogue/stac/catalogs/user/catalogs/&lt;workspace&gt;/processes/&lt;workflow-id&gt;"</span><span class="p">,</span> 
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="s2">&quot;Bearer &lt;api-token&gt;&quot;</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    <span class="s2">"Authorization"</span><span class="p">:</span> <span class="s2">"Bearer &lt;api-token&gt;"</span>
 </span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>  <span class="p">}</span>
 </span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">)</span>
 </span></code></pre></div>

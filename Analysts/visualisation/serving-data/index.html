@@ -4529,6 +4529,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Help/cheat-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cheat sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -4771,8 +4799,8 @@
 <p>Private data refers to files that are not publicly accessible – for example, data in your EO DataHub workspace object or block store. DataHub allows you to visualise these too, but you need to authenticate so that TiTiler can securely fetch the data on your behalf.</p>
 <p>Typically, DataHub uses a workspace-scoped API Key. When you sign up to DataHub, you can retrieve an API key that represents your credentials inside the Workspace page (See nav bar at the top). To use TiTiler with private data, you will include this API key as a Bearer header in your requests. Providing this key proves to the system that you have permission to access the data in your workspace.</p>
 <h3 id="example-3-a-private-zarr-stored-in-a-users-workspace">Example 3: A Private ZARR stored in a user's workspace</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span><span class="s1">&#39;https://eodatahub.org.uk/titiler/xarray/tiles/WebMercatorQuad/5/15/10?url=https://workspaces-eodhp-staging.s3.eu-west-2.amazonaws.com/&lt;YOUR-WORKSPACE&gt;/xarray-zarr-directory/&amp;variable=data&amp;scale=1&amp;multiscale=false&amp;reference=false&amp;decode_times=true&amp;consolidated=false&amp;rescale=0,255&amp;return_mask=true&amp;colormap_name=magma&#39;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;Authorization: Bearer &lt;WORKSPACE API KEY&gt;&#39;</span><span class="w"> </span><span class="se">\</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span><span class="s1">'https://eodatahub.org.uk/titiler/xarray/tiles/WebMercatorQuad/5/15/10?url=https://workspaces-eodhp-staging.s3.eu-west-2.amazonaws.com/&lt;YOUR-WORKSPACE&gt;/xarray-zarr-directory/&amp;variable=data&amp;scale=1&amp;multiscale=false&amp;reference=false&amp;decode_times=true&amp;consolidated=false&amp;rescale=0,255&amp;return_mask=true&amp;colormap_name=magma'</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s1">'Authorization: Bearer &lt;WORKSPACE API KEY&gt;'</span><span class="w"> </span><span class="se">\</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span>--output<span class="w"> </span>test.png
 </span></code></pre></div>
 <p><img alt="" src="../../../assets/doc_vis_srv3.jpg" /></p>
