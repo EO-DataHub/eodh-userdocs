@@ -48,7 +48,9 @@ Use the search and table of contents to navigate to topics, and between and with
 - :fontawesome-brands-youtube: Video tutorials
 - :fontawesome-solid-comments: Community discussion forum
 
-[Download the Cheat Sheet v1.0 🗒️](mailto:enquiries@eodatahub.org.uk){ .md-button }
+See our new EODH Cheat Sheet for a quick start guide to the data catalogue, processing capability, and integrations.
+[Download the Cheat Sheet v1.0](https://eodatahub.org.uk/media/documents/EODH_Cheat_Sheet_Digital_v1.0_2.pdf){ .md-button }
+
 If you need to return to the Hub click the logo in the top left of any page.
 
 ---
