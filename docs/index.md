@@ -48,6 +48,7 @@ Use the search and table of contents to navigate to topics, and between and with
 - :fontawesome-brands-youtube: Video tutorials
 - :fontawesome-solid-comments: Community discussion forum
 
+[Download the Cheat Sheet v1.0 🗒️](mailto:enquiries@eodatahub.org.uk){ .md-button }
 If you need to return to the Hub click the logo in the top left of any page.
 
 ---
