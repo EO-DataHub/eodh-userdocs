@@ -36,4 +36,4 @@ Topics include:
 ## Download the Cheat Sheet
 Keep it bookmarked, or download the Cheat Sheet for offline reference.
 
-[📄 Download EODH Cheat Sheet v1.0](https://eodatahub.org.uk/media/documents/EODH_Cheat_Sheet_Digital_v1.0_2.pdf){ .md button }
+[📄 Download EODH Cheat Sheet v1.0](https://eodatahub.org.uk/media/documents/EODH_Cheat_Sheet_Digital_v1.0_2.pdf){ .md-button }
