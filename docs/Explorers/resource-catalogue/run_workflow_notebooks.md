@@ -8,9 +8,8 @@
 
 ![Integration tools in item view](../../assets/launch-ss01-integration-tools.png)
 
-!!! note "Integration Tools menu"
-
-Please note the **Integration tools** menu is currently supported for selected catalogue collections only. Commercial data collections are not currently supported, therefore the **Integration tools** menu will not display. Private purchased data stored in a user workspace is also not currently supported.
+!!! note 
+    Please note the Integration tools menu is currently supported for selected catalogue collections only. Commercial data collections are not currently supported, therefore the Integration tools menu will not display. Private purchased data stored in a user workspace is also not currently supported.
 
 ## Running Workflows
 
