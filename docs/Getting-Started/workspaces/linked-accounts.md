@@ -42,7 +42,7 @@ To find your Organisation ID, log in to the [Open Cosmos app](https://app.open-c
 
 Click 'Configure' next to the organisation you want to link. Your Organisation ID is shown on this page as `id:<organisationid>`.
 
-![](../../assets/gs_ws_la7.png)
+<img width="826" height="180" alt="gs_ws_la7-blank" src="https://github.com/user-attachments/assets/c297bfb3-463c-4513-9329-e6b9d14916e5" />
 
 Enter this Organisation ID under Workspaces > Linked accounts and click 'Connect Open Cosmos'.
 
