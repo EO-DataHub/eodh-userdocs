@@ -2,7 +2,7 @@
 
 Quality Assurance (QA) is a crucial aspect of working with Earth Observation data. This guide explains how to find and interpret quality assessment information in the Resource Catalogue, including both documentation quality and product validation metrics.
 
-## 💡 Video Tutorial: Quality Assurance
+## Video Tutorial: Quality Assurance
 <div class="video-embed">
     <iframe src="https://drive.google.com/file/d/1heLp0SwFkXiYc66E1hGHMhMWEAFcZb2X/preview" title="Quality Assurance" width="640" height="480" allowfullscreen loading="lazy"></iframe>
 </div>
