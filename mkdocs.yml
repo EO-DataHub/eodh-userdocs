@@ -144,8 +144,8 @@ nav:
     - Data cubes: training-materials/examples/datacubes.ipynb
     - Why use pyeodh over pystac?: training-materials/examples/pyeodh-vs-pystac.ipynb
     - Systematic scene search: training-materials/examples/systematic-scene-search-thumbnails.ipynb
-    - Using local Dask on the Hub: training-materials/examples/dask_example.ipynb
-    - Scaling with a Dask cluster on the Hub: training-materials/examples/dask_cluster_video.ipynb
+    - Using a local instance of Dask on EODH: training-materials/examples/dask_example.ipynb
+    - Scaling with a Dask cluster: training-materials/examples/dask_cluster_video.ipynb
     - Polar ocean temperatures and sea ice thickness: training-materials/examples/polar.ipynb
     - EOCIS land surface temperature data: training-materials/examples/mapping-lst-uk.ipynb
     - EOCIS high-resolution land surface temperature data: training-materials/examples/landsat_lst.ipynb
