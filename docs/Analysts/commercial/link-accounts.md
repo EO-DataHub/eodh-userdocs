@@ -36,6 +36,6 @@ Click 'Configure' next to the organisation you wish to use.
 
 Your Organisation ID is shown on this page as `id:<organisationid>`.
 
-<img width="1399" height="394" alt="oc-api-key-1-neutral" src="https://github.com/user-attachments/assets/d648a680-61a9-4f39-848d-51eb89df14cf" />
+<img width="1399" height="394" alt="oc-api-key-1-neutral-blank" src="https://github.com/user-attachments/assets/7029a51c-b77b-4470-90a2-bb81a73d0ec7" />
 
 This Organisation ID can then be entered under 'Linked accounts' for a selected workspace on the 'Workspaces' page. Clicking 'Connect Open Cosmos' will take you to the Open Cosmos site to confirm that you want to link your account to the Hub. Once linked, orders placed by members of the workspace will use this connection, and data will be delivered directly to the workspace. See [Linked accounts](../../Getting-Started/workspaces/linked-accounts.md) for more details.

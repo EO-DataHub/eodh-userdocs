@@ -2,6 +2,8 @@
 
 ## Airbus
 
+Airbus imagery is licenced at the individual **order (product) level** when purchased through EODH. A license is selected for that scene at the point of purchase.
+
 Airbus imagery is available against a comprehensive set of licenses covering a range of different use cases and industrial organisations. Airbus’ standard licence set are published on our website. See below for a one-page simplified licence matrix demonstrates the license features at a glance.
 
 ![](../../assets/com_airbus_license_table.png)
@@ -18,6 +20,8 @@ Airbus imagery is available against a comprehensive set of licenses covering a r
      4) Become a licence expert :smiley:
 
 ## Planet
+
+Planet imagery is licensed at the **account (contract) level** when purchased through the EODH. A license is selected when setting up your organisation's agreement with Planet, which covers all imagery purchased under that contract.
 
 Planet offers standard licenses to suit different use cases e.g., Commercial, R&D, Education, Publication. More detailed definitions for the Planet license agreements can be found on the Planet website.
 
