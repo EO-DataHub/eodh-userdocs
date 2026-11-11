@@ -94,6 +94,7 @@ nav:
     - Platform APIs:
       - API introduction: Analysts/APIs/api-intro.md
       - API examples: Analysts/APIs/api-examples.md
+      - Reading Landsat data with GDAL: Analysts/APIs/reading-landsat-with-gdal.md
     - TiTiler visualisation:
       - TiTiler introduction: Analysts/visualisation/introduction.md
       - Preparing data: Analysts/visualisation/preparing-data.md
