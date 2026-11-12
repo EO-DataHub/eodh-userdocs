@@ -2505,6 +2505,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-access-and-billing-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How access and billing work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#before-you-start" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4641,6 +4652,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-access-and-billing-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How access and billing work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#before-you-start" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4823,14 +4845,23 @@ DRAFT: hold this page back until the Landsat catalogue proxy is live, so that ca
 asset links point at /api/data/objects. Before release, fill in the TODOs below.
 -->
 
-<p>You can read Landsat Collection 2 files from the Hub with GDAL, and with tools built on GDAL such as rasterio and QGIS. GDAL reads only the parts of a file it needs, so a small window of a large image is fast and cheap.</p>
-<p>Landsat files are stored by the USGS in Amazon S3. The Hub pays Amazon for each read and charges the cost to the workspace that you name. <!-- TODO: link to the pricing page, and give the price per GB. --></p>
+<p>You can read Landsat Collection 2 files from the Hub with GDAL, and with tools built on GDAL such as rasterio and QGIS.</p>
+<h2 id="how-access-and-billing-work">How access and billing work</h2>
+<p>The USGS stores Landsat files in an Amazon S3 bucket where the reader, not the USGS, pays for each download. You do not need an AWS account. The Hub reads the files for you:</p>
+<ol>
+<li>You request a file from the Hub with your API token and the name of a workspace.</li>
+<li>The Hub checks that the token gives access to that workspace.</li>
+<li>The Hub sends you to a short-lived link for the file, and pays Amazon for the read.</li>
+<li>The Hub charges the data that you read to that workspace.</li>
+</ol>
+<p>Reading file data costs <!-- TODO: price --> per GB, charged to the workspace. <!-- TODO: link to the pricing page. --> Only file data that you read is charged. Browsing Landsat scenes in the catalogue, including their preview images, is free.</p>
+<p>GDAL reads only the parts of a file it needs, so you pay for those parts, not for the whole file. For example, a window of 256 × 256 pixels from a 71 MB Landsat band reads about 0.5 MB.</p>
 <h2 id="before-you-start">Before you start</h2>
 <p>You need:</p>
 <ul>
 <li>GDAL 3.12 or later, or a version of rasterio that includes it <!-- TODO: confirm the oldest GDAL version that accepts comma-separated headers. --></li>
 <li>An API token for your workspace. See <a href="../../../Getting-Started/workspaces/workspace-credentials/">Workspace credentials</a>.</li>
-<li>The name of the workspace to charge.</li>
+<li>The name of the workspace to charge. If your token gives access to only one workspace, the Hub uses that workspace, and you can leave out the <code>X-EODH-Workspace</code> header in the examples below.</li>
 <li>The link to a Landsat asset. In the Resource Catalogue, open a Landsat scene, select <strong>Assets</strong>, and copy the link of the asset. The link starts with <code>https://eodatahub.org.uk/api/data/objects/usgs-landsat/</code>.</li>
 </ul>
 <h2 id="read-a-file-from-the-command-line">Read a file from the command line</h2>
@@ -4857,16 +4888,21 @@ asset links point at /api/data/objects. Before release, fill in the TODOs below.
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>gdal_translate<span class="w"> </span>-srcwin<span class="w"> </span><span class="m">3000</span><span class="w"> </span><span class="m">3000</span><span class="w"> </span><span class="m">256</span><span class="w"> </span><span class="m">256</span><span class="w"> </span><span class="s2">"/vsicurl/&lt;asset link&gt;"</span><span class="w"> </span>window.tif
 </span></code></pre></div>
 <h2 id="read-a-file-in-python">Read a file in Python</h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
+<p>This example reads the token and workspace from the <code>TOKEN</code> and <code>WORKSPACE</code> environment variables set in step 1 above.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">url</span> <span class="o">=</span> <span class="s2">"https://eodatahub.org.uk/api/data/objects/usgs-landsat/&lt;path to the file&gt;"</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
 </span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">Env</span><span class="p">(</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="n">GDAL_HTTP_HEADERS</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Authorization: Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">,X-EODH-Workspace: </span><span class="si">{</span><span class="n">workspace</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    <span class="n">GDAL_DISABLE_READDIR_ON_OPEN</span><span class="o">=</span><span class="s2">"EMPTY_DIR"</span><span class="p">,</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">):</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    <span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">:</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>        <span class="n">window</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="p">((</span><span class="mi">3000</span><span class="p">,</span> <span class="mi">3256</span><span class="p">),</span> <span class="p">(</span><span class="mi">3000</span><span class="p">,</span> <span class="mi">3256</span><span class="p">)))</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"TOKEN"</span><span class="p">]</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">workspace</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"WORKSPACE"</span><span class="p">]</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="n">url</span> <span class="o">=</span> <span class="s2">"https://eodatahub.org.uk/api/data/objects/usgs-landsat/&lt;path to the file&gt;"</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">Env</span><span class="p">(</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>    <span class="n">GDAL_HTTP_HEADERS</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Authorization: Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">,X-EODH-Workspace: </span><span class="si">{</span><span class="n">workspace</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>    <span class="n">GDAL_DISABLE_READDIR_ON_OPEN</span><span class="o">=</span><span class="s2">"EMPTY_DIR"</span><span class="p">,</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="p">):</span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>    <span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">:</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>        <span class="n">window</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="p">((</span><span class="mi">3000</span><span class="p">,</span> <span class="mi">3256</span><span class="p">),</span> <span class="p">(</span><span class="mi">3000</span><span class="p">,</span> <span class="mi">3256</span><span class="p">)))</span>
 </span></code></pre></div>
 <h2 id="why-these-two-settings-matter">Why these two settings matter</h2>
 <h3 id="use-a-comma-between-the-headers">Use a comma between the headers</h3>
@@ -4884,6 +4920,10 @@ asset links point at /api/data/objects. Before release, fill in the TODOs below.
 </thead>
 <tbody>
 <tr>
+<td><code>400</code></td>
+<td>Your token gives access to more than one workspace, and you did not name one. Add the <code>X-EODH-Workspace</code> header. The Hub also returns <code>400</code> if the workspace name is not valid.</td>
+</tr>
+<tr>
 <td><code>401</code></td>
 <td>The token is missing or not valid, or the headers are not separated by a comma.</td>
 </tr>
@@ -4894,6 +4934,14 @@ asset links point at /api/data/objects. Before release, fill in the TODOs below.
 <tr>
 <td><code>404</code></td>
 <td>The file does not exist. Check the asset link.</td>
+</tr>
+<tr>
+<td><code>502</code></td>
+<td>The Hub could not get access to the file from Amazon. Try again later.</td>
+</tr>
+<tr>
+<td><code>503</code></td>
+<td>The Hub could not check your token. Try again later.</td>
 </tr>
 </tbody>
 </table>
