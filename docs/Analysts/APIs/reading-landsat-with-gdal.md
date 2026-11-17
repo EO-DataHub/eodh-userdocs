@@ -18,6 +18,8 @@ The USGS stores Landsat files in an Amazon S3 bucket where the reader, not the U
 
 Reading file data costs <!-- TODO: price --> per GB, charged to the workspace. <!-- TODO: link to the pricing page. --> Only file data that you read is charged. Browsing Landsat scenes in the catalogue, including their preview images, is free.
 
+The Hub adds up your reads in 4-hour blocks, and charges each block 3 hours after it ends. So a read shows in your workspace's usage 3 to 7 hours after you make it. For example, reads at 12:01 and at 15:59 UTC both show at about 19:00 UTC.
+
 GDAL reads only the parts of a file it needs, so you pay for those parts, not for the whole file. For example, a window of 256 × 256 pixels from a 71 MB Landsat band reads about 0.5 MB.
 
 ## Before you start
