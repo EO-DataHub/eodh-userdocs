@@ -30,7 +30,11 @@ Most open data collections contain at least one common image file type, such as 
 
 ## 💳 Download requester-pays data
 
-Requester-pays datasets are available to search, preview and download through the EODH Resource Catalogue, in a similar way to open-access data collections. Unlike open-access data collections, downloading this data uses workspace credits and is charged per GB.
+Requester-pays datasets are a type of data collection available to search, preview and download within the EODH Resource Catalogue. For requester-pays datasets, a small compute charge applies when the data is fetched from the host catalogue where it is stored for local download. On EODH, downloading this data uses workspace credits and is charged per GB.
+
+!!! note
+
+    Open-access data collections can follow the requester-pays model for download.
 
 You must sign in before you are able to download requester-pays data. During the download process, select a workspace so that the download charges can be applied to the correct workspace. You should see the following warning message on the Download tab:
 
