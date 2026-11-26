@@ -27,3 +27,23 @@ Expand the asset you are interested in by clicking on it, and select Download. Y
 ## Understanding file types
 
 Most open data collections contain at least one common image file type, such as GeoTIFF or NetCDF files. Some collections come as Cloud Optimised GeoTIFF (cog) files when downloaded, which are another image file type containing the data for the scene itself.
+
+## 💳 Download requester-pays data
+
+Requester-pays datasets are a type of data collection available to search, preview and download within the EODH Resource Catalogue. For requester-pays datasets, a small compute charge applies when the data is fetched from the host catalogue where it is stored for local download. On EODH, downloading this data uses workspace credits and is charged per GB.
+
+!!! note
+
+    Open-access data collections can follow the requester-pays model for download.
+
+You must sign in before you are able to download requester-pays data. During the download process, select a workspace so that the download charges can be applied to the correct workspace. You should see the following warning message on the Download tab:
+
+<img width="1000" alt="warning" src="https://github.com/user-attachments/assets/332642d6-bf78-486a-af25-b43ee2fd2e02" />
+
+- ⬇️ Downloads are charged in credits per GB to the selected workspace.
+- 🖼️ Downloading thumbnails and pinning map previews is free.
+- 🕒 Charges can take up to **7 hours** to appear on the **[Usage](https://eodatahub.org.uk/static-apps/sg-rc-ui/prod/index.html#/accounting/usage)** and **[Credits](https://eodatahub.org.uk/static-apps/sg-rc-ui/prod/index.html#/accounting/credits)** pages, where you can monitor your credits usage.
+
+You can use the licence filters on the catalogue Browse page to identify collections that use the requester-pays model for downloading.
+
+[Browse requester pays collections :material-arrow-right:](https://eodatahub.org.uk/static-apps/sg-rc-ui/prod/index.html#/?license=lic%3Arequester-pays){ .md-button .md-button--primary target="_blank" }
