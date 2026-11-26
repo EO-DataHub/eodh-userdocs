@@ -86,7 +86,7 @@ If the box is checked, you are confirming you want to order the full scene, uncl
 
 !!! note
 
-    Open Cosmos orders cannot be clipped to an area of interest (AOI). Full scenes must be purchased from this provider.
+    Open Cosmos orders cannot be clipped to an area of interest (AOI). Full scenes must be purchased from this provider
 
 ### Placing an order
 
