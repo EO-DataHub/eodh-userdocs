@@ -38,7 +38,7 @@ Requester-pays datasets are a type of data collection available to search, previ
 
 You must sign in before you are able to download requester-pays data. During the download process, select a workspace so that the download charges can be applied to the correct workspace. You should see the following warning message on the Download tab:
 
-<img width="637" height="67" alt="warning" src="https://github.com/user-attachments/assets/332642d6-bf78-486a-af25-b43ee2fd2e02" />
+<img width="1000" alt="warning" src="https://github.com/user-attachments/assets/332642d6-bf78-486a-af25-b43ee2fd2e02" />
 
 - ⬇️ Downloads are charged in credits per GB to the selected workspace.
 - 🖼️ Downloading thumbnails and pinning map previews is free.
